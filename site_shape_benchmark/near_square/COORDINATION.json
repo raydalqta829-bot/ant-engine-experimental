@@ -1,0 +1,6771 @@
+{
+  "ground": {
+    "status": "FEASIBLE",
+    "family": "living_hub",
+    "seconds": 3.217632885,
+    "branches": 16038,
+    "conflicts": 0,
+    "best_bound": 45264.0,
+    "solver_version": "9.14.6206",
+    "grid_m": 0.1,
+    "street": "south",
+    "requested_room_count": 10,
+    "variable_room_ids": [
+      "men",
+      "men-wc",
+      "living",
+      "dining",
+      "kitchen",
+      "store",
+      "elder",
+      "elder-bath",
+      "bedroom_2",
+      "family-bath",
+      "main-foyer",
+      "family-foyer",
+      "stair"
+    ],
+    "warm_start": true,
+    "larger_privacy_entries": true,
+    "model_scope": "Request-defined ground room graph; south street and north stair entry; limited architectural topology.",
+    "width": 21.6,
+    "depth": 12.0,
+    "origin": [
+      3.1,
+      3.1
+    ],
+    "objective": 133772.0,
+    "rooms": [
+      {
+        "id": "men",
+        "kind": "majlis",
+        "name": "Men Majlis",
+        "x": 3.2,
+        "y": 7.1,
+        "width": 4.7,
+        "depth": 8.0,
+        "polygon": [
+          [
+            7.9,
+            7.1
+          ],
+          [
+            7.9,
+            15.1
+          ],
+          [
+            3.2,
+            15.1
+          ],
+          [
+            3.2,
+            7.1
+          ]
+        ],
+        "core": {
+          "x": 3.2,
+          "y": 7.1,
+          "width": 4.7,
+          "depth": 8.0
+        }
+      },
+      {
+        "id": "men-wc",
+        "kind": "bathroom",
+        "name": "Guest WC",
+        "x": 3.1,
+        "y": 3.1,
+        "width": 3.0,
+        "depth": 2.1,
+        "polygon": [
+          [
+            6.1,
+            3.1
+          ],
+          [
+            6.1,
+            5.2
+          ],
+          [
+            3.1,
+            5.2
+          ],
+          [
+            3.1,
+            3.1
+          ]
+        ],
+        "core": {
+          "x": 3.1,
+          "y": 3.1,
+          "width": 3.0,
+          "depth": 2.1
+        }
+      },
+      {
+        "id": "living",
+        "kind": "living",
+        "name": "Family Living",
+        "x": 13.1,
+        "y": 9.4,
+        "width": 7.3,
+        "depth": 5.7,
+        "polygon": [
+          [
+            13.1,
+            15.1
+          ],
+          [
+            20.4,
+            15.1
+          ],
+          [
+            20.4,
+            9.4
+          ],
+          [
+            13.1,
+            9.4
+          ],
+          [
+            11.7,
+            9.4
+          ],
+          [
+            11.7,
+            11.2
+          ],
+          [
+            13.1,
+            11.2
+          ]
+        ],
+        "core": {
+          "x": 13.1,
+          "y": 9.4,
+          "width": 7.3,
+          "depth": 5.7
+        }
+      },
+      {
+        "id": "dining",
+        "kind": "dining",
+        "name": "Family Dining",
+        "x": 10.1,
+        "y": 3.1,
+        "width": 4.5,
+        "depth": 6.3,
+        "polygon": [
+          [
+            14.6,
+            3.1
+          ],
+          [
+            14.6,
+            9.4
+          ],
+          [
+            10.1,
+            9.4
+          ],
+          [
+            10.1,
+            3.1
+          ]
+        ],
+        "core": {
+          "x": 10.1,
+          "y": 3.1,
+          "width": 4.5,
+          "depth": 6.3
+        }
+      },
+      {
+        "id": "kitchen",
+        "kind": "kitchen",
+        "name": "Kitchen",
+        "x": 7.9,
+        "y": 9.4,
+        "width": 3.8,
+        "depth": 5.7,
+        "polygon": [
+          [
+            11.7,
+            9.4
+          ],
+          [
+            11.7,
+            15.1
+          ],
+          [
+            7.9,
+            15.1
+          ],
+          [
+            7.9,
+            9.4
+          ]
+        ],
+        "core": {
+          "x": 7.9,
+          "y": 9.4,
+          "width": 3.8,
+          "depth": 5.7
+        }
+      },
+      {
+        "id": "store",
+        "kind": "storage",
+        "name": "Store",
+        "x": 7.9,
+        "y": 7.2,
+        "width": 2.2,
+        "depth": 2.2,
+        "polygon": [
+          [
+            7.9,
+            9.4
+          ],
+          [
+            10.1,
+            9.4
+          ],
+          [
+            10.1,
+            7.2
+          ],
+          [
+            10.1,
+            7.1
+          ],
+          [
+            7.9,
+            7.1
+          ],
+          [
+            7.9,
+            7.2
+          ]
+        ],
+        "core": {
+          "x": 7.9,
+          "y": 7.2,
+          "width": 2.2,
+          "depth": 2.2
+        }
+      },
+      {
+        "id": "elder",
+        "kind": "bedroom",
+        "name": "Ground Bedroom 1",
+        "x": 20.4,
+        "y": 6.8,
+        "width": 4.3,
+        "depth": 4.2,
+        "polygon": [
+          [
+            24.7,
+            6.8
+          ],
+          [
+            24.7,
+            11.0
+          ],
+          [
+            20.4,
+            11.0
+          ],
+          [
+            20.4,
+            6.8
+          ]
+        ],
+        "core": {
+          "x": 20.4,
+          "y": 6.8,
+          "width": 4.3,
+          "depth": 4.2
+        }
+      },
+      {
+        "id": "elder-bath",
+        "kind": "bathroom",
+        "name": "Ensuite 1",
+        "x": 22.6,
+        "y": 3.9,
+        "width": 2.1,
+        "depth": 2.9,
+        "polygon": [
+          [
+            24.7,
+            3.9
+          ],
+          [
+            24.7,
+            6.8
+          ],
+          [
+            22.6,
+            6.8
+          ],
+          [
+            22.6,
+            3.9
+          ]
+        ],
+        "core": {
+          "x": 22.6,
+          "y": 3.9,
+          "width": 2.1,
+          "depth": 2.9
+        }
+      },
+      {
+        "id": "bedroom_2",
+        "kind": "bedroom",
+        "name": "Ground Bedroom 2",
+        "x": 20.4,
+        "y": 11.0,
+        "width": 4.3,
+        "depth": 3.7,
+        "polygon": [
+          [
+            24.7,
+            11.0
+          ],
+          [
+            24.7,
+            14.7
+          ],
+          [
+            20.4,
+            14.7
+          ],
+          [
+            20.4,
+            11.0
+          ]
+        ],
+        "core": {
+          "x": 20.4,
+          "y": 11.0,
+          "width": 4.3,
+          "depth": 3.7
+        }
+      },
+      {
+        "id": "family-bath",
+        "kind": "bathroom",
+        "name": "Family Bath",
+        "x": 20.4,
+        "y": 3.1,
+        "width": 2.2,
+        "depth": 3.7,
+        "polygon": [
+          [
+            22.6,
+            3.1
+          ],
+          [
+            22.6,
+            6.8
+          ],
+          [
+            20.4,
+            6.8
+          ],
+          [
+            20.4,
+            3.1
+          ]
+        ],
+        "core": {
+          "x": 20.4,
+          "y": 3.1,
+          "width": 2.2,
+          "depth": 3.7
+        }
+      },
+      {
+        "id": "main-foyer",
+        "kind": "hall",
+        "name": "Main Entry",
+        "x": 6.1,
+        "y": 3.1,
+        "width": 4.0,
+        "depth": 4.0,
+        "polygon": [
+          [
+            10.1,
+            3.1
+          ],
+          [
+            10.1,
+            7.1
+          ],
+          [
+            6.1,
+            7.1
+          ],
+          [
+            6.1,
+            3.1
+          ]
+        ],
+        "core": {
+          "x": 6.1,
+          "y": 3.1,
+          "width": 4.0,
+          "depth": 4.0
+        }
+      },
+      {
+        "id": "family-foyer",
+        "kind": "hall",
+        "name": "Family Entry",
+        "x": 17.8,
+        "y": 5.2,
+        "width": 2.6,
+        "depth": 4.2,
+        "polygon": [
+          [
+            20.4,
+            5.2
+          ],
+          [
+            20.4,
+            9.4
+          ],
+          [
+            17.8,
+            9.4
+          ],
+          [
+            17.8,
+            5.2
+          ]
+        ],
+        "core": {
+          "x": 17.8,
+          "y": 5.2,
+          "width": 2.6,
+          "depth": 4.2
+        }
+      },
+      {
+        "id": "stair",
+        "kind": "stair",
+        "name": "Stair",
+        "x": 14.6,
+        "y": 3.7,
+        "width": 3.2,
+        "depth": 5.7,
+        "polygon": [
+          [
+            17.8,
+            3.7
+          ],
+          [
+            17.8,
+            9.4
+          ],
+          [
+            14.6,
+            9.4
+          ],
+          [
+            14.6,
+            3.7
+          ]
+        ],
+        "core": {
+          "x": 14.6,
+          "y": 3.7,
+          "width": 3.2,
+          "depth": 5.7
+        }
+      }
+    ],
+    "connections": [
+      [
+        "main-foyer",
+        "men"
+      ],
+      [
+        "main-foyer",
+        "men-wc"
+      ],
+      [
+        "family-foyer",
+        "living"
+      ],
+      [
+        "living",
+        "dining"
+      ],
+      [
+        "living",
+        "stair"
+      ],
+      [
+        "dining",
+        "kitchen"
+      ],
+      [
+        "kitchen",
+        "store"
+      ],
+      [
+        "main-foyer",
+        "dining"
+      ],
+      [
+        "living",
+        "elder"
+      ],
+      [
+        "elder",
+        "elder-bath"
+      ],
+      [
+        "living",
+        "bedroom_2"
+      ],
+      [
+        "family-foyer",
+        "family-bath"
+      ]
+    ],
+    "stair_rules": {
+      "floor_height_m": 3.2,
+      "risers": 20,
+      "risers_per_flight": 10,
+      "riser_m": 0.16,
+      "going_m": 0.28,
+      "goings_per_flight": 9,
+      "flight_run_m": 2.5200000000000005,
+      "clear_flight_width_m": 1.2,
+      "rail_intrusion_each_side_m": 0.05,
+      "drawn_flight_width_m": 1.3,
+      "gap_m": 0.2,
+      "turn_landing_depth_m": 1.3,
+      "ground_landing_depth_m": 1.6,
+      "opening_cutback_m": 0.3,
+      "slab_assumed_m": 0.2,
+      "upper_cover_underside_assumed_m": 6.2,
+      "required_headroom_m": 2.1,
+      "outer_wall_m": 0.2,
+      "comfort_2r_plus_g_m": 0.6000000000000001,
+      "pitch_deg": 29.74488129694222,
+      "minimum_reserved_long_m": 5.7,
+      "minimum_reserved_cross_m": 3.2
+    },
+    "entry_rooms": {
+      "men": "main-foyer",
+      "family": "family-foyer"
+    },
+    "family_approach": {
+      "x": 18.2,
+      "y": 3.1,
+      "width": 1.8,
+      "depth": 2.1
+    },
+    "brief": {
+      "project_name": "Reference ground-floor limited round",
+      "plot_width": 30,
+      "plot_depth": 30,
+      "floors": 2,
+      "setbacks": {
+        "north": 3,
+        "south": 3,
+        "east": 3,
+        "west": 3
+      },
+      "entrance_face": "south",
+      "wall_thickness": 0.2,
+      "main_entry_width": 2.0,
+      "entry_plinth_height_m": 0.45,
+      "corridor_width": 1.5,
+      "compact_core": false,
+      "proposed_room_area_factor": null,
+      "floor_height": 3.2,
+      "rooms": [
+        {
+          "id": "men",
+          "kind": "majlis",
+          "min_area": 25,
+          "min_side": 4,
+          "name": "Men Majlis",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "men-wc",
+          "kind": "bathroom",
+          "min_area": 5,
+          "min_side": 1.8,
+          "name": "Guest WC",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "living",
+          "kind": "living",
+          "min_area": 24,
+          "min_side": 4.5,
+          "name": "Family Living",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "dining",
+          "kind": "dining",
+          "min_area": 16,
+          "min_side": 3.5,
+          "name": "Family Dining",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "min_area": 16,
+          "min_side": 3.5,
+          "name": "Kitchen",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "store",
+          "kind": "storage",
+          "min_area": 4,
+          "min_side": 1.5,
+          "name": "Store",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "elder",
+          "kind": "bedroom",
+          "min_area": 16,
+          "min_side": 3.5,
+          "name": "Ground Bedroom 1",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "elder-bath",
+          "kind": "bathroom",
+          "min_area": 5,
+          "min_side": 1.8,
+          "name": "Ensuite 1",
+          "count": 1,
+          "floor": 0,
+          "ensuite_of": "elder"
+        },
+        {
+          "id": "bedroom_2",
+          "kind": "bedroom",
+          "min_area": 14,
+          "min_side": 3.5,
+          "name": "Ground Bedroom 2",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "family-bath",
+          "kind": "bathroom",
+          "min_area": 5,
+          "min_side": 1.8,
+          "name": "Family Bath",
+          "count": 1,
+          "floor": 0
+        }
+      ],
+      "guest_groups": [
+        {
+          "id": "men",
+          "entry": "main-foyer",
+          "rooms": [
+            "main-foyer",
+            "men",
+            "men-wc"
+          ]
+        }
+      ],
+      "spatial_requirements": [],
+      "country": "SA",
+      "city": "",
+      "region": "",
+      "neighborhood": "",
+      "building_type": "villa",
+      "district": "",
+      "plan_number": "",
+      "parcel_number": "",
+      "design_parking_count": 1,
+      "dining_seats": 6,
+      "municipality": "",
+      "parcel_reference": "",
+      "boundary_widths": {},
+      "apply_saudi_rules": false,
+      "regulatory_geometry": null,
+      "automatic_features": {
+        "lightwell": false,
+        "lightwell_length_m": 2.0,
+        "roof_annex": false,
+        "annex_lounge_min_m2": 14.0,
+        "balcony": false,
+        "balcony_depth_m": 1.0,
+        "balcony_face": "auto",
+        "service_yard": false,
+        "main_street_faces": null
+      },
+      "separate_guest_entry": true,
+      "flexible_space_policy": "remove",
+      "reference_strategy": "none",
+      "adaptive_search": false,
+      "massing_strategy": "legacy",
+      "site_placement": "legacy",
+      "stair_headroom": 2.1,
+      "notes": "",
+      "circulation_rooms": [
+        {
+          "id": "main-foyer",
+          "kind": "hall",
+          "min_area": 7,
+          "min_side": 2.8,
+          "name": "Main Entry",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "family-foyer",
+          "kind": "hall",
+          "min_area": 6.5,
+          "min_side": 2.4,
+          "name": "Family Entry",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "stair",
+          "kind": "stair",
+          "min_area": 0,
+          "min_side": 0,
+          "name": "Stair",
+          "count": 1,
+          "floor": 0
+        }
+      ],
+      "connections": [
+        [
+          "main-foyer",
+          "men"
+        ],
+        [
+          "main-foyer",
+          "men-wc"
+        ],
+        [
+          "family-foyer",
+          "living"
+        ],
+        [
+          "living",
+          "dining"
+        ],
+        [
+          "living",
+          "stair"
+        ],
+        [
+          "dining",
+          "kitchen"
+        ],
+        [
+          "kitchen",
+          "store"
+        ],
+        [
+          "main-foyer",
+          "dining"
+        ],
+        [
+          "living",
+          "elder"
+        ],
+        [
+          "elder",
+          "elder-bath"
+        ],
+        [
+          "living",
+          "bedroom_2"
+        ],
+        [
+          "family-foyer",
+          "family-bath"
+        ]
+      ],
+      "entries": [
+        {
+          "room": "main-foyer",
+          "face": "south",
+          "width": 2
+        },
+        {
+          "room": "family-foyer",
+          "face": "south",
+          "width": 1
+        }
+      ],
+      "entry_rooms": {
+        "men": "main-foyer",
+        "family": "family-foyer"
+      },
+      "family_rooms": [
+        "living",
+        "dining",
+        "kitchen",
+        "store",
+        "elder",
+        "elder-bath",
+        "bedroom_2",
+        "family-bath",
+        "family-foyer",
+        "stair"
+      ],
+      "privacy_guest_room_ids": [
+        "men"
+      ]
+    },
+    "completion": {
+      "method": "Second CP-SAT assignment of residual enclosed voids to touching rooms; original clear rectangular cores remain",
+      "assigned_voids": [
+        {
+          "room": "store",
+          "added_area_m2": 0.2200000000000011,
+          "polygon": [
+            [
+              10.1,
+              7.2
+            ],
+            [
+              7.9,
+              7.2
+            ],
+            [
+              7.9,
+              7.1
+            ],
+            [
+              10.1,
+              7.1
+            ]
+          ]
+        }
+      ],
+      "no_coordinate_changes_to_cores": true
+    },
+    "stair_design": {
+      "rules": {
+        "floor_height_m": 3.2,
+        "risers": 20,
+        "risers_per_flight": 10,
+        "riser_m": 0.16,
+        "going_m": 0.28,
+        "goings_per_flight": 9,
+        "flight_run_m": 2.5200000000000005,
+        "clear_flight_width_m": 1.2,
+        "rail_intrusion_each_side_m": 0.05,
+        "drawn_flight_width_m": 1.3,
+        "gap_m": 0.2,
+        "turn_landing_depth_m": 1.3,
+        "ground_landing_depth_m": 1.6,
+        "opening_cutback_m": 0.3,
+        "slab_assumed_m": 0.2,
+        "upper_cover_underside_assumed_m": 6.2,
+        "required_headroom_m": 2.1,
+        "outer_wall_m": 0.2,
+        "comfort_2r_plus_g_m": 0.6000000000000001,
+        "pitch_deg": 29.74488129694222,
+        "minimum_reserved_long_m": 5.7,
+        "minimum_reserved_cross_m": 3.2
+      },
+      "entry_side": "north",
+      "flights": [
+        [
+          [
+            14.8,
+            7.7
+          ],
+          [
+            14.8,
+            5.18
+          ],
+          [
+            16.1,
+            5.18
+          ],
+          [
+            16.1,
+            7.7
+          ]
+        ],
+        [
+          [
+            16.3,
+            7.7
+          ],
+          [
+            16.3,
+            5.18
+          ],
+          [
+            17.6,
+            5.18
+          ],
+          [
+            17.6,
+            7.7
+          ]
+        ]
+      ],
+      "turn_landing": [
+        [
+          14.8,
+          5.18
+        ],
+        [
+          14.8,
+          3.88
+        ],
+        [
+          17.6,
+          3.88
+        ],
+        [
+          17.6,
+          5.18
+        ]
+      ],
+      "ground_landing": [
+        [
+          14.8,
+          9.3
+        ],
+        [
+          14.8,
+          7.7
+        ],
+        [
+          17.6,
+          7.7
+        ],
+        [
+          17.6,
+          9.3
+        ]
+      ],
+      "upper_landing": [
+        [
+          17.6,
+          7.7
+        ],
+        [
+          16.3,
+          7.7
+        ],
+        [
+          16.3,
+          8.0
+        ],
+        [
+          14.8,
+          8.0
+        ],
+        [
+          14.8,
+          9.3
+        ],
+        [
+          17.6,
+          9.3
+        ],
+        [
+          17.6,
+          8.0
+        ]
+      ],
+      "upper_opening": [
+        [
+          17.6,
+          7.7
+        ],
+        [
+          17.6,
+          3.88
+        ],
+        [
+          14.8,
+          3.88
+        ],
+        [
+          14.8,
+          7.7
+        ],
+        [
+          14.8,
+          8.0
+        ],
+        [
+          16.3,
+          8.0
+        ],
+        [
+          16.3,
+          7.7
+        ]
+      ],
+      "riser_lines": [
+        {
+          "flight": 1,
+          "riser": 1,
+          "z_m": 0.16,
+          "points": [
+            [
+              14.8,
+              7.7
+            ],
+            [
+              16.1,
+              7.7
+            ]
+          ]
+        },
+        {
+          "flight": 1,
+          "riser": 2,
+          "z_m": 0.32,
+          "points": [
+            [
+              14.8,
+              7.42
+            ],
+            [
+              16.1,
+              7.42
+            ]
+          ]
+        },
+        {
+          "flight": 1,
+          "riser": 3,
+          "z_m": 0.48,
+          "points": [
+            [
+              14.8,
+              7.14
+            ],
+            [
+              16.1,
+              7.14
+            ]
+          ]
+        },
+        {
+          "flight": 1,
+          "riser": 4,
+          "z_m": 0.64,
+          "points": [
+            [
+              14.8,
+              6.86
+            ],
+            [
+              16.1,
+              6.86
+            ]
+          ]
+        },
+        {
+          "flight": 1,
+          "riser": 5,
+          "z_m": 0.8,
+          "points": [
+            [
+              14.8,
+              6.58
+            ],
+            [
+              16.1,
+              6.58
+            ]
+          ]
+        },
+        {
+          "flight": 1,
+          "riser": 6,
+          "z_m": 0.96,
+          "points": [
+            [
+              14.8,
+              6.3
+            ],
+            [
+              16.1,
+              6.3
+            ]
+          ]
+        },
+        {
+          "flight": 1,
+          "riser": 7,
+          "z_m": 1.12,
+          "points": [
+            [
+              14.8,
+              6.02
+            ],
+            [
+              16.1,
+              6.02
+            ]
+          ]
+        },
+        {
+          "flight": 1,
+          "riser": 8,
+          "z_m": 1.28,
+          "points": [
+            [
+              14.8,
+              5.74
+            ],
+            [
+              16.1,
+              5.74
+            ]
+          ]
+        },
+        {
+          "flight": 1,
+          "riser": 9,
+          "z_m": 1.44,
+          "points": [
+            [
+              14.8,
+              5.46
+            ],
+            [
+              16.1,
+              5.46
+            ]
+          ]
+        },
+        {
+          "flight": 1,
+          "riser": 10,
+          "z_m": 1.6,
+          "points": [
+            [
+              14.8,
+              5.18
+            ],
+            [
+              16.1,
+              5.18
+            ]
+          ]
+        },
+        {
+          "flight": 2,
+          "riser": 11,
+          "z_m": 1.76,
+          "points": [
+            [
+              16.3,
+              5.18
+            ],
+            [
+              17.6,
+              5.18
+            ]
+          ]
+        },
+        {
+          "flight": 2,
+          "riser": 12,
+          "z_m": 1.92,
+          "points": [
+            [
+              16.3,
+              5.46
+            ],
+            [
+              17.6,
+              5.46
+            ]
+          ]
+        },
+        {
+          "flight": 2,
+          "riser": 13,
+          "z_m": 2.08,
+          "points": [
+            [
+              16.3,
+              5.74
+            ],
+            [
+              17.6,
+              5.74
+            ]
+          ]
+        },
+        {
+          "flight": 2,
+          "riser": 14,
+          "z_m": 2.24,
+          "points": [
+            [
+              16.3,
+              6.02
+            ],
+            [
+              17.6,
+              6.02
+            ]
+          ]
+        },
+        {
+          "flight": 2,
+          "riser": 15,
+          "z_m": 2.4,
+          "points": [
+            [
+              16.3,
+              6.3
+            ],
+            [
+              17.6,
+              6.3
+            ]
+          ]
+        },
+        {
+          "flight": 2,
+          "riser": 16,
+          "z_m": 2.56,
+          "points": [
+            [
+              16.3,
+              6.58
+            ],
+            [
+              17.6,
+              6.58
+            ]
+          ]
+        },
+        {
+          "flight": 2,
+          "riser": 17,
+          "z_m": 2.72,
+          "points": [
+            [
+              16.3,
+              6.86
+            ],
+            [
+              17.6,
+              6.86
+            ]
+          ]
+        },
+        {
+          "flight": 2,
+          "riser": 18,
+          "z_m": 2.88,
+          "points": [
+            [
+              16.3,
+              7.14
+            ],
+            [
+              17.6,
+              7.14
+            ]
+          ]
+        },
+        {
+          "flight": 2,
+          "riser": 19,
+          "z_m": 3.04,
+          "points": [
+            [
+              16.3,
+              7.42
+            ],
+            [
+              17.6,
+              7.42
+            ]
+          ]
+        },
+        {
+          "flight": 2,
+          "riser": 20,
+          "z_m": 3.2,
+          "points": [
+            [
+              16.3,
+              7.7
+            ],
+            [
+              17.6,
+              7.7
+            ]
+          ]
+        }
+      ],
+      "headroom_samples": [
+        {
+          "point": [
+            15.45,
+            9.3
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.28
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.26
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.24
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.22
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.2
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.18
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.16
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.14
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.12
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.1
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.08
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.06
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.04
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.02
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            9.0
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.98
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.96
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.94
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.92
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.9
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.88
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.86
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.84
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.82
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.8
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.78
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.76
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.74
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.72
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.7
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.68
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.66
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.64
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.62
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.6
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.58
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.56
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.54
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.52
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.5
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.48
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.46
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.44
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.42
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.4
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.38
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.36
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.34
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.32
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.3
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.28
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.26
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.24
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.22
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.2
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.18
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.16
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.14
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.12
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.1
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.08
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.06
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.04
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.02
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            8.0
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.98
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.96
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.94
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.92
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.9
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.88
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.86
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.84
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.82
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.8
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.78
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.76
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.74
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.72
+          ],
+          "z_m": 0,
+          "part": "ground_landing"
+        },
+        {
+          "point": [
+            15.45,
+            7.7
+          ],
+          "z_m": 0.16,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.7
+          ],
+          "z_m": 3.2,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.68
+          ],
+          "z_m": 0.17142857142857143,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.68
+          ],
+          "z_m": 3.188571428571429,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.66
+          ],
+          "z_m": 0.18285714285714288,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.66
+          ],
+          "z_m": 3.177142857142858,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.64
+          ],
+          "z_m": 0.1942857142857143,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.64
+          ],
+          "z_m": 3.1657142857142864,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.62
+          ],
+          "z_m": 0.20571428571428563,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.62
+          ],
+          "z_m": 3.1542857142857152,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.6
+          ],
+          "z_m": 0.21714285714285708,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.6
+          ],
+          "z_m": 3.1428571428571432,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.58
+          ],
+          "z_m": 0.2285714285714285,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.58
+          ],
+          "z_m": 3.131428571428572,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.56
+          ],
+          "z_m": 0.23999999999999994,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.56
+          ],
+          "z_m": 3.12,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.54
+          ],
+          "z_m": 0.2514285714285714,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.54
+          ],
+          "z_m": 3.108571428571429,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.52
+          ],
+          "z_m": 0.2628571428571428,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.52
+          ],
+          "z_m": 3.097142857142858,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.5
+          ],
+          "z_m": 0.27428571428571424,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.5
+          ],
+          "z_m": 3.0857142857142863,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.48
+          ],
+          "z_m": 0.2857142857142857,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.48
+          ],
+          "z_m": 3.0742857142857147,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.46
+          ],
+          "z_m": 0.2971428571428571,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.46
+          ],
+          "z_m": 3.0628571428571436,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.44
+          ],
+          "z_m": 0.30857142857142855,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.44
+          ],
+          "z_m": 3.0514285714285716,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.42
+          ],
+          "z_m": 0.32,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.42
+          ],
+          "z_m": 3.0400000000000005,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.4
+          ],
+          "z_m": 0.3314285714285714,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.4
+          ],
+          "z_m": 3.028571428571429,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.38
+          ],
+          "z_m": 0.3428571428571428,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.38
+          ],
+          "z_m": 3.017142857142858,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.36
+          ],
+          "z_m": 0.35428571428571415,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.36
+          ],
+          "z_m": 3.0057142857142862,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.34
+          ],
+          "z_m": 0.3657142857142856,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.34
+          ],
+          "z_m": 2.9942857142857147,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.32
+          ],
+          "z_m": 0.3771428571428571,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.32
+          ],
+          "z_m": 2.9828571428571435,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.3
+          ],
+          "z_m": 0.38857142857142846,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.3
+          ],
+          "z_m": 2.9714285714285715,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.28
+          ],
+          "z_m": 0.3999999999999999,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.28
+          ],
+          "z_m": 2.9600000000000004,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.26
+          ],
+          "z_m": 0.4114285714285714,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.26
+          ],
+          "z_m": 2.948571428571429,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.24
+          ],
+          "z_m": 0.42285714285714276,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.24
+          ],
+          "z_m": 2.9371428571428577,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.22
+          ],
+          "z_m": 0.4342857142857142,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.22
+          ],
+          "z_m": 2.925714285714286,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.2
+          ],
+          "z_m": 0.44571428571428573,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.2
+          ],
+          "z_m": 2.9142857142857146,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.18
+          ],
+          "z_m": 0.4571428571428571,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.18
+          ],
+          "z_m": 2.9028571428571435,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.16
+          ],
+          "z_m": 0.46857142857142864,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.16
+          ],
+          "z_m": 2.891428571428572,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.14
+          ],
+          "z_m": 0.48,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.14
+          ],
+          "z_m": 2.880000000000001,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.12
+          ],
+          "z_m": 0.4914285714285715,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.12
+          ],
+          "z_m": 2.8685714285714288,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.1
+          ],
+          "z_m": 0.5028571428571429,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.1
+          ],
+          "z_m": 2.8571428571428577,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.08
+          ],
+          "z_m": 0.5142857142857143,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.08
+          ],
+          "z_m": 2.845714285714286,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.06
+          ],
+          "z_m": 0.5257142857142858,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.06
+          ],
+          "z_m": 2.8342857142857145,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.04
+          ],
+          "z_m": 0.5371428571428571,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.04
+          ],
+          "z_m": 2.8228571428571434,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.02
+          ],
+          "z_m": 0.5485714285714286,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.02
+          ],
+          "z_m": 2.811428571428572,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            7.0
+          ],
+          "z_m": 0.56,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            7.0
+          ],
+          "z_m": 2.8000000000000003,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.98
+          ],
+          "z_m": 0.5714285714285713,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.98
+          ],
+          "z_m": 2.788571428571429,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.96
+          ],
+          "z_m": 0.5828571428571427,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.96
+          ],
+          "z_m": 2.777142857142858,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.94
+          ],
+          "z_m": 0.5942857142857141,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.94
+          ],
+          "z_m": 2.765714285714286,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.92
+          ],
+          "z_m": 0.6057142857142855,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.92
+          ],
+          "z_m": 2.754285714285715,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.9
+          ],
+          "z_m": 0.617142857142857,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.9
+          ],
+          "z_m": 2.7428571428571433,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.88
+          ],
+          "z_m": 0.6285714285714284,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.88
+          ],
+          "z_m": 2.731428571428572,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.86
+          ],
+          "z_m": 0.6399999999999999,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.86
+          ],
+          "z_m": 2.7200000000000006,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.84
+          ],
+          "z_m": 0.6514285714285714,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.84
+          ],
+          "z_m": 2.708571428571429,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.82
+          ],
+          "z_m": 0.6628571428571428,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.82
+          ],
+          "z_m": 2.697142857142858,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.8
+          ],
+          "z_m": 0.6742857142857142,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.8
+          ],
+          "z_m": 2.6857142857142864,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.78
+          ],
+          "z_m": 0.6857142857142856,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.78
+          ],
+          "z_m": 2.6742857142857144,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.76
+          ],
+          "z_m": 0.6971428571428571,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.76
+          ],
+          "z_m": 2.6628571428571433,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.74
+          ],
+          "z_m": 0.7085714285714285,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.74
+          ],
+          "z_m": 2.6514285714285717,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.72
+          ],
+          "z_m": 0.72,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.72
+          ],
+          "z_m": 2.6400000000000006,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.7
+          ],
+          "z_m": 0.7314285714285714,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.7
+          ],
+          "z_m": 2.628571428571429,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.68
+          ],
+          "z_m": 0.7428571428571428,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.68
+          ],
+          "z_m": 2.617142857142858,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.66
+          ],
+          "z_m": 0.7542857142857142,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.66
+          ],
+          "z_m": 2.6057142857142863,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.64
+          ],
+          "z_m": 0.7657142857142857,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.64
+          ],
+          "z_m": 2.5942857142857143,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.62
+          ],
+          "z_m": 0.7771428571428572,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.62
+          ],
+          "z_m": 2.582857142857143,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.6
+          ],
+          "z_m": 0.7885714285714286,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.6
+          ],
+          "z_m": 2.5714285714285716,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.58
+          ],
+          "z_m": 0.8,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.58
+          ],
+          "z_m": 2.5600000000000005,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.56
+          ],
+          "z_m": 0.8114285714285714,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.56
+          ],
+          "z_m": 2.548571428571429,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.54
+          ],
+          "z_m": 0.822857142857143,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.54
+          ],
+          "z_m": 2.5371428571428574,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.52
+          ],
+          "z_m": 0.8342857142857143,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.52
+          ],
+          "z_m": 2.5257142857142862,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.5
+          ],
+          "z_m": 0.8457142857142858,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.5
+          ],
+          "z_m": 2.5142857142857147,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.48
+          ],
+          "z_m": 0.857142857142857,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.48
+          ],
+          "z_m": 2.5028571428571436,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.46
+          ],
+          "z_m": 0.8685714285714283,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.46
+          ],
+          "z_m": 2.491428571428572,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.44
+          ],
+          "z_m": 0.8799999999999999,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.44
+          ],
+          "z_m": 2.4800000000000004,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.42
+          ],
+          "z_m": 0.8914285714285712,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.42
+          ],
+          "z_m": 2.4685714285714293,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.4
+          ],
+          "z_m": 0.9028571428571427,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.4
+          ],
+          "z_m": 2.4571428571428577,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.38
+          ],
+          "z_m": 0.9142857142857141,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.38
+          ],
+          "z_m": 2.445714285714286,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.36
+          ],
+          "z_m": 0.9257142857142856,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.36
+          ],
+          "z_m": 2.434285714285715,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.34
+          ],
+          "z_m": 0.9371428571428569,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.34
+          ],
+          "z_m": 2.4228571428571435,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.32
+          ],
+          "z_m": 0.9485714285714285,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.32
+          ],
+          "z_m": 2.411428571428572,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.3
+          ],
+          "z_m": 0.9599999999999999,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.3
+          ],
+          "z_m": 2.400000000000001,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.28
+          ],
+          "z_m": 0.9714285714285713,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.28
+          ],
+          "z_m": 2.388571428571429,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.26
+          ],
+          "z_m": 0.9828571428571428,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.26
+          ],
+          "z_m": 2.3771428571428577,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.24
+          ],
+          "z_m": 0.9942857142857142,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.24
+          ],
+          "z_m": 2.365714285714286,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.22
+          ],
+          "z_m": 1.0057142857142858,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.22
+          ],
+          "z_m": 2.354285714285715,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.2
+          ],
+          "z_m": 1.0171428571428571,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.2
+          ],
+          "z_m": 2.3428571428571434,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.18
+          ],
+          "z_m": 1.0285714285714285,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.18
+          ],
+          "z_m": 2.331428571428572,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.16
+          ],
+          "z_m": 1.04,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.16
+          ],
+          "z_m": 2.3200000000000007,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.14
+          ],
+          "z_m": 1.0514285714285714,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.14
+          ],
+          "z_m": 2.308571428571429,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.12
+          ],
+          "z_m": 1.0628571428571427,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.12
+          ],
+          "z_m": 2.2971428571428576,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.1
+          ],
+          "z_m": 1.0742857142857143,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.1
+          ],
+          "z_m": 2.285714285714286,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.08
+          ],
+          "z_m": 1.0857142857142856,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.08
+          ],
+          "z_m": 2.274285714285715,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.06
+          ],
+          "z_m": 1.0971428571428572,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.06
+          ],
+          "z_m": 2.2628571428571433,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.04
+          ],
+          "z_m": 1.1085714285714285,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.04
+          ],
+          "z_m": 2.251428571428572,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.02
+          ],
+          "z_m": 1.12,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.02
+          ],
+          "z_m": 2.24,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            6.0
+          ],
+          "z_m": 1.1314285714285715,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            6.0
+          ],
+          "z_m": 2.228571428571429,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.98
+          ],
+          "z_m": 1.142857142857143,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.98
+          ],
+          "z_m": 2.2171428571428575,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.96
+          ],
+          "z_m": 1.1542857142857141,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.96
+          ],
+          "z_m": 2.2057142857142864,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.94
+          ],
+          "z_m": 1.1657142857142855,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.94
+          ],
+          "z_m": 2.1942857142857153,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.92
+          ],
+          "z_m": 1.177142857142857,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.92
+          ],
+          "z_m": 2.1828571428571433,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.9
+          ],
+          "z_m": 1.1885714285714284,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.9
+          ],
+          "z_m": 2.171428571428572,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.88
+          ],
+          "z_m": 1.2,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.88
+          ],
+          "z_m": 2.1600000000000006,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.86
+          ],
+          "z_m": 1.2114285714285713,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.86
+          ],
+          "z_m": 2.148571428571429,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.84
+          ],
+          "z_m": 1.2228571428571426,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.84
+          ],
+          "z_m": 2.137142857142858,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.82
+          ],
+          "z_m": 1.2342857142857142,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.82
+          ],
+          "z_m": 2.1257142857142863,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.8
+          ],
+          "z_m": 1.2457142857142856,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.8
+          ],
+          "z_m": 2.1142857142857148,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.78
+          ],
+          "z_m": 1.257142857142857,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.78
+          ],
+          "z_m": 2.102857142857143,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.76
+          ],
+          "z_m": 1.2685714285714285,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.76
+          ],
+          "z_m": 2.091428571428572,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.74
+          ],
+          "z_m": 1.2799999999999998,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.74
+          ],
+          "z_m": 2.0800000000000005,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.72
+          ],
+          "z_m": 1.2914285714285711,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.72
+          ],
+          "z_m": 2.0685714285714294,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.7
+          ],
+          "z_m": 1.3028571428571427,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.7
+          ],
+          "z_m": 2.0571428571428574,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.68
+          ],
+          "z_m": 1.3142857142857143,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.68
+          ],
+          "z_m": 2.0457142857142863,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.66
+          ],
+          "z_m": 1.3257142857142856,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.66
+          ],
+          "z_m": 2.0342857142857147,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.64
+          ],
+          "z_m": 1.3371428571428572,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.64
+          ],
+          "z_m": 2.0228571428571436,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.62
+          ],
+          "z_m": 1.3485714285714283,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.62
+          ],
+          "z_m": 2.011428571428572,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.6
+          ],
+          "z_m": 1.36,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.6
+          ],
+          "z_m": 2.0000000000000004,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.58
+          ],
+          "z_m": 1.3714285714285714,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.58
+          ],
+          "z_m": 1.9885714285714289,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.56
+          ],
+          "z_m": 1.3828571428571428,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.56
+          ],
+          "z_m": 1.9771428571428575,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.54
+          ],
+          "z_m": 1.3942857142857146,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.54
+          ],
+          "z_m": 1.9657142857142862,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.52
+          ],
+          "z_m": 1.4057142857142855,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.52
+          ],
+          "z_m": 1.9542857142857148,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.5
+          ],
+          "z_m": 1.4171428571428573,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.5
+          ],
+          "z_m": 1.9428571428571433,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.48
+          ],
+          "z_m": 1.4285714285714286,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.48
+          ],
+          "z_m": 1.9314285714285717,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.46
+          ],
+          "z_m": 1.4399999999999997,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.46
+          ],
+          "z_m": 1.9200000000000006,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.44
+          ],
+          "z_m": 1.451428571428571,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.44
+          ],
+          "z_m": 1.9085714285714293,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.42
+          ],
+          "z_m": 1.4628571428571424,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.42
+          ],
+          "z_m": 1.897142857142858,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.4
+          ],
+          "z_m": 1.4742857142857142,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.4
+          ],
+          "z_m": 1.8857142857142863,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.38
+          ],
+          "z_m": 1.4857142857142855,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.38
+          ],
+          "z_m": 1.874285714285715,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.36
+          ],
+          "z_m": 1.4971428571428569,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.36
+          ],
+          "z_m": 1.8628571428571434,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.34
+          ],
+          "z_m": 1.5085714285714285,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.34
+          ],
+          "z_m": 1.851428571428572,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.32
+          ],
+          "z_m": 1.5199999999999998,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.32
+          ],
+          "z_m": 1.8400000000000005,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.3
+          ],
+          "z_m": 1.5314285714285714,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.3
+          ],
+          "z_m": 1.8285714285714292,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.28
+          ],
+          "z_m": 1.5428571428571431,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.28
+          ],
+          "z_m": 1.8171428571428576,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.26
+          ],
+          "z_m": 1.5542857142857143,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.26
+          ],
+          "z_m": 1.805714285714286,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.24
+          ],
+          "z_m": 1.5657142857142858,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.24
+          ],
+          "z_m": 1.7942857142857145,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.22
+          ],
+          "z_m": 1.577142857142857,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.22
+          ],
+          "z_m": 1.7828571428571434,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.2
+          ],
+          "z_m": 1.588571428571428,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.2
+          ],
+          "z_m": 1.7714285714285722,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            15.45,
+            5.18
+          ],
+          "z_m": 1.6,
+          "part": "flight_1_nosing"
+        },
+        {
+          "point": [
+            16.95,
+            5.18
+          ],
+          "z_m": 1.7600000000000007,
+          "part": "flight_2_nosing"
+        },
+        {
+          "point": [
+            16.2,
+            5.16
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            5.14
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            5.12
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            5.1
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            5.08
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            5.06
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            5.04
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            5.02
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            5.0
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.98
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.96
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.94
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.92
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.9
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.88
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.86
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.84
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.82
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.8
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.78
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.76
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.74
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.72
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.7
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.68
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.66
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.64
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.62
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.6
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.58
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.56
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.54
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.52
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.5
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.48
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.46
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.44
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.42
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.4
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.38
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.36
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.34
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.32
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.3
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.28
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.26
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.24
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.22
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.2
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.18
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.16
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.14
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.12
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.1
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.08
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.06
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.04
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.02
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            4.0
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            3.98
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            3.96
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            3.94
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            3.92
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            3.9
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            3.88
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.2,
+            3.88
+          ],
+          "z_m": 1.6,
+          "part": "turn_landing"
+        },
+        {
+          "point": [
+            16.200000000000003,
+            8.65
+          ],
+          "z_m": 3.2,
+          "part": "upper_landing"
+        }
+      ],
+      "drawing_tread_intervals_per_flight": 9,
+      "enclosure_id": "stair",
+      "scope": "Geometric proposal; slab/upper-cover elevations assumed; upper-storey plan and structure not coordinated",
+      "checks": {
+        "fits": true,
+        "riser_sum_m": 3.2,
+        "rise_matches_floor": true,
+        "clear_flight_width_m": 1.2,
+        "lower_landing_reached_from_opening": true,
+        "minimum_modelled_headroom_m": 3.0,
+        "required_headroom_m": 2.1,
+        "headroom_pass_under_assumptions": true,
+        "samples": 401,
+        "pass": true
+      }
+    }
+  },
+  "ground_audit": {
+    "accepted": true,
+    "failures": [],
+    "scope": "Independent trial checks only; not 009/010 or regulatory approval",
+    "requested_count": 10,
+    "rooms_with_circulation_and_stair": 13,
+    "bedroom_count": 2,
+    "net_areas_m2": {
+      "men": 35.1,
+      "men-wc": 5.32,
+      "living": 41.289999999999985,
+      "dining": 26.230000000000008,
+      "kitchen": 19.799999999999997,
+      "store": 4.200000000000003,
+      "elder": 16.399999999999995,
+      "elder-bath": 5.129999999999987,
+      "bedroom_2": 14.349999999999993,
+      "family-bath": 7.0
+    },
+    "gross_area_m2": 236.45999999999998,
+    "bbox_area_m2": 259.20000000000005,
+    "bbox_coverage": 0.9122685185185183,
+    "envelope_perimeter_m": 84.99999999999999,
+    "holes": 0,
+    "components": 1,
+    "overlap_area_m2": 0.0,
+    "dedicated_hall_area_m2": 26.919999999999987,
+    "hall_access": [
+      {
+        "room": "main-foyer",
+        "tested_clear_width_m": 1.5,
+        "max_door_to_walk_core_m": 0.85
+      },
+      {
+        "room": "family-foyer",
+        "tested_clear_width_m": 1.5,
+        "max_door_to_walk_core_m": 0.8514693182963214
+      }
+    ],
+    "guest_paths_separate": true,
+    "family_path_without_guest_transit": true,
+    "ensuite_private": true,
+    "windows": [
+      {
+        "id": "n_men",
+        "room_id": "men",
+        "center": [
+          3.2,
+          11.1
+        ],
+        "width": 2.4,
+        "axis": "y"
+      },
+      {
+        "id": "n_men_wc",
+        "room_id": "men-wc",
+        "center": [
+          4.6,
+          5.2
+        ],
+        "width": 0.8,
+        "axis": "x"
+      },
+      {
+        "id": "n_living",
+        "room_id": "living",
+        "center": [
+          16.75,
+          15.1
+        ],
+        "width": 2.4,
+        "axis": "x"
+      },
+      {
+        "id": "n_dining",
+        "room_id": "dining",
+        "center": [
+          12.35,
+          3.1
+        ],
+        "width": 2.4,
+        "axis": "x"
+      },
+      {
+        "id": "n_kitchen",
+        "room_id": "kitchen",
+        "center": [
+          11.7,
+          13.149999999999999
+        ],
+        "width": 2.4,
+        "axis": "y"
+      },
+      {
+        "id": "n_elder",
+        "room_id": "elder",
+        "center": [
+          24.7,
+          8.9
+        ],
+        "width": 2.4,
+        "axis": "y"
+      },
+      {
+        "id": "n_elder_bath",
+        "room_id": "elder-bath",
+        "center": [
+          24.7,
+          5.35
+        ],
+        "width": 0.8,
+        "axis": "y"
+      },
+      {
+        "id": "n_bedroom_2",
+        "room_id": "bedroom_2",
+        "center": [
+          22.549999999999997,
+          14.7
+        ],
+        "width": 2.4,
+        "axis": "x"
+      },
+      {
+        "id": "n_family_bath",
+        "room_id": "family-bath",
+        "center": [
+          21.5,
+          3.1
+        ],
+        "width": 0.8,
+        "axis": "x"
+      }
+    ],
+    "doors": [
+      {
+        "id": "d_0",
+        "center": [
+          7.0,
+          7.1
+        ],
+        "width": 0.9,
+        "axis": "x",
+        "connects": [
+          "main-foyer",
+          "men"
+        ],
+        "receiving_room": "men"
+      },
+      {
+        "id": "d_1",
+        "center": [
+          6.1,
+          4.15
+        ],
+        "width": 0.9,
+        "axis": "y",
+        "connects": [
+          "main-foyer",
+          "men-wc"
+        ],
+        "receiving_room": "men-wc"
+      },
+      {
+        "id": "d_2",
+        "center": [
+          19.1,
+          9.4
+        ],
+        "width": 0.9,
+        "axis": "x",
+        "connects": [
+          "family-foyer",
+          "living"
+        ],
+        "receiving_room": "living"
+      },
+      {
+        "id": "d_3",
+        "center": [
+          13.85,
+          9.4
+        ],
+        "width": 0.9,
+        "axis": "x",
+        "connects": [
+          "living",
+          "dining"
+        ],
+        "receiving_room": "dining"
+      },
+      {
+        "id": "d_4",
+        "center": [
+          16.2,
+          9.4
+        ],
+        "width": 1.2,
+        "axis": "x",
+        "connects": [
+          "living",
+          "stair"
+        ],
+        "receiving_room": "stair",
+        "kind": "opening"
+      },
+      {
+        "id": "d_5",
+        "center": [
+          10.899999999999999,
+          9.4
+        ],
+        "width": 0.9,
+        "axis": "x",
+        "connects": [
+          "dining",
+          "kitchen"
+        ],
+        "receiving_room": "kitchen"
+      },
+      {
+        "id": "d_6",
+        "center": [
+          9.0,
+          9.4
+        ],
+        "width": 0.9,
+        "axis": "x",
+        "connects": [
+          "kitchen",
+          "store"
+        ],
+        "receiving_room": "store"
+      },
+      {
+        "id": "d_7",
+        "center": [
+          10.1,
+          5.75
+        ],
+        "width": 0.9,
+        "axis": "y",
+        "connects": [
+          "main-foyer",
+          "dining"
+        ],
+        "receiving_room": "dining"
+      },
+      {
+        "id": "d_8",
+        "center": [
+          20.4,
+          10.2
+        ],
+        "width": 0.9,
+        "axis": "y",
+        "connects": [
+          "living",
+          "elder"
+        ],
+        "receiving_room": "elder"
+      },
+      {
+        "id": "d_9",
+        "center": [
+          23.65,
+          6.8
+        ],
+        "width": 0.9,
+        "axis": "x",
+        "connects": [
+          "elder",
+          "elder-bath"
+        ],
+        "receiving_room": "elder-bath"
+      },
+      {
+        "id": "d_10",
+        "center": [
+          20.4,
+          12.85
+        ],
+        "width": 0.9,
+        "axis": "y",
+        "connects": [
+          "living",
+          "bedroom_2"
+        ],
+        "receiving_room": "bedroom_2"
+      },
+      {
+        "id": "d_11",
+        "center": [
+          20.4,
+          6.0
+        ],
+        "width": 0.9,
+        "axis": "y",
+        "connects": [
+          "family-foyer",
+          "family-bath"
+        ],
+        "receiving_room": "family-bath"
+      },
+      {
+        "id": "entry_main_foyer",
+        "center": [
+          8.1,
+          3.1
+        ],
+        "width": 2,
+        "axis": "x",
+        "connects": [
+          "OUTSIDE",
+          "main-foyer"
+        ],
+        "receiving_room": "main-foyer",
+        "double": true
+      },
+      {
+        "id": "entry_family_foyer",
+        "center": [
+          19.1,
+          5.2
+        ],
+        "width": 1,
+        "axis": "x",
+        "connects": [
+          "OUTSIDE",
+          "family-foyer"
+        ],
+        "receiving_room": "family-foyer",
+        "double": false
+      }
+    ],
+    "platforms": [
+      {
+        "entry": "entry_main_foyer",
+        "risers": 3,
+        "riser_height": 0.15,
+        "surfaces": [
+          [
+            [
+              9.299999999999999,
+              1.8
+            ],
+            [
+              9.299999999999999,
+              3.0
+            ],
+            [
+              6.8999999999999995,
+              3.0
+            ],
+            [
+              6.8999999999999995,
+              1.8
+            ]
+          ],
+          [
+            [
+              9.299999999999999,
+              1.5
+            ],
+            [
+              9.299999999999999,
+              1.8
+            ],
+            [
+              6.8999999999999995,
+              1.8
+            ],
+            [
+              6.8999999999999995,
+              1.5
+            ]
+          ],
+          [
+            [
+              9.299999999999999,
+              1.2000000000000002
+            ],
+            [
+              9.299999999999999,
+              1.5
+            ],
+            [
+              6.8999999999999995,
+              1.5
+            ],
+            [
+              6.8999999999999995,
+              1.2000000000000002
+            ]
+          ]
+        ]
+      },
+      {
+        "entry": "entry_family_foyer",
+        "risers": 3,
+        "riser_height": 0.15,
+        "surfaces": [
+          [
+            [
+              19.8,
+              3.9000000000000004
+            ],
+            [
+              19.8,
+              5.1000000000000005
+            ],
+            [
+              18.400000000000002,
+              5.1000000000000005
+            ],
+            [
+              18.400000000000002,
+              3.9000000000000004
+            ]
+          ],
+          [
+            [
+              19.8,
+              3.6000000000000005
+            ],
+            [
+              19.8,
+              3.9000000000000004
+            ],
+            [
+              18.400000000000002,
+              3.9000000000000004
+            ],
+            [
+              18.400000000000002,
+              3.6000000000000005
+            ]
+          ],
+          [
+            [
+              19.8,
+              3.3000000000000003
+            ],
+            [
+              19.8,
+              3.6000000000000005
+            ],
+            [
+              18.400000000000002,
+              3.6000000000000005
+            ],
+            [
+              18.400000000000002,
+              3.3000000000000003
+            ]
+          ]
+        ]
+      }
+    ],
+    "parking_reservations": [
+      {
+        "width_m": 2.6,
+        "length_m": 5.5,
+        "polygon": [
+          [
+            2.8,
+            0.3
+          ],
+          [
+            2.8,
+            5.8
+          ],
+          [
+            0.2,
+            5.8
+          ],
+          [
+            0.2,
+            0.3
+          ]
+        ],
+        "access_polygon": [
+          [
+            2.8,
+            0.0
+          ],
+          [
+            2.8,
+            5.8
+          ],
+          [
+            0.2,
+            5.8
+          ],
+          [
+            0.2,
+            0.0
+          ]
+        ],
+        "assumption": "Straight access from south street; maneuvering and regulations unverified"
+      }
+    ],
+    "unverified": [
+      "Sightline privacy",
+      "Local building codes",
+      "Stair treads and upper-storey connection",
+      "Furniture and fixture clearances",
+      "Structural and MEP coordination",
+      "Solar/daylight performance beyond exterior-window existence",
+      "Parking maneuvering and local requirements"
+    ],
+    "refinement_gate": true
+  },
+  "ground_privacy": {
+    "before": {
+      "sampled_rays": 3330,
+      "visible_bedroom_rays": 0,
+      "visible_living_rays_from_public_entries": 5,
+      "exposures": [
+        {
+          "observer": "entry_main_foyer",
+          "target": "living",
+          "from": [
+            7.199999999999999,
+            2.3
+          ],
+          "to": [
+            16.75,
+            12.25
+          ]
+        },
+        {
+          "observer": "entry_main_foyer",
+          "target": "living",
+          "from": [
+            7.199999999999999,
+            1.5
+          ],
+          "to": [
+            16.75,
+            12.25
+          ]
+        },
+        {
+          "observer": "entry_main_foyer",
+          "target": "living",
+          "from": [
+            7.6499999999999995,
+            2.3
+          ],
+          "to": [
+            16.75,
+            12.25
+          ]
+        },
+        {
+          "observer": "entry_main_foyer",
+          "target": "living",
+          "from": [
+            7.6499999999999995,
+            1.5
+          ],
+          "to": [
+            14.299999999999999,
+            10.6
+          ]
+        },
+        {
+          "observer": "entry_main_foyer",
+          "target": "living",
+          "from": [
+            7.6499999999999995,
+            1.5
+          ],
+          "to": [
+            16.75,
+            13.9
+          ]
+        }
+      ],
+      "visibility_jamb_allowance_m": 0.05,
+      "assumptions": [
+        "Plan-level, eye height within open door/window height",
+        "All modelled door and window apertures treated as transparent",
+        "Openings enlarged 50 mm at each jamb for conservative sampling",
+        "Finite observer/target samples; not an exhaustive visibility proof",
+        "Bedroom targets are an interior zone, not a furnished bed",
+        "Curtains, glazing opacity, door leaves and upper-floor views unmodelled"
+      ]
+    },
+    "after": {
+      "sampled_rays": 3330,
+      "visible_bedroom_rays": 0,
+      "visible_living_rays_from_public_entries": 0,
+      "exposures": [],
+      "visibility_jamb_allowance_m": 0.05,
+      "assumptions": [
+        "Plan-level, eye height within open door/window height",
+        "All modelled door and window apertures treated as transparent",
+        "Openings enlarged 50 mm at each jamb for conservative sampling",
+        "Finite observer/target samples; not an exhaustive visibility proof",
+        "Bedroom targets are an interior zone, not a furnished bed",
+        "Curtains, glazing opacity, door leaves and upper-floor views unmodelled"
+      ]
+    },
+    "changes": [
+      {
+        "door": "d_7",
+        "from": [
+          10.1,
+          5.1
+        ],
+        "to": [
+          10.1,
+          5.75
+        ],
+        "fixed_shared_wall": true
+      }
+    ],
+    "changed_room_polygons": false,
+    "gate_pass": true,
+    "method": "CP-SAT joint door-position selection with sufficient ray-blocking constraints",
+    "solver_status": "OPTIMAL",
+    "candidate_sensitive_rays": 5,
+    "no_blocker_for_some_ray": false
+  },
+  "upper_rooms": [
+    {
+      "id": "child_1",
+      "kind": "bedroom",
+      "label": "Child 1",
+      "polygon": [
+        [
+          7.5,
+          7.1
+        ],
+        [
+          7.5,
+          11.2
+        ],
+        [
+          3.2,
+          11.2
+        ],
+        [
+          3.2,
+          7.1
+        ]
+      ]
+    },
+    {
+      "id": "child_2",
+      "kind": "bedroom",
+      "label": "Child 2",
+      "polygon": [
+        [
+          8.3,
+          11.2
+        ],
+        [
+          8.3,
+          14.4
+        ],
+        [
+          3.2,
+          14.4
+        ],
+        [
+          3.2,
+          11.2
+        ]
+      ]
+    },
+    {
+      "id": "child_3",
+      "kind": "bedroom",
+      "label": "Child 3",
+      "polygon": [
+        [
+          23.9,
+          11.2
+        ],
+        [
+          23.9,
+          14.4
+        ],
+        [
+          19.5,
+          14.4
+        ],
+        [
+          19.5,
+          11.2
+        ]
+      ]
+    },
+    {
+      "id": "family",
+      "kind": "living",
+      "label": "Family Lounge",
+      "polygon": [
+        [
+          17.5,
+          9.4
+        ],
+        [
+          15.3,
+          9.4
+        ],
+        [
+          10.1,
+          9.4
+        ],
+        [
+          10.1,
+          7.1
+        ],
+        [
+          8.3,
+          7.1
+        ],
+        [
+          8.3,
+          9.4
+        ],
+        [
+          7.5,
+          9.4
+        ],
+        [
+          7.5,
+          11.2
+        ],
+        [
+          8.3,
+          11.2
+        ],
+        [
+          8.3,
+          13.0
+        ],
+        [
+          10.1,
+          13.0
+        ],
+        [
+          10.1,
+          11.2
+        ],
+        [
+          15.3,
+          11.2
+        ],
+        [
+          15.3,
+          13.6
+        ],
+        [
+          19.5,
+          13.6
+        ],
+        [
+          19.5,
+          11.2
+        ],
+        [
+          20.4,
+          11.2
+        ],
+        [
+          20.4,
+          9.4
+        ],
+        [
+          20.4,
+          8.8
+        ],
+        [
+          19.9,
+          8.8
+        ],
+        [
+          18.1,
+          8.8
+        ],
+        [
+          18.1,
+          9.4
+        ]
+      ]
+    },
+    {
+      "id": "family_bath",
+      "kind": "bath",
+      "label": "Family Bath",
+      "polygon": [
+        [
+          10.0,
+          4.4
+        ],
+        [
+          10.0,
+          7.1
+        ],
+        [
+          7.9,
+          7.1
+        ],
+        [
+          7.9,
+          4.4
+        ]
+      ]
+    },
+    {
+      "id": "master",
+      "kind": "bedroom",
+      "label": "Master Bedroom",
+      "polygon": [
+        [
+          24.7,
+          6.8
+        ],
+        [
+          24.7,
+          11.0
+        ],
+        [
+          20.4,
+          11.0
+        ],
+        [
+          20.4,
+          6.8
+        ]
+      ]
+    },
+    {
+      "id": "master_bath",
+      "kind": "bath",
+      "label": "Master Bath",
+      "polygon": [
+        [
+          23.2,
+          4.7
+        ],
+        [
+          23.2,
+          6.8
+        ],
+        [
+          20.5,
+          6.8
+        ],
+        [
+          20.5,
+          4.7
+        ]
+      ]
+    },
+    {
+      "id": "stair",
+      "kind": "circulation",
+      "label": "Stair",
+      "polygon": [
+        [
+          17.8,
+          3.7
+        ],
+        [
+          17.8,
+          9.4
+        ],
+        [
+          14.6,
+          9.4
+        ],
+        [
+          14.6,
+          3.7
+        ]
+      ]
+    }
+  ],
+  "terrace": [
+    [
+      20.4,
+      6.2
+    ],
+    [
+      20.4,
+      8.8
+    ],
+    [
+      17.9,
+      8.8
+    ],
+    [
+      17.9,
+      6.2
+    ]
+  ],
+  "upper_openings": [
+    {
+      "id": "u_0",
+      "center": [
+        7.5,
+        10.3
+      ],
+      "width": 0.9,
+      "axis": "y",
+      "receiving_room": "child_1",
+      "kind": "hinged",
+      "connects": [
+        "family",
+        "child_1"
+      ]
+    },
+    {
+      "id": "u_1",
+      "center": [
+        8.3,
+        12.1
+      ],
+      "width": 0.9,
+      "axis": "y",
+      "receiving_room": "child_2",
+      "kind": "hinged",
+      "connects": [
+        "family",
+        "child_2"
+      ]
+    },
+    {
+      "id": "u_2",
+      "center": [
+        19.5,
+        12.4
+      ],
+      "width": 0.9,
+      "axis": "y",
+      "receiving_room": "child_3",
+      "kind": "hinged",
+      "connects": [
+        "family",
+        "child_3"
+      ]
+    },
+    {
+      "id": "u_3",
+      "center": [
+        9.15,
+        7.1
+      ],
+      "width": 0.8,
+      "axis": "x",
+      "receiving_room": "family_bath",
+      "kind": "hinged",
+      "connects": [
+        "family",
+        "family_bath"
+      ]
+    },
+    {
+      "id": "u_4",
+      "center": [
+        20.4,
+        9.9
+      ],
+      "width": 0.9,
+      "axis": "y",
+      "receiving_room": "master",
+      "kind": "hinged",
+      "connects": [
+        "family",
+        "master"
+      ]
+    },
+    {
+      "id": "u_5",
+      "center": [
+        16.2,
+        9.4
+      ],
+      "width": 1.2,
+      "axis": "x",
+      "receiving_room": "stair",
+      "kind": "opening",
+      "connects": [
+        "family",
+        "stair"
+      ]
+    },
+    {
+      "id": "u_6",
+      "center": [
+        21.85,
+        6.8
+      ],
+      "width": 0.8,
+      "axis": "x",
+      "receiving_room": "master_bath",
+      "kind": "hinged",
+      "connects": [
+        "master",
+        "master_bath"
+      ]
+    },
+    {
+      "id": "u_family_terrace",
+      "center": [
+        19.25,
+        8.8
+      ],
+      "width": 1.6,
+      "axis": "x",
+      "receiving_room": "family",
+      "kind": "glazed_sliding",
+      "connects": [
+        "family",
+        "OUTSIDE"
+      ]
+    },
+    {
+      "id": "u_master_terrace",
+      "center": [
+        20.4,
+        7.8
+      ],
+      "width": 0.9,
+      "axis": "y",
+      "receiving_room": "master",
+      "kind": "hinged",
+      "connects": [
+        "master",
+        "OUTSIDE"
+      ]
+    }
+  ],
+  "upper_windows": [
+    {
+      "id": "n_child_1",
+      "room_id": "child_1",
+      "center": [
+        5.35,
+        7.1
+      ],
+      "width": 1.4,
+      "axis": "x"
+    },
+    {
+      "id": "n_child_2",
+      "room_id": "child_2",
+      "center": [
+        5.75,
+        14.4
+      ],
+      "width": 1.4,
+      "axis": "x"
+    },
+    {
+      "id": "n_child_3",
+      "room_id": "child_3",
+      "center": [
+        21.7,
+        14.4
+      ],
+      "width": 1.4,
+      "axis": "x"
+    },
+    {
+      "id": "n_family",
+      "room_id": "family",
+      "center": [
+        12.7,
+        11.2
+      ],
+      "width": 1.4,
+      "axis": "x"
+    },
+    {
+      "id": "n_family_bath",
+      "room_id": "family_bath",
+      "center": [
+        10.0,
+        5.75
+      ],
+      "width": 0.7,
+      "axis": "y"
+    },
+    {
+      "id": "n_master",
+      "room_id": "master",
+      "center": [
+        22.549999999999997,
+        11.0
+      ],
+      "width": 1.4,
+      "axis": "x"
+    },
+    {
+      "id": "n_master_bath",
+      "room_id": "master_bath",
+      "center": [
+        21.85,
+        4.7
+      ],
+      "width": 0.7,
+      "axis": "x"
+    }
+  ],
+  "shafts": [
+    {
+      "id": "wet_master_bath",
+      "above": "master_bath",
+      "below": "elder-bath",
+      "polygon": [
+        [
+          23.049999999999997,
+          5.85
+        ],
+        [
+          23.049999999999997,
+          6.15
+        ],
+        [
+          22.75,
+          6.15
+        ],
+        [
+          22.75,
+          5.85
+        ]
+      ],
+      "connection_note": "Joint spatial reservation; horizontal connections and engineering details unverified"
+    },
+    {
+      "id": "wet_family_bath",
+      "above": "family_bath",
+      "below": "main-foyer",
+      "polygon": [
+        [
+          8.35,
+          4.75
+        ],
+        [
+          8.35,
+          5.050000000000001
+        ],
+        [
+          8.049999999999999,
+          5.050000000000001
+        ],
+        [
+          8.049999999999999,
+          4.75
+        ]
+      ],
+      "connection_note": "Joint spatial reservation; horizontal connections and engineering details unverified"
+    }
+  ],
+  "columns": [
+    {
+      "id": "C01",
+      "center": [
+        3.15,
+        3.15
+      ],
+      "polygon": [
+        [
+          3.3,
+          3.0
+        ],
+        [
+          3.3,
+          3.3
+        ],
+        [
+          3.0,
+          3.3
+        ],
+        [
+          3.0,
+          3.0
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C02",
+      "center": [
+        6.1,
+        3.15
+      ],
+      "polygon": [
+        [
+          6.25,
+          3.0
+        ],
+        [
+          6.25,
+          3.3
+        ],
+        [
+          5.949999999999999,
+          3.3
+        ],
+        [
+          5.949999999999999,
+          3.0
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C03",
+      "center": [
+        10.1,
+        3.15
+      ],
+      "polygon": [
+        [
+          10.25,
+          3.0
+        ],
+        [
+          10.25,
+          3.3
+        ],
+        [
+          9.95,
+          3.3
+        ],
+        [
+          9.95,
+          3.0
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C04",
+      "center": [
+        14.55,
+        3.15
+      ],
+      "polygon": [
+        [
+          14.700000000000001,
+          3.0
+        ],
+        [
+          14.700000000000001,
+          3.3
+        ],
+        [
+          14.4,
+          3.3
+        ],
+        [
+          14.4,
+          3.0
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C05",
+      "center": [
+        20.45,
+        3.15
+      ],
+      "polygon": [
+        [
+          20.599999999999998,
+          3.0
+        ],
+        [
+          20.599999999999998,
+          3.3
+        ],
+        [
+          20.3,
+          3.3
+        ],
+        [
+          20.3,
+          3.0
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C06",
+      "center": [
+        22.55,
+        3.15
+      ],
+      "polygon": [
+        [
+          22.7,
+          3.0
+        ],
+        [
+          22.7,
+          3.3
+        ],
+        [
+          22.400000000000002,
+          3.3
+        ],
+        [
+          22.400000000000002,
+          3.0
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C07",
+      "center": [
+        17.75,
+        3.75
+      ],
+      "polygon": [
+        [
+          17.9,
+          3.6
+        ],
+        [
+          17.9,
+          3.9
+        ],
+        [
+          17.6,
+          3.9
+        ],
+        [
+          17.6,
+          3.6
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C08",
+      "center": [
+        24.65,
+        3.95
+      ],
+      "polygon": [
+        [
+          24.799999999999997,
+          3.8000000000000003
+        ],
+        [
+          24.799999999999997,
+          4.1000000000000005
+        ],
+        [
+          24.5,
+          4.1000000000000005
+        ],
+        [
+          24.5,
+          3.8000000000000003
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C09",
+      "center": [
+        3.15,
+        5.15
+      ],
+      "polygon": [
+        [
+          3.3,
+          5.0
+        ],
+        [
+          3.3,
+          5.300000000000001
+        ],
+        [
+          3.0,
+          5.300000000000001
+        ],
+        [
+          3.0,
+          5.0
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C10",
+      "center": [
+        6.1,
+        5.15
+      ],
+      "polygon": [
+        [
+          6.25,
+          5.0
+        ],
+        [
+          6.25,
+          5.300000000000001
+        ],
+        [
+          5.949999999999999,
+          5.300000000000001
+        ],
+        [
+          5.949999999999999,
+          5.0
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C11",
+      "center": [
+        20.45,
+        5.15
+      ],
+      "polygon": [
+        [
+          20.599999999999998,
+          5.0
+        ],
+        [
+          20.599999999999998,
+          5.300000000000001
+        ],
+        [
+          20.3,
+          5.300000000000001
+        ],
+        [
+          20.3,
+          5.0
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C12",
+      "center": [
+        14.6,
+        6.25
+      ],
+      "polygon": [
+        [
+          14.75,
+          6.1
+        ],
+        [
+          14.75,
+          6.4
+        ],
+        [
+          14.45,
+          6.4
+        ],
+        [
+          14.45,
+          6.1
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C13",
+      "center": [
+        17.8,
+        6.55
+      ],
+      "polygon": [
+        [
+          17.95,
+          6.3999999999999995
+        ],
+        [
+          17.95,
+          6.7
+        ],
+        [
+          17.650000000000002,
+          6.7
+        ],
+        [
+          17.650000000000002,
+          6.3999999999999995
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C14",
+      "center": [
+        20.4,
+        6.85
+      ],
+      "polygon": [
+        [
+          20.549999999999997,
+          6.699999999999999
+        ],
+        [
+          20.549999999999997,
+          7.0
+        ],
+        [
+          20.25,
+          7.0
+        ],
+        [
+          20.25,
+          6.699999999999999
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C15",
+      "center": [
+        22.65,
+        6.8
+      ],
+      "polygon": [
+        [
+          22.799999999999997,
+          6.6499999999999995
+        ],
+        [
+          22.799999999999997,
+          6.95
+        ],
+        [
+          22.5,
+          6.95
+        ],
+        [
+          22.5,
+          6.6499999999999995
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C16",
+      "center": [
+        24.65,
+        6.8
+      ],
+      "polygon": [
+        [
+          24.799999999999997,
+          6.6499999999999995
+        ],
+        [
+          24.799999999999997,
+          6.95
+        ],
+        [
+          24.5,
+          6.95
+        ],
+        [
+          24.5,
+          6.6499999999999995
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C17",
+      "center": [
+        3.25,
+        7.15
+      ],
+      "polygon": [
+        [
+          3.4,
+          7.0
+        ],
+        [
+          3.4,
+          7.300000000000001
+        ],
+        [
+          3.1,
+          7.300000000000001
+        ],
+        [
+          3.1,
+          7.0
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C18",
+      "center": [
+        7.9,
+        7.1
+      ],
+      "polygon": [
+        [
+          8.05,
+          6.949999999999999
+        ],
+        [
+          8.05,
+          7.25
+        ],
+        [
+          7.75,
+          7.25
+        ],
+        [
+          7.75,
+          6.949999999999999
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C19",
+      "center": [
+        10.1,
+        7.1
+      ],
+      "polygon": [
+        [
+          10.25,
+          6.949999999999999
+        ],
+        [
+          10.25,
+          7.25
+        ],
+        [
+          9.95,
+          7.25
+        ],
+        [
+          9.95,
+          6.949999999999999
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C20",
+      "center": [
+        7.9,
+        9.4
+      ],
+      "polygon": [
+        [
+          8.05,
+          9.25
+        ],
+        [
+          8.05,
+          9.55
+        ],
+        [
+          7.75,
+          9.55
+        ],
+        [
+          7.75,
+          9.25
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C21",
+      "center": [
+        10.05,
+        9.4
+      ],
+      "polygon": [
+        [
+          10.200000000000001,
+          9.25
+        ],
+        [
+          10.200000000000001,
+          9.55
+        ],
+        [
+          9.9,
+          9.55
+        ],
+        [
+          9.9,
+          9.25
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C22",
+      "center": [
+        11.75,
+        9.4
+      ],
+      "polygon": [
+        [
+          11.9,
+          9.25
+        ],
+        [
+          11.9,
+          9.55
+        ],
+        [
+          11.6,
+          9.55
+        ],
+        [
+          11.6,
+          9.25
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C23",
+      "center": [
+        17.8,
+        9.4
+      ],
+      "polygon": [
+        [
+          17.95,
+          9.25
+        ],
+        [
+          17.95,
+          9.55
+        ],
+        [
+          17.650000000000002,
+          9.55
+        ],
+        [
+          17.650000000000002,
+          9.25
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C24",
+      "center": [
+        20.4,
+        11.05
+      ],
+      "polygon": [
+        [
+          20.549999999999997,
+          10.9
+        ],
+        [
+          20.549999999999997,
+          11.200000000000001
+        ],
+        [
+          20.25,
+          11.200000000000001
+        ],
+        [
+          20.25,
+          10.9
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C25",
+      "center": [
+        24.65,
+        11.0
+      ],
+      "polygon": [
+        [
+          24.799999999999997,
+          10.85
+        ],
+        [
+          24.799999999999997,
+          11.15
+        ],
+        [
+          24.5,
+          11.15
+        ],
+        [
+          24.5,
+          10.85
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": true
+    },
+    {
+      "id": "C26",
+      "center": [
+        7.9,
+        11.15
+      ],
+      "polygon": [
+        [
+          8.05,
+          11.0
+        ],
+        [
+          8.05,
+          11.3
+        ],
+        [
+          7.75,
+          11.3
+        ],
+        [
+          7.75,
+          11.0
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C27",
+      "center": [
+        20.4,
+        14.65
+      ],
+      "polygon": [
+        [
+          20.549999999999997,
+          14.5
+        ],
+        [
+          20.549999999999997,
+          14.8
+        ],
+        [
+          20.25,
+          14.8
+        ],
+        [
+          20.25,
+          14.5
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C28",
+      "center": [
+        24.65,
+        14.65
+      ],
+      "polygon": [
+        [
+          24.799999999999997,
+          14.5
+        ],
+        [
+          24.799999999999997,
+          14.8
+        ],
+        [
+          24.5,
+          14.8
+        ],
+        [
+          24.5,
+          14.5
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C29",
+      "center": [
+        3.25,
+        15.05
+      ],
+      "polygon": [
+        [
+          3.4,
+          14.9
+        ],
+        [
+          3.4,
+          15.200000000000001
+        ],
+        [
+          3.1,
+          15.200000000000001
+        ],
+        [
+          3.1,
+          14.9
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C30",
+      "center": [
+        5.55,
+        15.05
+      ],
+      "polygon": [
+        [
+          5.7,
+          14.9
+        ],
+        [
+          5.7,
+          15.200000000000001
+        ],
+        [
+          5.3999999999999995,
+          15.200000000000001
+        ],
+        [
+          5.3999999999999995,
+          14.9
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C31",
+      "center": [
+        7.9,
+        15.05
+      ],
+      "polygon": [
+        [
+          8.05,
+          14.9
+        ],
+        [
+          8.05,
+          15.200000000000001
+        ],
+        [
+          7.75,
+          15.200000000000001
+        ],
+        [
+          7.75,
+          14.9
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    },
+    {
+      "id": "C32",
+      "center": [
+        11.65,
+        15.05
+      ],
+      "polygon": [
+        [
+          11.8,
+          14.9
+        ],
+        [
+          11.8,
+          15.200000000000001
+        ],
+        [
+          11.5,
+          15.200000000000001
+        ],
+        [
+          11.5,
+          14.9
+        ]
+      ],
+      "reserved_size_m": [
+        0.3,
+        0.3
+      ],
+      "continues_at_first_floor": false
+    }
+  ],
+  "ground_net_checks": [
+    {
+      "room": "men",
+      "net_after_columns_shafts_m2": 35.01249999999999,
+      "minimum_area_m2": 25,
+      "pass": true
+    },
+    {
+      "room": "men-wc",
+      "net_after_columns_shafts_m2": 5.290000000000001,
+      "minimum_area_m2": 5,
+      "pass": true
+    },
+    {
+      "room": "living",
+      "net_after_columns_shafts_m2": 41.23999999999999,
+      "minimum_area_m2": 24,
+      "pass": true
+    },
+    {
+      "room": "dining",
+      "net_after_columns_shafts_m2": 26.170000000000005,
+      "minimum_area_m2": 16,
+      "pass": true
+    },
+    {
+      "room": "kitchen",
+      "net_after_columns_shafts_m2": 19.752499999999998,
+      "minimum_area_m2": 16,
+      "pass": true
+    },
+    {
+      "room": "store",
+      "net_after_columns_shafts_m2": 4.187500000000003,
+      "minimum_area_m2": 4,
+      "pass": true
+    },
+    {
+      "room": "elder",
+      "net_after_columns_shafts_m2": 16.369999999999994,
+      "minimum_area_m2": 16,
+      "pass": true
+    },
+    {
+      "room": "elder-bath",
+      "net_after_columns_shafts_m2": 5.01999999999999,
+      "minimum_area_m2": 5,
+      "pass": true
+    },
+    {
+      "room": "bedroom_2",
+      "net_after_columns_shafts_m2": 14.324999999999992,
+      "minimum_area_m2": 14,
+      "pass": true
+    },
+    {
+      "room": "family-bath",
+      "net_after_columns_shafts_m2": 6.950000000000001,
+      "minimum_area_m2": 5,
+      "pass": true
+    }
+  ],
+  "upper_net_areas_after_columns_shafts_m2": {
+    "child_1": 15.98,
+    "child_2": 14.70000000000001,
+    "child_3": 12.599999999999994,
+    "family": 37.64249999999997,
+    "family_bath": 4.6575,
+    "master": 16.369999999999994,
+    "master_bath": 4.644999999999995,
+    "stair": 16.457500000000003
+  },
+  "family_daylight": "Exterior window where available; otherwise modelled glazed sliding terrace door, not an invented window",
+  "family_clear_width_target_m": 1.5,
+  "column_size_is_reservation_not_structural_design": true,
+  "scope": "Generic upper room variables in a north-landing topology; matched cached ground witnesses; no frame capacity analysis",
+  "completion": [
+    {
+      "area_m2": 0.2999999999999998,
+      "assigned_to": "family",
+      "reason": "Close small residual enclosed pocket without moving solved room cores"
+    }
+  ],
+  "acceptance": {
+    "accepted": true,
+    "errors": [],
+    "codes": {},
+    "scope": "Architectural contract gate; not a structural or code approval"
+  }
+}

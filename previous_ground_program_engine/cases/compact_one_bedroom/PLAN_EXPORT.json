@@ -1,0 +1,4723 @@
+{
+  "ok": true,
+  "format": "json",
+  "outputs": [
+    "/workspace/ANT_GROUND_PROGRAM_SOLVER/cases/compact_one_bedroom/VILLA_PLAN.L0.json",
+    "/workspace/ANT_GROUND_PROGRAM_SOLVER/cases/compact_one_bedroom/VILLA_PLAN.L1.json"
+  ],
+  "pages": [
+    {
+      "level": 0,
+      "name": "Ground",
+      "output": "/workspace/ANT_GROUND_PROGRAM_SOLVER/cases/compact_one_bedroom/VILLA_PLAN.L0.json",
+      "bytes": 29682
+    },
+    {
+      "level": 1,
+      "name": "First",
+      "output": "/workspace/ANT_GROUND_PROGRAM_SOLVER/cases/compact_one_bedroom/VILLA_PLAN.L1.json",
+      "bytes": 26262
+    }
+  ],
+  "diagnostics": [],
+  "dropped": [
+    {
+      "clause": "keep",
+      "count": 3
+    },
+    {
+      "clause": "level",
+      "count": 1,
+      "text": "level 0 \"Ground\" height 3200 clear 3000",
+      "level": 0
+    },
+    {
+      "clause": "label at",
+      "count": 1,
+      "ids": [
+        "r_10"
+      ],
+      "level": 0
+    },
+    {
+      "clause": "stair",
+      "count": 1,
+      "ids": [
+        "core"
+      ],
+      "level": 0
+    },
+    {
+      "clause": "void",
+      "count": 2,
+      "ids": [
+        "wet_master_bath",
+        "wet_family_bath"
+      ],
+      "level": 0
+    },
+    {
+      "clause": "outdoor",
+      "count": 7,
+      "ids": [
+        "platform_0_0",
+        "platform_0_1",
+        "platform_0_2",
+        "platform_1_0",
+        "platform_1_1",
+        "platform_1_2",
+        "parking_0"
+      ],
+      "level": 0
+    },
+    {
+      "clause": "level",
+      "count": 1,
+      "text": "level 1 \"First\" height 3200 slab 200 clear 3000",
+      "level": 1
+    },
+    {
+      "clause": "label at",
+      "count": 1,
+      "ids": [
+        "stair"
+      ],
+      "level": 1
+    },
+    {
+      "clause": "stair",
+      "count": 1,
+      "ids": [
+        "core"
+      ],
+      "level": 1
+    },
+    {
+      "clause": "void",
+      "count": 3,
+      "ids": [
+        "stair_void",
+        "wet_master_bath",
+        "wet_family_bath"
+      ],
+      "level": 1
+    },
+    {
+      "clause": "outdoor",
+      "count": 1,
+      "ids": [
+        "terrace"
+      ],
+      "level": 1
+    },
+    {
+      "clause": "hidden",
+      "count": 2,
+      "ids": [
+        "scale",
+        "title"
+      ]
+    }
+  ],
+  "summary": {
+    "plan": "Programme-driven villa study",
+    "caption": "\"Programme-driven villa study\" — a 11-room floor plan, 177.6 m² total: Men Majlis (27.44 m²), Guest WC (6.21 m²), Family Living (26.32 m²), Family Dining (27.59 m²), Kitchen (17.86 m²), Store (9.52 m²), Ground Bedroom 1 (17.86 m²), Ensuite 1 (6.16 m²), and 3 more; 11 doors, 7 windows, entrances via entry_main_foyer, entry_family_foyer.",
+    "units": "mm",
+    "scale": "1:100",
+    "bbox": {
+      "w": 18700,
+      "h": 10400
+    },
+    "bbox_outer": {
+      "w": 18900,
+      "h": 10600
+    },
+    "site": {
+      "street": "S",
+      "back": "N",
+      "equator_side": "S",
+      "sunrise_side": "E",
+      "sunset_side": "W",
+      "hemisphere": "north"
+    },
+    "rooms": [
+      {
+        "id": "r_0",
+        "label": "Men Majlis",
+        "uses": [
+          "living"
+        ],
+        "room_type": "LivingRoom",
+        "area_m2": 27.44,
+        "net_area_m2": 25.38,
+        "bbox": {
+          "x": 3100,
+          "y": 27000,
+          "w": 5600,
+          "h": 4900
+        },
+        "floor_polygon": [
+          {
+            "x": 8700,
+            "y": 31900
+          },
+          {
+            "x": 8700,
+            "y": 27000
+          },
+          {
+            "x": 3100,
+            "y": 27000
+          },
+          {
+            "x": 3100,
+            "y": 31900
+          }
+        ],
+        "adjacent": [
+          "r_3",
+          "r_5",
+          "r_8"
+        ]
+      },
+      {
+        "id": "r_1",
+        "label": "Guest WC",
+        "uses": [
+          "bath"
+        ],
+        "room_type": "Bathroom",
+        "area_m2": 6.21,
+        "net_area_m2": 5.25,
+        "bbox": {
+          "x": 11700,
+          "y": 29200,
+          "w": 2300,
+          "h": 2700
+        },
+        "floor_polygon": [
+          {
+            "x": 14000,
+            "y": 31900
+          },
+          {
+            "x": 14000,
+            "y": 29200
+          },
+          {
+            "x": 11700,
+            "y": 29200
+          },
+          {
+            "x": 11700,
+            "y": 31900
+          }
+        ],
+        "adjacent": [
+          "r_3",
+          "r_8",
+          "r_9"
+        ]
+      },
+      {
+        "id": "r_2",
+        "label": "Family Living",
+        "uses": [
+          "living"
+        ],
+        "room_type": "LivingRoom",
+        "area_m2": 26.32,
+        "net_area_m2": 24.3,
+        "bbox": {
+          "x": 12400,
+          "y": 21500,
+          "w": 5600,
+          "h": 4700
+        },
+        "floor_polygon": [
+          {
+            "x": 18000,
+            "y": 26200
+          },
+          {
+            "x": 18000,
+            "y": 21500
+          },
+          {
+            "x": 12400,
+            "y": 21500
+          },
+          {
+            "x": 12400,
+            "y": 26200
+          }
+        ],
+        "adjacent": [
+          "r_3",
+          "r_6",
+          "r_9",
+          "r_10"
+        ]
+      },
+      {
+        "id": "r_3",
+        "label": "Family Dining",
+        "uses": [
+          "dining"
+        ],
+        "room_type": "DiningRoom",
+        "area_m2": 27.59,
+        "net_area_m2": 25.11,
+        "bbox": {
+          "x": 8700,
+          "y": 21500,
+          "w": 4900,
+          "h": 7700
+        },
+        "floor_polygon": [
+          {
+            "x": 8700,
+            "y": 27700
+          },
+          {
+            "x": 8700,
+            "y": 21500
+          },
+          {
+            "x": 12400,
+            "y": 21500
+          },
+          {
+            "x": 12400,
+            "y": 26200
+          },
+          {
+            "x": 13600,
+            "y": 26200
+          },
+          {
+            "x": 13600,
+            "y": 29200
+          },
+          {
+            "x": 11700,
+            "y": 29200
+          },
+          {
+            "x": 11700,
+            "y": 27700
+          }
+        ],
+        "adjacent": [
+          "r_0",
+          "r_1",
+          "r_2",
+          "r_4",
+          "r_5",
+          "r_8",
+          "r_9"
+        ]
+      },
+      {
+        "id": "r_4",
+        "label": "Kitchen",
+        "uses": [
+          "kitchen"
+        ],
+        "room_type": "Kitchen",
+        "area_m2": 17.86,
+        "net_area_m2": 16.2,
+        "bbox": {
+          "x": 4000,
+          "y": 21500,
+          "w": 4700,
+          "h": 3800
+        },
+        "floor_polygon": [
+          {
+            "x": 8700,
+            "y": 25300
+          },
+          {
+            "x": 8700,
+            "y": 21500
+          },
+          {
+            "x": 4000,
+            "y": 21500
+          },
+          {
+            "x": 4000,
+            "y": 25300
+          }
+        ],
+        "adjacent": [
+          "r_3",
+          "r_5"
+        ]
+      },
+      {
+        "id": "r_5",
+        "label": "Store",
+        "uses": [
+          "storage"
+        ],
+        "room_type": "Storage",
+        "area_m2": 9.52,
+        "net_area_m2": 8.1,
+        "bbox": {
+          "x": 3100,
+          "y": 25300,
+          "w": 5600,
+          "h": 1700
+        },
+        "floor_polygon": [
+          {
+            "x": 3100,
+            "y": 27000
+          },
+          {
+            "x": 3100,
+            "y": 25300
+          },
+          {
+            "x": 6000,
+            "y": 25300
+          },
+          {
+            "x": 8700,
+            "y": 25300
+          },
+          {
+            "x": 8700,
+            "y": 27000
+          },
+          {
+            "x": 6000,
+            "y": 27000
+          }
+        ],
+        "adjacent": [
+          "r_0",
+          "r_3",
+          "r_4"
+        ]
+      },
+      {
+        "id": "r_6",
+        "label": "Ground Bedroom 1",
+        "uses": [
+          "bedroom"
+        ],
+        "room_type": "MasterRoom",
+        "area_m2": 17.86,
+        "net_area_m2": 16.2,
+        "bbox": {
+          "x": 18000,
+          "y": 21500,
+          "w": 3800,
+          "h": 4700
+        },
+        "floor_polygon": [
+          {
+            "x": 21800,
+            "y": 26200
+          },
+          {
+            "x": 21800,
+            "y": 21500
+          },
+          {
+            "x": 18000,
+            "y": 21500
+          },
+          {
+            "x": 18000,
+            "y": 26200
+          }
+        ],
+        "adjacent": [
+          "r_2",
+          "r_7",
+          "r_10"
+        ]
+      },
+      {
+        "id": "r_7",
+        "label": "Ensuite 1",
+        "uses": [
+          "bath"
+        ],
+        "room_type": "Bathroom",
+        "area_m2": 6.16,
+        "net_area_m2": 5.2,
+        "bbox": {
+          "x": 19600,
+          "y": 26200,
+          "w": 2200,
+          "h": 2800
+        },
+        "floor_polygon": [
+          {
+            "x": 21800,
+            "y": 29000
+          },
+          {
+            "x": 21800,
+            "y": 26200
+          },
+          {
+            "x": 19600,
+            "y": 26200
+          },
+          {
+            "x": 19600,
+            "y": 29000
+          }
+        ],
+        "adjacent": [
+          "r_6",
+          "r_10"
+        ]
+      },
+      {
+        "id": "r_8",
+        "label": "Main Entry",
+        "uses": [
+          "hall"
+        ],
+        "room_type": "Entrance",
+        "area_m2": 12.6,
+        "net_area_m2": 11.2,
+        "bbox": {
+          "x": 8700,
+          "y": 27700,
+          "w": 3000,
+          "h": 4200
+        },
+        "floor_polygon": [
+          {
+            "x": 11700,
+            "y": 31900
+          },
+          {
+            "x": 11700,
+            "y": 27700
+          },
+          {
+            "x": 8700,
+            "y": 27700
+          },
+          {
+            "x": 8700,
+            "y": 31900
+          }
+        ],
+        "adjacent": [
+          "r_0",
+          "r_1",
+          "r_3"
+        ]
+      },
+      {
+        "id": "r_9",
+        "label": "Family Entry",
+        "uses": [
+          "hall"
+        ],
+        "room_type": "Entrance",
+        "area_m2": 7.8,
+        "net_area_m2": 6.72,
+        "bbox": {
+          "x": 13600,
+          "y": 26200,
+          "w": 2600,
+          "h": 3000
+        },
+        "floor_polygon": [
+          {
+            "x": 16200,
+            "y": 29200
+          },
+          {
+            "x": 16200,
+            "y": 26200
+          },
+          {
+            "x": 13600,
+            "y": 26200
+          },
+          {
+            "x": 13600,
+            "y": 29200
+          }
+        ],
+        "adjacent": [
+          "r_1",
+          "r_2",
+          "r_3",
+          "r_10"
+        ]
+      },
+      {
+        "id": "r_10",
+        "label": "Stair",
+        "uses": [
+          "circulation"
+        ],
+        "room_type": "Entrance",
+        "area_m2": 18.24,
+        "net_area_m2": 16.5,
+        "bbox": {
+          "x": 16200,
+          "y": 26200,
+          "w": 3200,
+          "h": 5700
+        },
+        "floor_polygon": [
+          {
+            "x": 19400,
+            "y": 31900
+          },
+          {
+            "x": 19400,
+            "y": 26200
+          },
+          {
+            "x": 16200,
+            "y": 26200
+          },
+          {
+            "x": 16200,
+            "y": 31900
+          }
+        ],
+        "adjacent": [
+          "r_2",
+          "r_6",
+          "r_7",
+          "r_9"
+        ]
+      }
+    ],
+    "doors": [
+      {
+        "id": "d_0",
+        "between": [
+          "r_0",
+          "r_8"
+        ],
+        "width": 900,
+        "head": 2100
+      },
+      {
+        "id": "d_1",
+        "between": [
+          "r_1",
+          "r_8"
+        ],
+        "width": 900,
+        "head": 2100
+      },
+      {
+        "id": "d_2",
+        "between": [
+          "r_2",
+          "r_9"
+        ],
+        "width": 900,
+        "head": 2100
+      },
+      {
+        "id": "d_3",
+        "between": [
+          "r_2",
+          "r_3"
+        ],
+        "width": 900,
+        "head": 2100
+      },
+      {
+        "id": "d_5",
+        "between": [
+          "r_3",
+          "r_4"
+        ],
+        "width": 900,
+        "head": 2100
+      },
+      {
+        "id": "d_6",
+        "between": [
+          "r_4",
+          "r_5"
+        ],
+        "width": 900,
+        "head": 2100
+      },
+      {
+        "id": "d_7",
+        "between": [
+          "r_3",
+          "r_8"
+        ],
+        "width": 900,
+        "head": 2100
+      },
+      {
+        "id": "d_8",
+        "between": [
+          "r_2",
+          "r_6"
+        ],
+        "width": 900,
+        "head": 2100
+      },
+      {
+        "id": "d_9",
+        "between": [
+          "r_6",
+          "r_7"
+        ],
+        "width": 900,
+        "head": 2100
+      },
+      {
+        "id": "entry_main_foyer",
+        "between": [
+          "exterior",
+          "r_8"
+        ],
+        "width": 2000,
+        "kind": "double",
+        "head": 2100
+      },
+      {
+        "id": "entry_family_foyer",
+        "between": [
+          "exterior",
+          "r_9"
+        ],
+        "width": 1000,
+        "head": 2100
+      }
+    ],
+    "windows": [
+      {
+        "id": "n_men",
+        "room": "r_0",
+        "width": 2400,
+        "facing": "S",
+        "sill": 900,
+        "head": 2100
+      },
+      {
+        "id": "n_men_wc",
+        "room": "r_1",
+        "width": 800,
+        "facing": "E",
+        "sill": 900,
+        "head": 2100
+      },
+      {
+        "id": "n_living",
+        "room": "r_2",
+        "width": 2400,
+        "facing": "N",
+        "sill": 900,
+        "head": 2100
+      },
+      {
+        "id": "n_dining",
+        "room": "r_3",
+        "width": 2400,
+        "facing": "N",
+        "sill": 900,
+        "head": 2100
+      },
+      {
+        "id": "n_kitchen",
+        "room": "r_4",
+        "width": 2400,
+        "facing": "N",
+        "sill": 900,
+        "head": 2100
+      },
+      {
+        "id": "n_elder",
+        "room": "r_6",
+        "width": 2400,
+        "facing": "E",
+        "sill": 900,
+        "head": 2100
+      },
+      {
+        "id": "n_elder_bath",
+        "room": "r_7",
+        "width": 800,
+        "facing": "E",
+        "sill": 900,
+        "head": 2100
+      }
+    ],
+    "openings": [
+      {
+        "id": "d_4",
+        "between": [
+          "r_2",
+          "r_10"
+        ],
+        "width": 1200,
+        "head": 3200
+      }
+    ],
+    "furniture": [],
+    "verticals": [
+      {
+        "id": "core",
+        "kind": "stair",
+        "dir": "up",
+        "room": "r_10",
+        "bbox": {
+          "x": 16400,
+          "y": 27900,
+          "w": 2800,
+          "h": 3820
+        },
+        "flight_width": 1300,
+        "flights": [
+          {
+            "bbox": {
+              "x": 16400,
+              "y": 27900,
+              "w": 1300,
+              "h": 2520
+            },
+            "run_mm": 2520,
+            "entry": "top"
+          },
+          {
+            "bbox": {
+              "x": 17900,
+              "y": 27900,
+              "w": 1300,
+              "h": 2520
+            },
+            "run_mm": 2520,
+            "entry": "bottom"
+          }
+        ],
+        "landings": [
+          {
+            "bbox": {
+              "x": 16400,
+              "y": 30420,
+              "w": 2800,
+              "h": 1300
+            },
+            "turn": "half"
+          }
+        ],
+        "turn": "half"
+      }
+    ],
+    "voids": [
+      {
+        "id": "wet_master_bath",
+        "at": {
+          "x": 5750,
+          "y": 25450
+        },
+        "size": {
+          "w": 300,
+          "h": 300
+        },
+        "room": "r_5",
+        "rail": []
+      },
+      {
+        "id": "wet_family_bath",
+        "at": {
+          "x": 14150,
+          "y": 28450
+        },
+        "size": {
+          "w": 300,
+          "h": 300
+        },
+        "room": "r_9",
+        "rail": []
+      }
+    ],
+    "outdoor": [
+      {
+        "id": "platform_0_0",
+        "kind": "paving",
+        "area_m2": 2.88,
+        "bbox": {
+          "x": 9000,
+          "y": 32000,
+          "w": 2400,
+          "h": 1200
+        }
+      },
+      {
+        "id": "platform_0_1",
+        "kind": "paving",
+        "area_m2": 0.72,
+        "bbox": {
+          "x": 9000,
+          "y": 33200,
+          "w": 2400,
+          "h": 300
+        }
+      },
+      {
+        "id": "platform_0_2",
+        "kind": "paving",
+        "area_m2": 0.72,
+        "bbox": {
+          "x": 9000,
+          "y": 33500,
+          "w": 2400,
+          "h": 300
+        }
+      },
+      {
+        "id": "platform_1_0",
+        "kind": "paving",
+        "area_m2": 1.68,
+        "bbox": {
+          "x": 14200,
+          "y": 29300,
+          "w": 1400,
+          "h": 1200
+        }
+      },
+      {
+        "id": "platform_1_1",
+        "kind": "paving",
+        "area_m2": 0.42,
+        "bbox": {
+          "x": 14200,
+          "y": 30500,
+          "w": 1400,
+          "h": 300
+        }
+      },
+      {
+        "id": "platform_1_2",
+        "kind": "paving",
+        "area_m2": 0.42,
+        "bbox": {
+          "x": 14200,
+          "y": 30800,
+          "w": 1400,
+          "h": 300
+        }
+      },
+      {
+        "id": "parking_0",
+        "kind": "driveway",
+        "label": "Parking Reserve",
+        "area_m2": 14.3,
+        "bbox": {
+          "x": 200,
+          "y": 29200,
+          "w": 2600,
+          "h": 5500
+        }
+      }
+    ],
+    "heights": {
+      "storey_height": 3200,
+      "elevation": 0,
+      "clear_height": 3000,
+      "clear_height_source": "authored",
+      "walls": [
+        {
+          "id": "w_0",
+          "height": 3200
+        },
+        {
+          "id": "w_1",
+          "height": 3200
+        },
+        {
+          "id": "w_2",
+          "height": 3200
+        },
+        {
+          "id": "w_3",
+          "height": 3200
+        },
+        {
+          "id": "w_4",
+          "height": 3200
+        },
+        {
+          "id": "w_5",
+          "height": 3200
+        },
+        {
+          "id": "w_6",
+          "height": 3200
+        },
+        {
+          "id": "w_7",
+          "height": 3200
+        },
+        {
+          "id": "w_8",
+          "height": 3200
+        },
+        {
+          "id": "w_9",
+          "height": 3200
+        },
+        {
+          "id": "w_10",
+          "height": 3200
+        },
+        {
+          "id": "w_11",
+          "height": 3200
+        },
+        {
+          "id": "w_12",
+          "height": 3200
+        },
+        {
+          "id": "w_13",
+          "height": 3200
+        },
+        {
+          "id": "w_14",
+          "height": 3200
+        },
+        {
+          "id": "w_15",
+          "height": 3200
+        },
+        {
+          "id": "w_16",
+          "height": 3200
+        },
+        {
+          "id": "w_17",
+          "height": 3200
+        },
+        {
+          "id": "w_18",
+          "height": 3200
+        },
+        {
+          "id": "w_19",
+          "height": 3200
+        },
+        {
+          "id": "w_20",
+          "height": 3200
+        },
+        {
+          "id": "w_21",
+          "height": 3200
+        },
+        {
+          "id": "w_22",
+          "height": 3200
+        },
+        {
+          "id": "w_23",
+          "height": 3200
+        },
+        {
+          "id": "w_24",
+          "height": 3200
+        },
+        {
+          "id": "w_25",
+          "height": 3200
+        },
+        {
+          "id": "w_26",
+          "height": 3200
+        },
+        {
+          "id": "w_27",
+          "height": 3200
+        },
+        {
+          "id": "w_28",
+          "height": 3200
+        },
+        {
+          "id": "w_29",
+          "height": 3200
+        },
+        {
+          "id": "w_30",
+          "height": 3200
+        },
+        {
+          "id": "w_31",
+          "height": 3200
+        },
+        {
+          "id": "w_32",
+          "height": 3200
+        },
+        {
+          "id": "w_33",
+          "height": 3200
+        },
+        {
+          "id": "w_34",
+          "height": 3200
+        },
+        {
+          "id": "w_35",
+          "height": 3200
+        },
+        {
+          "id": "w_36",
+          "height": 3200
+        },
+        {
+          "id": "w_37",
+          "height": 3200
+        },
+        {
+          "id": "w_38",
+          "height": 3200
+        },
+        {
+          "id": "w_39",
+          "height": 3200
+        },
+        {
+          "id": "w_40",
+          "height": 3200
+        }
+      ]
+    },
+    "access": {
+      "entrances": [
+        "entry_main_foyer",
+        "entry_family_foyer"
+      ],
+      "hasEntrance": true,
+      "edges": [
+        {
+          "doorId": "d_0",
+          "kind": "door",
+          "between": [
+            "r_0",
+            "r_8"
+          ],
+          "nominalWidth": 900,
+          "estimatedClearWidth": 840,
+          "hostCategory": "partition",
+          "hostWallId": "w_0",
+          "exterior": false,
+          "ambiguous": false
+        },
+        {
+          "doorId": "d_1",
+          "kind": "door",
+          "between": [
+            "r_1",
+            "r_8"
+          ],
+          "nominalWidth": 900,
+          "estimatedClearWidth": 840,
+          "hostCategory": "partition",
+          "hostWallId": "w_7",
+          "exterior": false,
+          "ambiguous": false
+        },
+        {
+          "doorId": "d_2",
+          "kind": "door",
+          "between": [
+            "r_2",
+            "r_9"
+          ],
+          "nominalWidth": 900,
+          "estimatedClearWidth": 840,
+          "hostCategory": "partition",
+          "hostWallId": "w_13",
+          "exterior": false,
+          "ambiguous": false
+        },
+        {
+          "doorId": "d_3",
+          "kind": "door",
+          "between": [
+            "r_2",
+            "r_3"
+          ],
+          "nominalWidth": 900,
+          "estimatedClearWidth": 840,
+          "hostCategory": "partition",
+          "hostWallId": "w_11",
+          "exterior": false,
+          "ambiguous": false
+        },
+        {
+          "doorId": "d_5",
+          "kind": "door",
+          "between": [
+            "r_3",
+            "r_4"
+          ],
+          "nominalWidth": 900,
+          "estimatedClearWidth": 840,
+          "hostCategory": "partition",
+          "hostWallId": "w_16",
+          "exterior": false,
+          "ambiguous": false
+        },
+        {
+          "doorId": "d_6",
+          "kind": "door",
+          "between": [
+            "r_4",
+            "r_5"
+          ],
+          "nominalWidth": 900,
+          "estimatedClearWidth": 840,
+          "hostCategory": "partition",
+          "hostWallId": "w_40",
+          "exterior": false,
+          "ambiguous": false
+        },
+        {
+          "doorId": "d_7",
+          "kind": "door",
+          "between": [
+            "r_3",
+            "r_8"
+          ],
+          "nominalWidth": 900,
+          "estimatedClearWidth": 840,
+          "hostCategory": "partition",
+          "hostWallId": "w_20",
+          "exterior": false,
+          "ambiguous": false
+        },
+        {
+          "doorId": "d_8",
+          "kind": "door",
+          "between": [
+            "r_2",
+            "r_6"
+          ],
+          "nominalWidth": 900,
+          "estimatedClearWidth": 840,
+          "hostCategory": "partition",
+          "hostWallId": "w_9",
+          "exterior": false,
+          "ambiguous": false
+        },
+        {
+          "doorId": "d_9",
+          "kind": "door",
+          "between": [
+            "r_6",
+            "r_7"
+          ],
+          "nominalWidth": 900,
+          "estimatedClearWidth": 840,
+          "hostCategory": "partition",
+          "hostWallId": "w_29",
+          "exterior": false,
+          "ambiguous": false
+        },
+        {
+          "doorId": "entry_main_foyer",
+          "kind": "door",
+          "between": [
+            "exterior",
+            "r_8"
+          ],
+          "nominalWidth": 2000,
+          "estimatedClearWidth": 940,
+          "hostCategory": "exterior",
+          "hostWallId": "w_33",
+          "exterior": true,
+          "ambiguous": false
+        },
+        {
+          "doorId": "entry_family_foyer",
+          "kind": "door",
+          "between": [
+            "exterior",
+            "r_9"
+          ],
+          "nominalWidth": 1000,
+          "estimatedClearWidth": 940,
+          "hostCategory": "exterior",
+          "hostWallId": "w_35",
+          "exterior": true,
+          "ambiguous": false
+        },
+        {
+          "doorId": "d_4",
+          "kind": "opening",
+          "between": [
+            "r_2",
+            "r_10"
+          ],
+          "nominalWidth": 1200,
+          "estimatedClearWidth": 1200,
+          "hostCategory": "partition",
+          "hostWallId": "w_14",
+          "exterior": false,
+          "ambiguous": false
+        }
+      ],
+      "rooms": [
+        {
+          "id": "r_0",
+          "depthFromEntrance": 2,
+          "reachable": true,
+          "bottleneckClearWidth": 840
+        },
+        {
+          "id": "r_1",
+          "depthFromEntrance": 2,
+          "reachable": true,
+          "bottleneckClearWidth": 840
+        },
+        {
+          "id": "r_2",
+          "depthFromEntrance": 2,
+          "reachable": true,
+          "bottleneckClearWidth": 840
+        },
+        {
+          "id": "r_3",
+          "depthFromEntrance": 2,
+          "reachable": true,
+          "bottleneckClearWidth": 840
+        },
+        {
+          "id": "r_4",
+          "depthFromEntrance": 3,
+          "reachable": true,
+          "bottleneckClearWidth": 840
+        },
+        {
+          "id": "r_5",
+          "depthFromEntrance": 4,
+          "reachable": true,
+          "bottleneckClearWidth": 840
+        },
+        {
+          "id": "r_6",
+          "depthFromEntrance": 3,
+          "reachable": true,
+          "bottleneckClearWidth": 840
+        },
+        {
+          "id": "r_7",
+          "depthFromEntrance": 4,
+          "reachable": true,
+          "bottleneckClearWidth": 840
+        },
+        {
+          "id": "r_8",
+          "depthFromEntrance": 1,
+          "reachable": true,
+          "bottleneckClearWidth": 940
+        },
+        {
+          "id": "r_9",
+          "depthFromEntrance": 1,
+          "reachable": true,
+          "bottleneckClearWidth": 940
+        },
+        {
+          "id": "r_10",
+          "depthFromEntrance": 3,
+          "reachable": true,
+          "bottleneckClearWidth": 840
+        }
+      ],
+      "mainEntrance": {
+        "door": null,
+        "basis": "tie",
+        "candidates": [
+          "entry_main_foyer",
+          "entry_family_foyer"
+        ]
+      }
+    },
+    "circulation": {
+      "entranceId": "entry_main_foyer",
+      "cellSizeMm": 100,
+      "bodyRadiusMm": 300,
+      "rooms": [
+        {
+          "roomId": "r_0",
+          "walkDistanceMm": 6500,
+          "bottleneckClearWidthMm": 840,
+          "detourRatio": 1.36,
+          "entranceId": "entry_main_foyer"
+        },
+        {
+          "roomId": "r_1",
+          "walkDistanceMm": 3800,
+          "bottleneckClearWidthMm": 840,
+          "detourRatio": 1.33,
+          "entranceId": "entry_main_foyer"
+        },
+        {
+          "roomId": "r_2",
+          "walkDistanceMm": 5400,
+          "bottleneckClearWidthMm": 840,
+          "detourRatio": 1.04,
+          "entranceId": "entry_family_foyer"
+        },
+        {
+          "roomId": "r_3",
+          "walkDistanceMm": 7300,
+          "bottleneckClearWidthMm": 840,
+          "detourRatio": 1.1,
+          "entranceId": "entry_main_foyer"
+        },
+        {
+          "roomId": "r_4",
+          "walkDistanceMm": 12100,
+          "bottleneckClearWidthMm": 840,
+          "detourRatio": 1.33,
+          "entranceId": "entry_main_foyer"
+        },
+        {
+          "roomId": "r_5",
+          "walkDistanceMm": 15700,
+          "bottleneckClearWidthMm": 840,
+          "detourRatio": 2.22,
+          "entranceId": "entry_main_foyer"
+        },
+        {
+          "roomId": "r_6",
+          "walkDistanceMm": 10100,
+          "bottleneckClearWidthMm": 840,
+          "detourRatio": 1.41,
+          "entranceId": "entry_family_foyer"
+        },
+        {
+          "roomId": "r_7",
+          "walkDistanceMm": 14000,
+          "bottleneckClearWidthMm": 840,
+          "detourRatio": 2.38,
+          "entranceId": "entry_family_foyer"
+        },
+        {
+          "roomId": "r_8",
+          "walkDistanceMm": 1900,
+          "bottleneckClearWidthMm": 940,
+          "detourRatio": 1,
+          "entranceId": "entry_main_foyer"
+        },
+        {
+          "roomId": "r_9",
+          "walkDistanceMm": 1300,
+          "bottleneckClearWidthMm": 940,
+          "detourRatio": 1,
+          "entranceId": "entry_family_foyer"
+        },
+        {
+          "roomId": "r_10",
+          "walkDistanceMm": 7400,
+          "bottleneckClearWidthMm": 840,
+          "detourRatio": 2.58,
+          "entranceId": "entry_family_foyer"
+        }
+      ],
+      "routes": [
+        {
+          "fromRoomId": "r_4",
+          "toRoomId": "r_3",
+          "walkDistanceMm": 6300,
+          "bottleneckClearWidthMm": 840,
+          "detourRatio": 1.28
+        },
+        {
+          "fromRoomId": "r_6",
+          "toRoomId": "r_7",
+          "walkDistanceMm": 4500,
+          "bottleneckClearWidthMm": 840,
+          "detourRatio": 1.19
+        }
+      ]
+    },
+    "totals": {
+      "rooms": 11,
+      "doors": 11,
+      "windows": 7,
+      "floor_area_m2": 177.6,
+      "gross_internal_area_m2": 170.72,
+      "gross_internal_area_all_levels_omitted": {
+        "level": 1,
+        "reason": "exterior-ring-subdivided"
+      },
+      "net_floor_area_m2": 160.16,
+      "outdoor_area_m2": 21.14
+    },
+    "input_graph": {
+      "r_0": [
+        "r_8"
+      ],
+      "r_1": [
+        "r_8"
+      ],
+      "r_2": [
+        "r_3",
+        "r_6",
+        "r_9",
+        "r_10"
+      ],
+      "r_3": [
+        "r_2",
+        "r_4",
+        "r_8"
+      ],
+      "r_4": [
+        "r_3",
+        "r_5"
+      ],
+      "r_5": [
+        "r_4"
+      ],
+      "r_6": [
+        "r_2",
+        "r_7"
+      ],
+      "r_7": [
+        "r_6"
+      ],
+      "r_8": [
+        "r_0",
+        "r_1",
+        "r_3"
+      ],
+      "r_9": [
+        "r_2"
+      ],
+      "r_10": [
+        "r_2"
+      ]
+    },
+    "freedom": {
+      "rooms": {
+        "total": 11,
+        "absolute": 11,
+        "relational": 0,
+        "strip": 0
+      },
+      "openings": {
+        "total": 19,
+        "attached": 0,
+        "absolute": 19
+      },
+      "furniture": {
+        "total": 0,
+        "anchored": 0,
+        "againstWall": 0,
+        "absolute": 0
+      },
+      "elements": [
+        {
+          "id": "r_0",
+          "kind": "room",
+          "placement": "absolute"
+        },
+        {
+          "id": "r_1",
+          "kind": "room",
+          "placement": "absolute"
+        },
+        {
+          "id": "r_2",
+          "kind": "room",
+          "placement": "absolute"
+        },
+        {
+          "id": "r_3",
+          "kind": "room",
+          "placement": "absolute"
+        },
+        {
+          "id": "r_4",
+          "kind": "room",
+          "placement": "absolute"
+        },
+        {
+          "id": "r_5",
+          "kind": "room",
+          "placement": "absolute"
+        },
+        {
+          "id": "r_6",
+          "kind": "room",
+          "placement": "absolute"
+        },
+        {
+          "id": "r_7",
+          "kind": "room",
+          "placement": "absolute"
+        },
+        {
+          "id": "r_8",
+          "kind": "room",
+          "placement": "absolute"
+        },
+        {
+          "id": "r_9",
+          "kind": "room",
+          "placement": "absolute"
+        },
+        {
+          "id": "r_10",
+          "kind": "room",
+          "placement": "absolute"
+        },
+        {
+          "id": "d_0",
+          "kind": "door",
+          "placement": "absolute"
+        },
+        {
+          "id": "d_1",
+          "kind": "door",
+          "placement": "absolute"
+        },
+        {
+          "id": "d_2",
+          "kind": "door",
+          "placement": "absolute"
+        },
+        {
+          "id": "d_3",
+          "kind": "door",
+          "placement": "absolute"
+        },
+        {
+          "id": "d_5",
+          "kind": "door",
+          "placement": "absolute"
+        },
+        {
+          "id": "d_6",
+          "kind": "door",
+          "placement": "absolute"
+        },
+        {
+          "id": "d_7",
+          "kind": "door",
+          "placement": "absolute"
+        },
+        {
+          "id": "d_8",
+          "kind": "door",
+          "placement": "absolute"
+        },
+        {
+          "id": "d_9",
+          "kind": "door",
+          "placement": "absolute"
+        },
+        {
+          "id": "entry_main_foyer",
+          "kind": "door",
+          "placement": "absolute"
+        },
+        {
+          "id": "entry_family_foyer",
+          "kind": "door",
+          "placement": "absolute"
+        },
+        {
+          "id": "n_men",
+          "kind": "window",
+          "placement": "absolute"
+        },
+        {
+          "id": "n_men_wc",
+          "kind": "window",
+          "placement": "absolute"
+        },
+        {
+          "id": "n_living",
+          "kind": "window",
+          "placement": "absolute"
+        },
+        {
+          "id": "n_dining",
+          "kind": "window",
+          "placement": "absolute"
+        },
+        {
+          "id": "n_kitchen",
+          "kind": "window",
+          "placement": "absolute"
+        },
+        {
+          "id": "n_elder",
+          "kind": "window",
+          "placement": "absolute"
+        },
+        {
+          "id": "n_elder_bath",
+          "kind": "window",
+          "placement": "absolute"
+        },
+        {
+          "id": "d_4",
+          "kind": "opening",
+          "placement": "absolute"
+        }
+      ]
+    },
+    "levels": [
+      {
+        "level": 0,
+        "name": "Ground",
+        "plan": "Programme-driven villa study",
+        "caption": "\"Programme-driven villa study\" — a 11-room floor plan, 177.6 m² total: Men Majlis (27.44 m²), Guest WC (6.21 m²), Family Living (26.32 m²), Family Dining (27.59 m²), Kitchen (17.86 m²), Store (9.52 m²), Ground Bedroom 1 (17.86 m²), Ensuite 1 (6.16 m²), and 3 more; 11 doors, 7 windows, entrances via entry_main_foyer, entry_family_foyer.",
+        "units": "mm",
+        "scale": "1:100",
+        "bbox": {
+          "w": 18700,
+          "h": 10400
+        },
+        "bbox_outer": {
+          "w": 18900,
+          "h": 10600
+        },
+        "site": {
+          "street": "S",
+          "back": "N",
+          "equator_side": "S",
+          "sunrise_side": "E",
+          "sunset_side": "W",
+          "hemisphere": "north"
+        },
+        "rooms": [
+          {
+            "id": "r_0",
+            "label": "Men Majlis",
+            "uses": [
+              "living"
+            ],
+            "room_type": "LivingRoom",
+            "area_m2": 27.44,
+            "net_area_m2": 25.38,
+            "bbox": {
+              "x": 3100,
+              "y": 27000,
+              "w": 5600,
+              "h": 4900
+            },
+            "floor_polygon": [
+              {
+                "x": 8700,
+                "y": 31900
+              },
+              {
+                "x": 8700,
+                "y": 27000
+              },
+              {
+                "x": 3100,
+                "y": 27000
+              },
+              {
+                "x": 3100,
+                "y": 31900
+              }
+            ],
+            "adjacent": [
+              "r_3",
+              "r_5",
+              "r_8"
+            ]
+          },
+          {
+            "id": "r_1",
+            "label": "Guest WC",
+            "uses": [
+              "bath"
+            ],
+            "room_type": "Bathroom",
+            "area_m2": 6.21,
+            "net_area_m2": 5.25,
+            "bbox": {
+              "x": 11700,
+              "y": 29200,
+              "w": 2300,
+              "h": 2700
+            },
+            "floor_polygon": [
+              {
+                "x": 14000,
+                "y": 31900
+              },
+              {
+                "x": 14000,
+                "y": 29200
+              },
+              {
+                "x": 11700,
+                "y": 29200
+              },
+              {
+                "x": 11700,
+                "y": 31900
+              }
+            ],
+            "adjacent": [
+              "r_3",
+              "r_8",
+              "r_9"
+            ]
+          },
+          {
+            "id": "r_2",
+            "label": "Family Living",
+            "uses": [
+              "living"
+            ],
+            "room_type": "LivingRoom",
+            "area_m2": 26.32,
+            "net_area_m2": 24.3,
+            "bbox": {
+              "x": 12400,
+              "y": 21500,
+              "w": 5600,
+              "h": 4700
+            },
+            "floor_polygon": [
+              {
+                "x": 18000,
+                "y": 26200
+              },
+              {
+                "x": 18000,
+                "y": 21500
+              },
+              {
+                "x": 12400,
+                "y": 21500
+              },
+              {
+                "x": 12400,
+                "y": 26200
+              }
+            ],
+            "adjacent": [
+              "r_3",
+              "r_6",
+              "r_9",
+              "r_10"
+            ]
+          },
+          {
+            "id": "r_3",
+            "label": "Family Dining",
+            "uses": [
+              "dining"
+            ],
+            "room_type": "DiningRoom",
+            "area_m2": 27.59,
+            "net_area_m2": 25.11,
+            "bbox": {
+              "x": 8700,
+              "y": 21500,
+              "w": 4900,
+              "h": 7700
+            },
+            "floor_polygon": [
+              {
+                "x": 8700,
+                "y": 27700
+              },
+              {
+                "x": 8700,
+                "y": 21500
+              },
+              {
+                "x": 12400,
+                "y": 21500
+              },
+              {
+                "x": 12400,
+                "y": 26200
+              },
+              {
+                "x": 13600,
+                "y": 26200
+              },
+              {
+                "x": 13600,
+                "y": 29200
+              },
+              {
+                "x": 11700,
+                "y": 29200
+              },
+              {
+                "x": 11700,
+                "y": 27700
+              }
+            ],
+            "adjacent": [
+              "r_0",
+              "r_1",
+              "r_2",
+              "r_4",
+              "r_5",
+              "r_8",
+              "r_9"
+            ]
+          },
+          {
+            "id": "r_4",
+            "label": "Kitchen",
+            "uses": [
+              "kitchen"
+            ],
+            "room_type": "Kitchen",
+            "area_m2": 17.86,
+            "net_area_m2": 16.2,
+            "bbox": {
+              "x": 4000,
+              "y": 21500,
+              "w": 4700,
+              "h": 3800
+            },
+            "floor_polygon": [
+              {
+                "x": 8700,
+                "y": 25300
+              },
+              {
+                "x": 8700,
+                "y": 21500
+              },
+              {
+                "x": 4000,
+                "y": 21500
+              },
+              {
+                "x": 4000,
+                "y": 25300
+              }
+            ],
+            "adjacent": [
+              "r_3",
+              "r_5"
+            ]
+          },
+          {
+            "id": "r_5",
+            "label": "Store",
+            "uses": [
+              "storage"
+            ],
+            "room_type": "Storage",
+            "area_m2": 9.52,
+            "net_area_m2": 8.1,
+            "bbox": {
+              "x": 3100,
+              "y": 25300,
+              "w": 5600,
+              "h": 1700
+            },
+            "floor_polygon": [
+              {
+                "x": 3100,
+                "y": 27000
+              },
+              {
+                "x": 3100,
+                "y": 25300
+              },
+              {
+                "x": 6000,
+                "y": 25300
+              },
+              {
+                "x": 8700,
+                "y": 25300
+              },
+              {
+                "x": 8700,
+                "y": 27000
+              },
+              {
+                "x": 6000,
+                "y": 27000
+              }
+            ],
+            "adjacent": [
+              "r_0",
+              "r_3",
+              "r_4"
+            ]
+          },
+          {
+            "id": "r_6",
+            "label": "Ground Bedroom 1",
+            "uses": [
+              "bedroom"
+            ],
+            "room_type": "MasterRoom",
+            "area_m2": 17.86,
+            "net_area_m2": 16.2,
+            "bbox": {
+              "x": 18000,
+              "y": 21500,
+              "w": 3800,
+              "h": 4700
+            },
+            "floor_polygon": [
+              {
+                "x": 21800,
+                "y": 26200
+              },
+              {
+                "x": 21800,
+                "y": 21500
+              },
+              {
+                "x": 18000,
+                "y": 21500
+              },
+              {
+                "x": 18000,
+                "y": 26200
+              }
+            ],
+            "adjacent": [
+              "r_2",
+              "r_7",
+              "r_10"
+            ]
+          },
+          {
+            "id": "r_7",
+            "label": "Ensuite 1",
+            "uses": [
+              "bath"
+            ],
+            "room_type": "Bathroom",
+            "area_m2": 6.16,
+            "net_area_m2": 5.2,
+            "bbox": {
+              "x": 19600,
+              "y": 26200,
+              "w": 2200,
+              "h": 2800
+            },
+            "floor_polygon": [
+              {
+                "x": 21800,
+                "y": 29000
+              },
+              {
+                "x": 21800,
+                "y": 26200
+              },
+              {
+                "x": 19600,
+                "y": 26200
+              },
+              {
+                "x": 19600,
+                "y": 29000
+              }
+            ],
+            "adjacent": [
+              "r_6",
+              "r_10"
+            ]
+          },
+          {
+            "id": "r_8",
+            "label": "Main Entry",
+            "uses": [
+              "hall"
+            ],
+            "room_type": "Entrance",
+            "area_m2": 12.6,
+            "net_area_m2": 11.2,
+            "bbox": {
+              "x": 8700,
+              "y": 27700,
+              "w": 3000,
+              "h": 4200
+            },
+            "floor_polygon": [
+              {
+                "x": 11700,
+                "y": 31900
+              },
+              {
+                "x": 11700,
+                "y": 27700
+              },
+              {
+                "x": 8700,
+                "y": 27700
+              },
+              {
+                "x": 8700,
+                "y": 31900
+              }
+            ],
+            "adjacent": [
+              "r_0",
+              "r_1",
+              "r_3"
+            ]
+          },
+          {
+            "id": "r_9",
+            "label": "Family Entry",
+            "uses": [
+              "hall"
+            ],
+            "room_type": "Entrance",
+            "area_m2": 7.8,
+            "net_area_m2": 6.72,
+            "bbox": {
+              "x": 13600,
+              "y": 26200,
+              "w": 2600,
+              "h": 3000
+            },
+            "floor_polygon": [
+              {
+                "x": 16200,
+                "y": 29200
+              },
+              {
+                "x": 16200,
+                "y": 26200
+              },
+              {
+                "x": 13600,
+                "y": 26200
+              },
+              {
+                "x": 13600,
+                "y": 29200
+              }
+            ],
+            "adjacent": [
+              "r_1",
+              "r_2",
+              "r_3",
+              "r_10"
+            ]
+          },
+          {
+            "id": "r_10",
+            "label": "Stair",
+            "uses": [
+              "circulation"
+            ],
+            "room_type": "Entrance",
+            "area_m2": 18.24,
+            "net_area_m2": 16.5,
+            "bbox": {
+              "x": 16200,
+              "y": 26200,
+              "w": 3200,
+              "h": 5700
+            },
+            "floor_polygon": [
+              {
+                "x": 19400,
+                "y": 31900
+              },
+              {
+                "x": 19400,
+                "y": 26200
+              },
+              {
+                "x": 16200,
+                "y": 26200
+              },
+              {
+                "x": 16200,
+                "y": 31900
+              }
+            ],
+            "adjacent": [
+              "r_2",
+              "r_6",
+              "r_7",
+              "r_9"
+            ]
+          }
+        ],
+        "doors": [
+          {
+            "id": "d_0",
+            "between": [
+              "r_0",
+              "r_8"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "d_1",
+            "between": [
+              "r_1",
+              "r_8"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "d_2",
+            "between": [
+              "r_2",
+              "r_9"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "d_3",
+            "between": [
+              "r_2",
+              "r_3"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "d_5",
+            "between": [
+              "r_3",
+              "r_4"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "d_6",
+            "between": [
+              "r_4",
+              "r_5"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "d_7",
+            "between": [
+              "r_3",
+              "r_8"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "d_8",
+            "between": [
+              "r_2",
+              "r_6"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "d_9",
+            "between": [
+              "r_6",
+              "r_7"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "entry_main_foyer",
+            "between": [
+              "exterior",
+              "r_8"
+            ],
+            "width": 2000,
+            "kind": "double",
+            "head": 2100
+          },
+          {
+            "id": "entry_family_foyer",
+            "between": [
+              "exterior",
+              "r_9"
+            ],
+            "width": 1000,
+            "head": 2100
+          }
+        ],
+        "windows": [
+          {
+            "id": "n_men",
+            "room": "r_0",
+            "width": 2400,
+            "facing": "S",
+            "sill": 900,
+            "head": 2100
+          },
+          {
+            "id": "n_men_wc",
+            "room": "r_1",
+            "width": 800,
+            "facing": "E",
+            "sill": 900,
+            "head": 2100
+          },
+          {
+            "id": "n_living",
+            "room": "r_2",
+            "width": 2400,
+            "facing": "N",
+            "sill": 900,
+            "head": 2100
+          },
+          {
+            "id": "n_dining",
+            "room": "r_3",
+            "width": 2400,
+            "facing": "N",
+            "sill": 900,
+            "head": 2100
+          },
+          {
+            "id": "n_kitchen",
+            "room": "r_4",
+            "width": 2400,
+            "facing": "N",
+            "sill": 900,
+            "head": 2100
+          },
+          {
+            "id": "n_elder",
+            "room": "r_6",
+            "width": 2400,
+            "facing": "E",
+            "sill": 900,
+            "head": 2100
+          },
+          {
+            "id": "n_elder_bath",
+            "room": "r_7",
+            "width": 800,
+            "facing": "E",
+            "sill": 900,
+            "head": 2100
+          }
+        ],
+        "openings": [
+          {
+            "id": "d_4",
+            "between": [
+              "r_2",
+              "r_10"
+            ],
+            "width": 1200,
+            "head": 3200
+          }
+        ],
+        "furniture": [],
+        "verticals": [
+          {
+            "id": "core",
+            "kind": "stair",
+            "dir": "up",
+            "room": "r_10",
+            "bbox": {
+              "x": 16400,
+              "y": 27900,
+              "w": 2800,
+              "h": 3820
+            },
+            "flight_width": 1300,
+            "flights": [
+              {
+                "bbox": {
+                  "x": 16400,
+                  "y": 27900,
+                  "w": 1300,
+                  "h": 2520
+                },
+                "run_mm": 2520,
+                "entry": "top"
+              },
+              {
+                "bbox": {
+                  "x": 17900,
+                  "y": 27900,
+                  "w": 1300,
+                  "h": 2520
+                },
+                "run_mm": 2520,
+                "entry": "bottom"
+              }
+            ],
+            "landings": [
+              {
+                "bbox": {
+                  "x": 16400,
+                  "y": 30420,
+                  "w": 2800,
+                  "h": 1300
+                },
+                "turn": "half"
+              }
+            ],
+            "turn": "half"
+          }
+        ],
+        "voids": [
+          {
+            "id": "wet_master_bath",
+            "at": {
+              "x": 5750,
+              "y": 25450
+            },
+            "size": {
+              "w": 300,
+              "h": 300
+            },
+            "room": "r_5",
+            "rail": []
+          },
+          {
+            "id": "wet_family_bath",
+            "at": {
+              "x": 14150,
+              "y": 28450
+            },
+            "size": {
+              "w": 300,
+              "h": 300
+            },
+            "room": "r_9",
+            "rail": []
+          }
+        ],
+        "outdoor": [
+          {
+            "id": "platform_0_0",
+            "kind": "paving",
+            "area_m2": 2.88,
+            "bbox": {
+              "x": 9000,
+              "y": 32000,
+              "w": 2400,
+              "h": 1200
+            }
+          },
+          {
+            "id": "platform_0_1",
+            "kind": "paving",
+            "area_m2": 0.72,
+            "bbox": {
+              "x": 9000,
+              "y": 33200,
+              "w": 2400,
+              "h": 300
+            }
+          },
+          {
+            "id": "platform_0_2",
+            "kind": "paving",
+            "area_m2": 0.72,
+            "bbox": {
+              "x": 9000,
+              "y": 33500,
+              "w": 2400,
+              "h": 300
+            }
+          },
+          {
+            "id": "platform_1_0",
+            "kind": "paving",
+            "area_m2": 1.68,
+            "bbox": {
+              "x": 14200,
+              "y": 29300,
+              "w": 1400,
+              "h": 1200
+            }
+          },
+          {
+            "id": "platform_1_1",
+            "kind": "paving",
+            "area_m2": 0.42,
+            "bbox": {
+              "x": 14200,
+              "y": 30500,
+              "w": 1400,
+              "h": 300
+            }
+          },
+          {
+            "id": "platform_1_2",
+            "kind": "paving",
+            "area_m2": 0.42,
+            "bbox": {
+              "x": 14200,
+              "y": 30800,
+              "w": 1400,
+              "h": 300
+            }
+          },
+          {
+            "id": "parking_0",
+            "kind": "driveway",
+            "label": "Parking Reserve",
+            "area_m2": 14.3,
+            "bbox": {
+              "x": 200,
+              "y": 29200,
+              "w": 2600,
+              "h": 5500
+            }
+          }
+        ],
+        "heights": {
+          "storey_height": 3200,
+          "elevation": 0,
+          "clear_height": 3000,
+          "clear_height_source": "authored",
+          "walls": [
+            {
+              "id": "w_0",
+              "height": 3200
+            },
+            {
+              "id": "w_1",
+              "height": 3200
+            },
+            {
+              "id": "w_2",
+              "height": 3200
+            },
+            {
+              "id": "w_3",
+              "height": 3200
+            },
+            {
+              "id": "w_4",
+              "height": 3200
+            },
+            {
+              "id": "w_5",
+              "height": 3200
+            },
+            {
+              "id": "w_6",
+              "height": 3200
+            },
+            {
+              "id": "w_7",
+              "height": 3200
+            },
+            {
+              "id": "w_8",
+              "height": 3200
+            },
+            {
+              "id": "w_9",
+              "height": 3200
+            },
+            {
+              "id": "w_10",
+              "height": 3200
+            },
+            {
+              "id": "w_11",
+              "height": 3200
+            },
+            {
+              "id": "w_12",
+              "height": 3200
+            },
+            {
+              "id": "w_13",
+              "height": 3200
+            },
+            {
+              "id": "w_14",
+              "height": 3200
+            },
+            {
+              "id": "w_15",
+              "height": 3200
+            },
+            {
+              "id": "w_16",
+              "height": 3200
+            },
+            {
+              "id": "w_17",
+              "height": 3200
+            },
+            {
+              "id": "w_18",
+              "height": 3200
+            },
+            {
+              "id": "w_19",
+              "height": 3200
+            },
+            {
+              "id": "w_20",
+              "height": 3200
+            },
+            {
+              "id": "w_21",
+              "height": 3200
+            },
+            {
+              "id": "w_22",
+              "height": 3200
+            },
+            {
+              "id": "w_23",
+              "height": 3200
+            },
+            {
+              "id": "w_24",
+              "height": 3200
+            },
+            {
+              "id": "w_25",
+              "height": 3200
+            },
+            {
+              "id": "w_26",
+              "height": 3200
+            },
+            {
+              "id": "w_27",
+              "height": 3200
+            },
+            {
+              "id": "w_28",
+              "height": 3200
+            },
+            {
+              "id": "w_29",
+              "height": 3200
+            },
+            {
+              "id": "w_30",
+              "height": 3200
+            },
+            {
+              "id": "w_31",
+              "height": 3200
+            },
+            {
+              "id": "w_32",
+              "height": 3200
+            },
+            {
+              "id": "w_33",
+              "height": 3200
+            },
+            {
+              "id": "w_34",
+              "height": 3200
+            },
+            {
+              "id": "w_35",
+              "height": 3200
+            },
+            {
+              "id": "w_36",
+              "height": 3200
+            },
+            {
+              "id": "w_37",
+              "height": 3200
+            },
+            {
+              "id": "w_38",
+              "height": 3200
+            },
+            {
+              "id": "w_39",
+              "height": 3200
+            },
+            {
+              "id": "w_40",
+              "height": 3200
+            }
+          ]
+        },
+        "access": {
+          "entrances": [
+            "entry_main_foyer",
+            "entry_family_foyer"
+          ],
+          "hasEntrance": true,
+          "edges": [
+            {
+              "doorId": "d_0",
+              "kind": "door",
+              "between": [
+                "r_0",
+                "r_8"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "w_0",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "d_1",
+              "kind": "door",
+              "between": [
+                "r_1",
+                "r_8"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "w_7",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "d_2",
+              "kind": "door",
+              "between": [
+                "r_2",
+                "r_9"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "w_13",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "d_3",
+              "kind": "door",
+              "between": [
+                "r_2",
+                "r_3"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "w_11",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "d_5",
+              "kind": "door",
+              "between": [
+                "r_3",
+                "r_4"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "w_16",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "d_6",
+              "kind": "door",
+              "between": [
+                "r_4",
+                "r_5"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "w_40",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "d_7",
+              "kind": "door",
+              "between": [
+                "r_3",
+                "r_8"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "w_20",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "d_8",
+              "kind": "door",
+              "between": [
+                "r_2",
+                "r_6"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "w_9",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "d_9",
+              "kind": "door",
+              "between": [
+                "r_6",
+                "r_7"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "w_29",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "entry_main_foyer",
+              "kind": "door",
+              "between": [
+                "exterior",
+                "r_8"
+              ],
+              "nominalWidth": 2000,
+              "estimatedClearWidth": 940,
+              "hostCategory": "exterior",
+              "hostWallId": "w_33",
+              "exterior": true,
+              "ambiguous": false
+            },
+            {
+              "doorId": "entry_family_foyer",
+              "kind": "door",
+              "between": [
+                "exterior",
+                "r_9"
+              ],
+              "nominalWidth": 1000,
+              "estimatedClearWidth": 940,
+              "hostCategory": "exterior",
+              "hostWallId": "w_35",
+              "exterior": true,
+              "ambiguous": false
+            },
+            {
+              "doorId": "d_4",
+              "kind": "opening",
+              "between": [
+                "r_2",
+                "r_10"
+              ],
+              "nominalWidth": 1200,
+              "estimatedClearWidth": 1200,
+              "hostCategory": "partition",
+              "hostWallId": "w_14",
+              "exterior": false,
+              "ambiguous": false
+            }
+          ],
+          "rooms": [
+            {
+              "id": "r_0",
+              "depthFromEntrance": 2,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "r_1",
+              "depthFromEntrance": 2,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "r_2",
+              "depthFromEntrance": 2,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "r_3",
+              "depthFromEntrance": 2,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "r_4",
+              "depthFromEntrance": 3,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "r_5",
+              "depthFromEntrance": 4,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "r_6",
+              "depthFromEntrance": 3,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "r_7",
+              "depthFromEntrance": 4,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "r_8",
+              "depthFromEntrance": 1,
+              "reachable": true,
+              "bottleneckClearWidth": 940
+            },
+            {
+              "id": "r_9",
+              "depthFromEntrance": 1,
+              "reachable": true,
+              "bottleneckClearWidth": 940
+            },
+            {
+              "id": "r_10",
+              "depthFromEntrance": 3,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            }
+          ],
+          "mainEntrance": {
+            "door": null,
+            "basis": "tie",
+            "candidates": [
+              "entry_main_foyer",
+              "entry_family_foyer"
+            ]
+          }
+        },
+        "circulation": {
+          "entranceId": "entry_main_foyer",
+          "cellSizeMm": 100,
+          "bodyRadiusMm": 300,
+          "rooms": [
+            {
+              "roomId": "r_0",
+              "walkDistanceMm": 6500,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.36,
+              "entranceId": "entry_main_foyer"
+            },
+            {
+              "roomId": "r_1",
+              "walkDistanceMm": 3800,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.33,
+              "entranceId": "entry_main_foyer"
+            },
+            {
+              "roomId": "r_2",
+              "walkDistanceMm": 5400,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.04,
+              "entranceId": "entry_family_foyer"
+            },
+            {
+              "roomId": "r_3",
+              "walkDistanceMm": 7300,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.1,
+              "entranceId": "entry_main_foyer"
+            },
+            {
+              "roomId": "r_4",
+              "walkDistanceMm": 12100,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.33,
+              "entranceId": "entry_main_foyer"
+            },
+            {
+              "roomId": "r_5",
+              "walkDistanceMm": 15700,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 2.22,
+              "entranceId": "entry_main_foyer"
+            },
+            {
+              "roomId": "r_6",
+              "walkDistanceMm": 10100,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.41,
+              "entranceId": "entry_family_foyer"
+            },
+            {
+              "roomId": "r_7",
+              "walkDistanceMm": 14000,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 2.38,
+              "entranceId": "entry_family_foyer"
+            },
+            {
+              "roomId": "r_8",
+              "walkDistanceMm": 1900,
+              "bottleneckClearWidthMm": 940,
+              "detourRatio": 1,
+              "entranceId": "entry_main_foyer"
+            },
+            {
+              "roomId": "r_9",
+              "walkDistanceMm": 1300,
+              "bottleneckClearWidthMm": 940,
+              "detourRatio": 1,
+              "entranceId": "entry_family_foyer"
+            },
+            {
+              "roomId": "r_10",
+              "walkDistanceMm": 7400,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 2.58,
+              "entranceId": "entry_family_foyer"
+            }
+          ],
+          "routes": [
+            {
+              "fromRoomId": "r_4",
+              "toRoomId": "r_3",
+              "walkDistanceMm": 6300,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.28
+            },
+            {
+              "fromRoomId": "r_6",
+              "toRoomId": "r_7",
+              "walkDistanceMm": 4500,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.19
+            }
+          ]
+        },
+        "totals": {
+          "rooms": 11,
+          "doors": 11,
+          "windows": 7,
+          "floor_area_m2": 177.6,
+          "gross_internal_area_m2": 170.72,
+          "net_floor_area_m2": 160.16,
+          "outdoor_area_m2": 21.14
+        },
+        "input_graph": {
+          "r_0": [
+            "r_8"
+          ],
+          "r_1": [
+            "r_8"
+          ],
+          "r_2": [
+            "r_3",
+            "r_6",
+            "r_9",
+            "r_10"
+          ],
+          "r_3": [
+            "r_2",
+            "r_4",
+            "r_8"
+          ],
+          "r_4": [
+            "r_3",
+            "r_5"
+          ],
+          "r_5": [
+            "r_4"
+          ],
+          "r_6": [
+            "r_2",
+            "r_7"
+          ],
+          "r_7": [
+            "r_6"
+          ],
+          "r_8": [
+            "r_0",
+            "r_1",
+            "r_3"
+          ],
+          "r_9": [
+            "r_2"
+          ],
+          "r_10": [
+            "r_2"
+          ]
+        },
+        "freedom": {
+          "rooms": {
+            "total": 11,
+            "absolute": 11,
+            "relational": 0,
+            "strip": 0
+          },
+          "openings": {
+            "total": 19,
+            "attached": 0,
+            "absolute": 19
+          },
+          "furniture": {
+            "total": 0,
+            "anchored": 0,
+            "againstWall": 0,
+            "absolute": 0
+          },
+          "elements": [
+            {
+              "id": "r_0",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "r_1",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "r_2",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "r_3",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "r_4",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "r_5",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "r_6",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "r_7",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "r_8",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "r_9",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "r_10",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "d_0",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "d_1",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "d_2",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "d_3",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "d_5",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "d_6",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "d_7",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "d_8",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "d_9",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "entry_main_foyer",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "entry_family_foyer",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_men",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_men_wc",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_living",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_dining",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_kitchen",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_elder",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_elder_bath",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "d_4",
+              "kind": "opening",
+              "placement": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "level": 1,
+        "name": "First",
+        "plan": "Programme-driven villa study",
+        "caption": "\"Programme-driven villa study\" — a 8-room floor plan, 117.63 m² total: Child 1 (13.76 m²), Child 2 (13.86 m²), Child 3 (13.76 m²), Family Lounge (28.52 m²), Family Bath (5.67 m²), Master Bedroom (18.15 m²), Master Bath (5.67 m²), Stair (18.24 m²); 8 doors, 7 windows, entrances via u_family_terrace, u_master_terrace.",
+        "units": "mm",
+        "scale": "1:100",
+        "bbox": {
+          "w": 16000,
+          "h": 9900
+        },
+        "bbox_outer": {
+          "w": 16200,
+          "h": 10100
+        },
+        "site": {
+          "street": "S",
+          "back": "N",
+          "equator_side": "S",
+          "sunrise_side": "E",
+          "sunset_side": "W",
+          "hemisphere": "north"
+        },
+        "rooms": [
+          {
+            "id": "child_1",
+            "label": "Child 1",
+            "uses": [
+              "bedroom"
+            ],
+            "room_type": "MasterRoom",
+            "area_m2": 13.76,
+            "net_area_m2": 12.3,
+            "bbox": {
+              "x": 10800,
+              "y": 27000,
+              "w": 3200,
+              "h": 4300
+            },
+            "floor_polygon": [
+              {
+                "x": 14000,
+                "y": 31300
+              },
+              {
+                "x": 14000,
+                "y": 27000
+              },
+              {
+                "x": 10800,
+                "y": 27000
+              },
+              {
+                "x": 10800,
+                "y": 31300
+              }
+            ],
+            "adjacent": [
+              "family",
+              "family_bath"
+            ]
+          },
+          {
+            "id": "child_2",
+            "label": "Child 2",
+            "uses": [
+              "bedroom"
+            ],
+            "room_type": "MasterRoom",
+            "area_m2": 13.86,
+            "net_area_m2": 12.4,
+            "bbox": {
+              "x": 17800,
+              "y": 22000,
+              "w": 3300,
+              "h": 4200
+            },
+            "floor_polygon": [
+              {
+                "x": 21100,
+                "y": 26200
+              },
+              {
+                "x": 21100,
+                "y": 22000
+              },
+              {
+                "x": 17800,
+                "y": 22000
+              },
+              {
+                "x": 17800,
+                "y": 26200
+              }
+            ],
+            "adjacent": [
+              "family",
+              "stair"
+            ]
+          },
+          {
+            "id": "child_3",
+            "label": "Child 3",
+            "uses": [
+              "bedroom"
+            ],
+            "room_type": "MasterRoom",
+            "area_m2": 13.76,
+            "net_area_m2": 12.3,
+            "bbox": {
+              "x": 7200,
+              "y": 22000,
+              "w": 4300,
+              "h": 3200
+            },
+            "floor_polygon": [
+              {
+                "x": 11500,
+                "y": 25200
+              },
+              {
+                "x": 11500,
+                "y": 22000
+              },
+              {
+                "x": 7200,
+                "y": 22000
+              },
+              {
+                "x": 7200,
+                "y": 25200
+              }
+            ],
+            "adjacent": [
+              "family",
+              "master_bath"
+            ]
+          },
+          {
+            "id": "family",
+            "label": "Family Lounge",
+            "uses": [
+              "living"
+            ],
+            "room_type": "LivingRoom",
+            "area_m2": 28.52,
+            "net_area_m2": 25.56,
+            "bbox": {
+              "x": 7200,
+              "y": 23000,
+              "w": 10600,
+              "h": 4400
+            },
+            "floor_polygon": [
+              {
+                "x": 7200,
+                "y": 25200
+              },
+              {
+                "x": 9100,
+                "y": 25200
+              },
+              {
+                "x": 9700,
+                "y": 25200
+              },
+              {
+                "x": 11100,
+                "y": 25200
+              },
+              {
+                "x": 11500,
+                "y": 25200
+              },
+              {
+                "x": 11500,
+                "y": 24800
+              },
+              {
+                "x": 12200,
+                "y": 24800
+              },
+              {
+                "x": 12200,
+                "y": 23000
+              },
+              {
+                "x": 17800,
+                "y": 23000
+              },
+              {
+                "x": 17800,
+                "y": 26200
+              },
+              {
+                "x": 14000,
+                "y": 26200
+              },
+              {
+                "x": 14000,
+                "y": 27000
+              },
+              {
+                "x": 12900,
+                "y": 27000
+              },
+              {
+                "x": 11100,
+                "y": 27000
+              },
+              {
+                "x": 10800,
+                "y": 27000
+              },
+              {
+                "x": 10800,
+                "y": 27400
+              },
+              {
+                "x": 10500,
+                "y": 27400
+              },
+              {
+                "x": 8400,
+                "y": 27400
+              },
+              {
+                "x": 8400,
+                "y": 26100
+              },
+              {
+                "x": 7200,
+                "y": 26100
+              }
+            ],
+            "adjacent": [
+              "child_1",
+              "child_2",
+              "child_3",
+              "family_bath",
+              "master",
+              "master_bath",
+              "stair"
+            ]
+          },
+          {
+            "id": "family_bath",
+            "label": "Family Bath",
+            "uses": [
+              "bath"
+            ],
+            "room_type": "Bathroom",
+            "area_m2": 5.67,
+            "net_area_m2": 4.75,
+            "bbox": {
+              "x": 14000,
+              "y": 26200,
+              "w": 2100,
+              "h": 2700
+            },
+            "floor_polygon": [
+              {
+                "x": 16100,
+                "y": 28900
+              },
+              {
+                "x": 16100,
+                "y": 26200
+              },
+              {
+                "x": 14000,
+                "y": 26200
+              },
+              {
+                "x": 14000,
+                "y": 28900
+              }
+            ],
+            "adjacent": [
+              "child_1",
+              "family",
+              "stair"
+            ]
+          },
+          {
+            "id": "master",
+            "label": "Master Bedroom",
+            "uses": [
+              "bedroom"
+            ],
+            "room_type": "MasterRoom",
+            "area_m2": 18.15,
+            "net_area_m2": 16.43,
+            "bbox": {
+              "x": 5100,
+              "y": 26100,
+              "w": 3300,
+              "h": 5500
+            },
+            "floor_polygon": [
+              {
+                "x": 8400,
+                "y": 31600
+              },
+              {
+                "x": 8400,
+                "y": 26100
+              },
+              {
+                "x": 5100,
+                "y": 26100
+              },
+              {
+                "x": 5100,
+                "y": 31600
+              }
+            ],
+            "adjacent": [
+              "family",
+              "master_bath"
+            ]
+          },
+          {
+            "id": "master_bath",
+            "label": "Master Bath",
+            "uses": [
+              "bath"
+            ],
+            "room_type": "Bathroom",
+            "area_m2": 5.67,
+            "net_area_m2": 4.75,
+            "bbox": {
+              "x": 5100,
+              "y": 23400,
+              "w": 2100,
+              "h": 2700
+            },
+            "floor_polygon": [
+              {
+                "x": 7200,
+                "y": 26100
+              },
+              {
+                "x": 7200,
+                "y": 23400
+              },
+              {
+                "x": 5100,
+                "y": 23400
+              },
+              {
+                "x": 5100,
+                "y": 26100
+              }
+            ],
+            "adjacent": [
+              "child_3",
+              "family",
+              "master"
+            ]
+          },
+          {
+            "id": "stair",
+            "label": "Stair",
+            "uses": [
+              "circulation"
+            ],
+            "room_type": "Entrance",
+            "area_m2": 18.24,
+            "net_area_m2": 16.5,
+            "bbox": {
+              "x": 16200,
+              "y": 26200,
+              "w": 3200,
+              "h": 5700
+            },
+            "floor_polygon": [
+              {
+                "x": 19400,
+                "y": 31900
+              },
+              {
+                "x": 19400,
+                "y": 26200
+              },
+              {
+                "x": 16200,
+                "y": 26200
+              },
+              {
+                "x": 16200,
+                "y": 31900
+              }
+            ],
+            "adjacent": [
+              "child_2",
+              "family",
+              "family_bath"
+            ]
+          }
+        ],
+        "doors": [
+          {
+            "id": "u_0",
+            "between": [
+              "child_1",
+              "family"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "u_1",
+            "between": [
+              "child_2",
+              "family"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "u_2",
+            "between": [
+              "child_3",
+              "family"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "u_3",
+            "between": [
+              "family",
+              "family_bath"
+            ],
+            "width": 800,
+            "head": 2100
+          },
+          {
+            "id": "u_4",
+            "between": [
+              "family",
+              "master"
+            ],
+            "width": 900,
+            "head": 2100
+          },
+          {
+            "id": "u_6",
+            "between": [
+              "master",
+              "master_bath"
+            ],
+            "width": 800,
+            "head": 2100
+          },
+          {
+            "id": "u_family_terrace",
+            "between": [
+              "exterior",
+              "family"
+            ],
+            "width": 1600,
+            "kind": "glazed_sliding",
+            "head": 2100
+          },
+          {
+            "id": "u_master_terrace",
+            "between": [
+              "exterior",
+              "master"
+            ],
+            "width": 900,
+            "head": 2100
+          }
+        ],
+        "windows": [
+          {
+            "id": "n_child_1",
+            "room": "child_1",
+            "width": 1400,
+            "facing": "W",
+            "sill": 900,
+            "head": 2100
+          },
+          {
+            "id": "n_child_2",
+            "room": "child_2",
+            "width": 1400,
+            "facing": "E",
+            "sill": 900,
+            "head": 2100
+          },
+          {
+            "id": "n_child_3",
+            "room": "child_3",
+            "width": 1400,
+            "facing": "N",
+            "sill": 900,
+            "head": 2100
+          },
+          {
+            "id": "n_family",
+            "room": "family",
+            "width": 1400,
+            "facing": "N",
+            "sill": 900,
+            "head": 2100
+          },
+          {
+            "id": "n_family_bath",
+            "room": "family_bath",
+            "width": 700,
+            "facing": "E",
+            "sill": 900,
+            "head": 2100
+          },
+          {
+            "id": "n_master",
+            "room": "master",
+            "width": 1400,
+            "facing": "W",
+            "sill": 900,
+            "head": 2100
+          },
+          {
+            "id": "n_master_bath",
+            "room": "master_bath",
+            "width": 700,
+            "facing": "W",
+            "sill": 900,
+            "head": 2100
+          }
+        ],
+        "openings": [
+          {
+            "id": "u_5",
+            "between": [
+              "family",
+              "stair"
+            ],
+            "width": 1200,
+            "head": 3200
+          }
+        ],
+        "furniture": [],
+        "verticals": [
+          {
+            "id": "core",
+            "kind": "stair",
+            "dir": "down",
+            "room": "stair",
+            "bbox": {
+              "x": 16400,
+              "y": 27900,
+              "w": 2800,
+              "h": 3820
+            },
+            "flight_width": 1300,
+            "flights": [
+              {
+                "bbox": {
+                  "x": 16400,
+                  "y": 27900,
+                  "w": 1300,
+                  "h": 2520
+                },
+                "run_mm": 2520,
+                "entry": "bottom"
+              },
+              {
+                "bbox": {
+                  "x": 17900,
+                  "y": 27900,
+                  "w": 1300,
+                  "h": 2520
+                },
+                "run_mm": 2520,
+                "entry": "top"
+              }
+            ],
+            "landings": [
+              {
+                "bbox": {
+                  "x": 16400,
+                  "y": 30420,
+                  "w": 2800,
+                  "h": 1300
+                },
+                "turn": "half"
+              }
+            ],
+            "turn": "half"
+          }
+        ],
+        "voids": [
+          {
+            "id": "stair_void",
+            "at": {
+              "x": 16400,
+              "y": 27600
+            },
+            "size": {
+              "w": 2800,
+              "h": 4120
+            },
+            "room": "stair",
+            "polygon": [
+              {
+                "x": 19200,
+                "y": 27900
+              },
+              {
+                "x": 19200,
+                "y": 31720
+              },
+              {
+                "x": 16400,
+                "y": 31720
+              },
+              {
+                "x": 16400,
+                "y": 27900
+              },
+              {
+                "x": 16400,
+                "y": 27600
+              },
+              {
+                "x": 17900,
+                "y": 27600
+              },
+              {
+                "x": 17900,
+                "y": 27900
+              }
+            ],
+            "area_m2": 11.15,
+            "rail": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "id": "wet_master_bath",
+            "at": {
+              "x": 5750,
+              "y": 25450
+            },
+            "size": {
+              "w": 300,
+              "h": 300
+            },
+            "room": "master_bath",
+            "rail": []
+          },
+          {
+            "id": "wet_family_bath",
+            "at": {
+              "x": 14150,
+              "y": 28450
+            },
+            "size": {
+              "w": 300,
+              "h": 300
+            },
+            "room": "family_bath",
+            "rail": []
+          }
+        ],
+        "outdoor": [
+          {
+            "id": "terrace",
+            "kind": "deck",
+            "label": "Terrace",
+            "area_m2": 6.72,
+            "bbox": {
+              "x": 8400,
+              "y": 27400,
+              "w": 2400,
+              "h": 2800
+            }
+          }
+        ],
+        "heights": {
+          "storey_height": 3200,
+          "elevation": 3200,
+          "slab": 200,
+          "clear_height": 3000,
+          "clear_height_source": "authored",
+          "walls": [
+            {
+              "id": "uw_0",
+              "height": 3200
+            },
+            {
+              "id": "uw_1",
+              "height": 3200
+            },
+            {
+              "id": "uw_2",
+              "height": 3200
+            },
+            {
+              "id": "uw_3",
+              "height": 3200
+            },
+            {
+              "id": "uw_4",
+              "height": 3200
+            },
+            {
+              "id": "uw_5",
+              "height": 3200
+            },
+            {
+              "id": "uw_6",
+              "height": 3200
+            },
+            {
+              "id": "uw_7",
+              "height": 3200
+            },
+            {
+              "id": "uw_8",
+              "height": 3200
+            },
+            {
+              "id": "uw_9",
+              "height": 3200
+            },
+            {
+              "id": "uw_10",
+              "height": 3200
+            },
+            {
+              "id": "uw_11",
+              "height": 3200
+            },
+            {
+              "id": "uw_12",
+              "height": 3200
+            },
+            {
+              "id": "uw_13",
+              "height": 3200
+            },
+            {
+              "id": "uw_14",
+              "height": 3200
+            },
+            {
+              "id": "uw_15",
+              "height": 3200
+            },
+            {
+              "id": "uw_16",
+              "height": 3200
+            },
+            {
+              "id": "uw_17",
+              "height": 3200
+            },
+            {
+              "id": "uw_18",
+              "height": 3200
+            },
+            {
+              "id": "uw_19",
+              "height": 3200
+            },
+            {
+              "id": "uw_20",
+              "height": 3200
+            },
+            {
+              "id": "uw_21",
+              "height": 3200
+            },
+            {
+              "id": "uw_22",
+              "height": 3200
+            },
+            {
+              "id": "uw_23",
+              "height": 3200
+            },
+            {
+              "id": "uw_24",
+              "height": 3200
+            },
+            {
+              "id": "uw_25",
+              "height": 3200
+            },
+            {
+              "id": "uw_26",
+              "height": 3200
+            },
+            {
+              "id": "uw_27",
+              "height": 3200
+            },
+            {
+              "id": "uw_28",
+              "height": 3200
+            },
+            {
+              "id": "uw_29",
+              "height": 3200
+            },
+            {
+              "id": "uw_30",
+              "height": 3200
+            },
+            {
+              "id": "uw_31",
+              "height": 3200
+            },
+            {
+              "id": "uw_32",
+              "height": 3200
+            },
+            {
+              "id": "uw_33",
+              "height": 3200
+            },
+            {
+              "id": "uw_34",
+              "height": 3200
+            },
+            {
+              "id": "uw_35",
+              "height": 3200
+            },
+            {
+              "id": "uw_36",
+              "height": 3200
+            },
+            {
+              "id": "uw_37",
+              "height": 3200
+            },
+            {
+              "id": "uw_38",
+              "height": 3200
+            },
+            {
+              "id": "uw_39",
+              "height": 1100
+            },
+            {
+              "id": "uw_40",
+              "height": 3200
+            },
+            {
+              "id": "uw_41",
+              "height": 3200
+            },
+            {
+              "id": "uw_42",
+              "height": 3200
+            }
+          ]
+        },
+        "access": {
+          "entrances": [
+            "u_family_terrace",
+            "u_master_terrace"
+          ],
+          "hasEntrance": true,
+          "edges": [
+            {
+              "doorId": "u_0",
+              "kind": "door",
+              "between": [
+                "child_1",
+                "family"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "uw_40",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "u_1",
+              "kind": "door",
+              "between": [
+                "child_2",
+                "family"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "uw_9",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "u_2",
+              "kind": "door",
+              "between": [
+                "child_3",
+                "family"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "uw_42",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "u_3",
+              "kind": "door",
+              "between": [
+                "family",
+                "family_bath"
+              ],
+              "nominalWidth": 800,
+              "estimatedClearWidth": 740,
+              "hostCategory": "partition",
+              "hostWallId": "uw_22",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "u_4",
+              "kind": "door",
+              "between": [
+                "family",
+                "master"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "partition",
+              "hostWallId": "uw_24",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "u_6",
+              "kind": "door",
+              "between": [
+                "master",
+                "master_bath"
+              ],
+              "nominalWidth": 800,
+              "estimatedClearWidth": 740,
+              "hostCategory": "partition",
+              "hostWallId": "uw_31",
+              "exterior": false,
+              "ambiguous": false
+            },
+            {
+              "doorId": "u_family_terrace",
+              "kind": "door",
+              "between": [
+                "exterior",
+                "family"
+              ],
+              "nominalWidth": 1600,
+              "estimatedClearWidth": 740,
+              "hostCategory": "exterior",
+              "hostWallId": "uw_41",
+              "exterior": true,
+              "ambiguous": false
+            },
+            {
+              "doorId": "u_master_terrace",
+              "kind": "door",
+              "between": [
+                "exterior",
+                "master"
+              ],
+              "nominalWidth": 900,
+              "estimatedClearWidth": 840,
+              "hostCategory": "exterior",
+              "hostWallId": "uw_30",
+              "exterior": true,
+              "ambiguous": false
+            },
+            {
+              "doorId": "u_5",
+              "kind": "opening",
+              "between": [
+                "family",
+                "stair"
+              ],
+              "nominalWidth": 1200,
+              "estimatedClearWidth": 1200,
+              "hostCategory": "partition",
+              "hostWallId": "uw_20",
+              "exterior": false,
+              "ambiguous": false
+            }
+          ],
+          "rooms": [
+            {
+              "id": "child_1",
+              "depthFromEntrance": 2,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "child_2",
+              "depthFromEntrance": 2,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "child_3",
+              "depthFromEntrance": 2,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "family",
+              "depthFromEntrance": 1,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "family_bath",
+              "depthFromEntrance": 2,
+              "reachable": true,
+              "bottleneckClearWidth": 740
+            },
+            {
+              "id": "master",
+              "depthFromEntrance": 1,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            },
+            {
+              "id": "master_bath",
+              "depthFromEntrance": 2,
+              "reachable": true,
+              "bottleneckClearWidth": 740
+            },
+            {
+              "id": "stair",
+              "depthFromEntrance": 2,
+              "reachable": true,
+              "bottleneckClearWidth": 840
+            }
+          ],
+          "mainEntrance": {
+            "door": null,
+            "basis": "upper-storey",
+            "candidates": []
+          }
+        },
+        "circulation": {
+          "entranceId": "u_family_terrace",
+          "cellSizeMm": 100,
+          "bodyRadiusMm": 300,
+          "rooms": [
+            {
+              "roomId": "child_1",
+              "walkDistanceMm": 5400,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.64,
+              "entranceId": "u_family_terrace"
+            },
+            {
+              "roomId": "child_2",
+              "walkDistanceMm": 12900,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.26,
+              "entranceId": "u_family_terrace"
+            },
+            {
+              "roomId": "child_3",
+              "walkDistanceMm": 3800,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.05,
+              "entranceId": "u_family_terrace"
+            },
+            {
+              "roomId": "family",
+              "walkDistanceMm": 5700,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.37,
+              "entranceId": "u_family_terrace"
+            },
+            {
+              "roomId": "family_bath",
+              "walkDistanceMm": 8100,
+              "bottleneckClearWidthMm": 740,
+              "detourRatio": 1.5,
+              "entranceId": "u_family_terrace"
+            },
+            {
+              "roomId": "master",
+              "walkDistanceMm": 1500,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1,
+              "entranceId": "u_master_terrace"
+            },
+            {
+              "roomId": "master_bath",
+              "walkDistanceMm": 5900,
+              "bottleneckClearWidthMm": 740,
+              "detourRatio": 1.4,
+              "entranceId": "u_family_terrace"
+            },
+            {
+              "roomId": "stair",
+              "walkDistanceMm": 11400,
+              "bottleneckClearWidthMm": 840,
+              "detourRatio": 1.35,
+              "entranceId": "u_family_terrace"
+            }
+          ],
+          "routes": [
+            {
+              "fromRoomId": "child_1",
+              "toRoomId": "family_bath",
+              "walkDistanceMm": 7300,
+              "bottleneckClearWidthMm": 740,
+              "detourRatio": 2.33
+            },
+            {
+              "fromRoomId": "child_2",
+              "toRoomId": "family_bath",
+              "walkDistanceMm": 7800,
+              "bottleneckClearWidthMm": 740,
+              "detourRatio": 1.4
+            },
+            {
+              "fromRoomId": "child_3",
+              "toRoomId": "master_bath",
+              "walkDistanceMm": 7700,
+              "bottleneckClearWidthMm": 740,
+              "detourRatio": 2.28
+            },
+            {
+              "fromRoomId": "master",
+              "toRoomId": "master_bath",
+              "walkDistanceMm": 4700,
+              "bottleneckClearWidthMm": 740,
+              "detourRatio": 1.13
+            }
+          ]
+        },
+        "totals": {
+          "rooms": 8,
+          "doors": 8,
+          "windows": 7,
+          "floor_area_m2": 117.63,
+          "gross_internal_area_omitted": "exterior-ring-subdivided",
+          "net_floor_area_m2": 104.99,
+          "outdoor_area_m2": 6.72
+        },
+        "input_graph": {
+          "child_1": [
+            "family"
+          ],
+          "child_2": [
+            "family"
+          ],
+          "child_3": [
+            "family"
+          ],
+          "family": [
+            "child_1",
+            "child_2",
+            "child_3",
+            "family_bath",
+            "master",
+            "stair"
+          ],
+          "family_bath": [
+            "family"
+          ],
+          "master": [
+            "family",
+            "master_bath"
+          ],
+          "master_bath": [
+            "master"
+          ],
+          "stair": [
+            "family"
+          ]
+        },
+        "freedom": {
+          "rooms": {
+            "total": 8,
+            "absolute": 8,
+            "relational": 0,
+            "strip": 0
+          },
+          "openings": {
+            "total": 16,
+            "attached": 0,
+            "absolute": 16
+          },
+          "furniture": {
+            "total": 0,
+            "anchored": 0,
+            "againstWall": 0,
+            "absolute": 0
+          },
+          "elements": [
+            {
+              "id": "child_1",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "child_2",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "child_3",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "family",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "family_bath",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "master",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "master_bath",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "stair",
+              "kind": "room",
+              "placement": "absolute"
+            },
+            {
+              "id": "u_0",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "u_1",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "u_2",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "u_3",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "u_4",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "u_6",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "u_family_terrace",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "u_master_terrace",
+              "kind": "door",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_child_1",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_child_2",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_child_3",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_family",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_family_bath",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_master",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "n_master_bath",
+              "kind": "window",
+              "placement": "absolute"
+            },
+            {
+              "id": "u_5",
+              "kind": "opening",
+              "placement": "absolute"
+            }
+          ]
+        }
+      }
+    ],
+    "vertical": {
+      "connections": [
+        {
+          "id": "core",
+          "kind": "stair",
+          "levels": [
+            0,
+            1
+          ],
+          "stops": [
+            {
+              "level": 0,
+              "dir": "up",
+              "room": "r_10"
+            },
+            {
+              "level": 1,
+              "dir": "down",
+              "room": "stair"
+            }
+          ]
+        }
+      ],
+      "reachable_levels": [
+        0,
+        1
+      ]
+    },
+    "keeps": [
+      {
+        "keep": "stacked core on levels 0 1",
+        "form": "stacked",
+        "grade": "hard",
+        "targets": [
+          "core"
+        ],
+        "holds": true,
+        "residual_mm": 0,
+        "residuals": [
+          {
+            "target": "core",
+            "level": 1,
+            "edge": "left",
+            "residual_mm": 0
+          },
+          {
+            "target": "core",
+            "level": 1,
+            "edge": "top",
+            "residual_mm": 0
+          },
+          {
+            "target": "core",
+            "level": 1,
+            "edge": "right",
+            "residual_mm": 0
+          },
+          {
+            "target": "core",
+            "level": 1,
+            "edge": "bottom",
+            "residual_mm": 0
+          }
+        ]
+      },
+      {
+        "keep": "stacked wet_master_bath on levels 0 1",
+        "form": "stacked",
+        "grade": "hard",
+        "targets": [
+          "wet_master_bath"
+        ],
+        "holds": true,
+        "residual_mm": 0,
+        "residuals": [
+          {
+            "target": "wet_master_bath",
+            "level": 1,
+            "edge": "left",
+            "residual_mm": 0
+          },
+          {
+            "target": "wet_master_bath",
+            "level": 1,
+            "edge": "top",
+            "residual_mm": 0
+          },
+          {
+            "target": "wet_master_bath",
+            "level": 1,
+            "edge": "right",
+            "residual_mm": 0
+          },
+          {
+            "target": "wet_master_bath",
+            "level": 1,
+            "edge": "bottom",
+            "residual_mm": 0
+          }
+        ]
+      },
+      {
+        "keep": "stacked wet_family_bath on levels 0 1",
+        "form": "stacked",
+        "grade": "hard",
+        "targets": [
+          "wet_family_bath"
+        ],
+        "holds": true,
+        "residual_mm": 0,
+        "residuals": [
+          {
+            "target": "wet_family_bath",
+            "level": 1,
+            "edge": "left",
+            "residual_mm": 0
+          },
+          {
+            "target": "wet_family_bath",
+            "level": 1,
+            "edge": "top",
+            "residual_mm": 0
+          },
+          {
+            "target": "wet_family_bath",
+            "level": 1,
+            "edge": "right",
+            "residual_mm": 0
+          },
+          {
+            "target": "wet_family_bath",
+            "level": 1,
+            "edge": "bottom",
+            "residual_mm": 0
+          }
+        ]
+      }
+    ]
+  }
+}

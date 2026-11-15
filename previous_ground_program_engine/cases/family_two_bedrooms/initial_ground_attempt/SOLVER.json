@@ -1,0 +1,19 @@
+{
+  "status": "INFEASIBLE",
+  "seconds": 16.521877089,
+  "grid_m": 0.1,
+  "solver": "OR-Tools CP-SAT",
+  "variable_room_ids": [
+    "child_1",
+    "child_2",
+    "child_3",
+    "family_bath",
+    "master",
+    "master_bath"
+  ],
+  "plot": [
+    30,
+    35
+  ],
+  "hint_is_not_a_constraint": true
+}

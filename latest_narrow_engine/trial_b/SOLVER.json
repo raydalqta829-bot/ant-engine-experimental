@@ -1,0 +1,102 @@
+{
+  "status": "FEASIBLE",
+  "seconds": 4.025014427,
+  "grid_m": 0.1,
+  "solver": "OR-Tools CP-SAT",
+  "variable_room_ids": [
+    "child_1",
+    "child_2",
+    "child_3",
+    "family_bath",
+    "master",
+    "master_bath"
+  ],
+  "plot": [
+    22,
+    40
+  ],
+  "hint_is_not_a_constraint": true,
+  "max_family_arms": 4,
+  "rectangles": {
+    "child_1": {
+      "x": 15.1,
+      "y": 11.8,
+      "width": 3.8,
+      "depth": 3.6
+    },
+    "child_2": {
+      "x": 5.6,
+      "y": 12.1,
+      "width": 4.3,
+      "depth": 3.3
+    },
+    "child_3": {
+      "x": 9.9,
+      "y": 13.4,
+      "width": 3.6,
+      "depth": 3.8
+    },
+    "family_bath": {
+      "x": 4.5,
+      "y": 3.1,
+      "width": 5.4,
+      "depth": 2.0
+    },
+    "master": {
+      "x": 4.2,
+      "y": 8.9,
+      "width": 5.7,
+      "depth": 3.2
+    },
+    "master_bath": {
+      "x": 3.1,
+      "y": 12.1,
+      "width": 2.5,
+      "depth": 4.7
+    },
+    "terrace": {
+      "x": 7.1,
+      "y": 6.5,
+      "width": 2.8,
+      "depth": 2.4
+    },
+    "family": {
+      "x": 10.7,
+      "y": 8.8,
+      "width": 4.4,
+      "depth": 4.4
+    },
+    "stair": {
+      "x": 13.5,
+      "y": 3.1,
+      "width": 3.2,
+      "depth": 5.7
+    },
+    "arm0": {
+      "x": 13.3,
+      "y": 9.8,
+      "width": 1.8,
+      "depth": 3.3
+    },
+    "arm1": {
+      "x": 10.3,
+      "y": 7.5,
+      "width": 1.8,
+      "depth": 2.7
+    },
+    "arm2": {
+      "x": 9.9,
+      "y": 6.6,
+      "width": 1.8,
+      "depth": 6.8
+    },
+    "arm3": {
+      "x": 9.9,
+      "y": 3.4,
+      "width": 1.8,
+      "depth": 10.0
+    }
+  },
+  "objective": 127050.0,
+  "best_bound": 47563.0
+}

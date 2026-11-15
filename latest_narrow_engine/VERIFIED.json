@@ -1,0 +1,61 @@
+{
+  "cases": {
+    "A": {
+      "case": "trial_b",
+      "accepted": true,
+      "ground_gross_m2": 198.14,
+      "bbox_coverage": 0.8769584845534211,
+      "ground_dimensions": [
+        15.8,
+        14.3
+      ],
+      "sampled_rays": 3330,
+      "upper_column_reservations": 11,
+      "ground_column_reservations": 27,
+      "warning_codes": [
+        "W_ROOM_NOT_EQUATOR_FACING",
+        "W_ROOM_NO_FIXTURE"
+      ],
+      "structural_approval": false
+    },
+    "B": {
+      "case": "F",
+      "accepted": true,
+      "ground_gross_m2": 215.42,
+      "bbox_coverage": 0.8366475066024547,
+      "ground_dimensions": [
+        15.7,
+        16.4
+      ],
+      "sampled_rays": 3330,
+      "upper_column_reservations": 8,
+      "ground_column_reservations": 31,
+      "warning_codes": [
+        "W_ROOM_NOT_EQUATOR_FACING",
+        "W_ROOM_NO_FIXTURE"
+      ],
+      "structural_approval": false
+    },
+    "C": {
+      "case": "C2",
+      "accepted": true,
+      "ground_gross_m2": 256.27,
+      "bbox_coverage": 0.8338865026682285,
+      "ground_dimensions": [
+        15.6,
+        19.7
+      ],
+      "sampled_rays": 3330,
+      "upper_column_reservations": 8,
+      "ground_column_reservations": 29,
+      "warning_codes": [
+        "W_ANNOTATION_OVERLAP",
+        "W_ROOM_NOT_EQUATOR_FACING",
+        "W_ROOM_NO_FIXTURE"
+      ],
+      "structural_approval": false
+    }
+  },
+  "different_contact_topologies_up_to_rotation_and_reflection": true,
+  "production_changed": false
+}

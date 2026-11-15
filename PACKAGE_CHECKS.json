@@ -1,0 +1,12 @@
+{
+  "python_files_syntax_checked": 54,
+  "source_copies_byte_identical": true,
+  "snapshot_is_git_repository": false,
+  "production_modified": false,
+  "isolated_install_or_runtime_test_performed": false,
+  "selected_cases": {
+    "A": "trial_b",
+    "B": "F",
+    "C": "C2"
+  }
+}

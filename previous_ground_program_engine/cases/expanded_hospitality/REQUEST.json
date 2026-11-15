@@ -1,0 +1,350 @@
+{
+  "id": "expanded_hospitality",
+  "site": {
+    "width": 30,
+    "depth": 35,
+    "street": "south",
+    "setbacks": {
+      "north": 3,
+      "south": 3,
+      "east": 3,
+      "west": 3
+    }
+  },
+  "floors": [
+    {
+      "level": 0,
+      "rooms": [
+        {
+          "id": "men",
+          "kind": "majlis",
+          "min_area": 45,
+          "min_side": 5.5,
+          "name": "Men Majlis",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "arabic",
+          "kind": "dining",
+          "min_area": 18,
+          "min_side": 3.5,
+          "name": "Guest Dining",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "women",
+          "kind": "majlis",
+          "min_area": 32,
+          "min_side": 4.5,
+          "name": "Women Majlis",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "living",
+          "kind": "living",
+          "min_area": 25,
+          "min_side": 5,
+          "name": "Family Living",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "dining",
+          "kind": "dining",
+          "min_area": 26.8,
+          "min_side": 4,
+          "name": "Family Dining",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "min_area": 20,
+          "min_side": 4,
+          "name": "Kitchen",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "store",
+          "kind": "storage",
+          "min_area": 5,
+          "min_side": 1.5,
+          "name": "Store",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "men-wc",
+          "kind": "bathroom",
+          "min_area": 7,
+          "min_side": 2,
+          "name": "Men WC",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "women-wc",
+          "kind": "bathroom",
+          "min_area": 7,
+          "min_side": 2,
+          "name": "Women WC",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "elder",
+          "kind": "bedroom",
+          "min_area": 16,
+          "min_side": 3.5,
+          "name": "Ground Bedroom 1",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "elder-bath",
+          "kind": "bathroom",
+          "min_area": 7,
+          "min_side": 2,
+          "name": "Ensuite 1",
+          "count": 1,
+          "floor": 0,
+          "ensuite_of": "elder"
+        },
+        {
+          "id": "main-foyer",
+          "kind": "hall",
+          "min_area": 7,
+          "min_side": 2.8,
+          "name": "Main Entry",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "family-foyer",
+          "kind": "hall",
+          "min_area": 6.5,
+          "min_side": 2.4,
+          "name": "Family Entry",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "stair",
+          "kind": "stair",
+          "min_area": 0,
+          "min_side": 0,
+          "name": "Stair",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "women-foyer",
+          "kind": "hall",
+          "min_area": 8,
+          "min_side": 3,
+          "name": "Women Entry",
+          "count": 1,
+          "floor": 0
+        }
+      ],
+      "required_edges": [
+        [
+          "main-foyer",
+          "men"
+        ],
+        [
+          "main-foyer",
+          "men-wc"
+        ],
+        [
+          "family-foyer",
+          "living"
+        ],
+        [
+          "living",
+          "dining"
+        ],
+        [
+          "living",
+          "stair"
+        ],
+        [
+          "dining",
+          "kitchen"
+        ],
+        [
+          "kitchen",
+          "store"
+        ],
+        [
+          "main-foyer",
+          "arabic"
+        ],
+        [
+          "arabic",
+          "dining"
+        ],
+        [
+          "women-foyer",
+          "women"
+        ],
+        [
+          "women-foyer",
+          "women-wc"
+        ],
+        [
+          "living",
+          "women"
+        ],
+        [
+          "living",
+          "elder"
+        ],
+        [
+          "elder",
+          "elder-bath"
+        ]
+      ]
+    },
+    {
+      "level": 1,
+      "rooms": [
+        {
+          "id": "child_1",
+          "kind": "bedroom"
+        },
+        {
+          "id": "child_2",
+          "kind": "bedroom"
+        },
+        {
+          "id": "child_3",
+          "kind": "bedroom"
+        },
+        {
+          "id": "family",
+          "kind": "living"
+        },
+        {
+          "id": "family_bath",
+          "kind": "bath"
+        },
+        {
+          "id": "master",
+          "kind": "bedroom"
+        },
+        {
+          "id": "master_bath",
+          "kind": "bath"
+        },
+        {
+          "id": "stair",
+          "kind": "circulation"
+        }
+      ],
+      "terrace": true,
+      "required_edges": [
+        [
+          "family",
+          "child_1"
+        ],
+        [
+          "family",
+          "child_2"
+        ],
+        [
+          "family",
+          "child_3"
+        ],
+        [
+          "family",
+          "family_bath"
+        ],
+        [
+          "family",
+          "master"
+        ],
+        [
+          "family",
+          "stair"
+        ],
+        [
+          "master",
+          "master_bath"
+        ],
+        [
+          "family",
+          "OUTSIDE"
+        ],
+        [
+          "master",
+          "OUTSIDE"
+        ]
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "room": "main-foyer",
+      "face": "south",
+      "width": 2
+    },
+    {
+      "room": "family-foyer",
+      "face": "south",
+      "width": 1
+    },
+    {
+      "room": "women-foyer",
+      "face": "east",
+      "width": 1
+    }
+  ],
+  "entry_rooms": {
+    "men": "main-foyer",
+    "family": "family-foyer",
+    "women": "women-foyer"
+  },
+  "guest_groups": [
+    {
+      "id": "men",
+      "entry": "main-foyer",
+      "rooms": [
+        "main-foyer",
+        "men",
+        "men-wc",
+        "arabic"
+      ]
+    },
+    {
+      "id": "women",
+      "entry": "women-foyer",
+      "rooms": [
+        "women-foyer",
+        "women",
+        "women-wc"
+      ]
+    }
+  ],
+  "family_rooms": [
+    "living",
+    "dining",
+    "kitchen",
+    "store",
+    "elder",
+    "elder-bath",
+    "family-foyer",
+    "stair"
+  ],
+  "privacy_guest_room_ids": [
+    "men",
+    "arabic",
+    "women"
+  ],
+  "benchmark_note": "Engineering test assumptions; same plot and same upper programme in all three cases, not a new client commission"
+}

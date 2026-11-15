@@ -1,0 +1,1 @@
+Start with REPORT_AR.md and VIEW.html. Install requirements.txt and npm dependencies, then use pipeline.py with an explicit REQUEST.json. Verify delivered cases with verify_ground_programs.py. make_cases.py defines the benchmark programmes. All structural reservations are preliminary; published site and A2 remain unchanged.

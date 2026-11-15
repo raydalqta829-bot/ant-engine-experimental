@@ -1,0 +1,8 @@
+{
+  "name": "ant-independent-refinement",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@chanmeng666/archlang": "1.60.0"
+  }
+}

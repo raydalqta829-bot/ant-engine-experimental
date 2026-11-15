@@ -1,0 +1,6 @@
+{
+  "accepted": false,
+  "reason": "Ground CP-SAT returned UNKNOWN; no cached fallback drawing",
+  "impossibility_proven": false,
+  "no_fallback_drawing": true
+}

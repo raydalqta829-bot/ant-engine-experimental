@@ -1,0 +1,511 @@
+{
+  "accepted": true,
+  "failures": [],
+  "scope": "Independent trial checks only; not 009/010 or regulatory approval",
+  "requested_count": 10,
+  "rooms_with_circulation_and_stair": 13,
+  "bedroom_count": 2,
+  "net_areas_m2": {
+    "men": 25.619999999999997,
+    "men-wc": 8.75,
+    "living": 24.000000000000004,
+    "dining": 28.30000000000001,
+    "kitchen": 26.219999999999995,
+    "store": 7.249999999999986,
+    "elder": 23.999999999999996,
+    "elder-bath": 6.29999999999999,
+    "bedroom_2": 13.999999999999993,
+    "family-bath": 7.000000000000006
+  },
+  "gross_area_m2": 229.48000000000002,
+  "bbox_area_m2": 276.32,
+  "bbox_coverage": 0.8304863925883035,
+  "envelope_perimeter_m": 90.39999999999999,
+  "holes": 0,
+  "components": 1,
+  "overlap_area_m2": 0.0,
+  "dedicated_hall_area_m2": 23.199999999999996,
+  "hall_access": [
+    {
+      "room": "main-foyer",
+      "tested_clear_width_m": 1.5,
+      "max_door_to_walk_core_m": 0.8558621384311841
+    },
+    {
+      "room": "family-foyer",
+      "tested_clear_width_m": 1.5,
+      "max_door_to_walk_core_m": 0.8558621384311841
+    }
+  ],
+  "guest_paths_separate": true,
+  "family_path_without_guest_transit": true,
+  "ensuite_private": true,
+  "windows": [
+    {
+      "id": "n_men",
+      "room_id": "men",
+      "center": [
+        18.8,
+        8.95
+      ],
+      "width": 2.4,
+      "axis": "y"
+    },
+    {
+      "id": "n_men_wc",
+      "room_id": "men-wc",
+      "center": [
+        16.25,
+        3.1
+      ],
+      "width": 0.8,
+      "axis": "x"
+    },
+    {
+      "id": "n_living",
+      "room_id": "living",
+      "center": [
+        4.6,
+        11.9
+      ],
+      "width": 2.4,
+      "axis": "y"
+    },
+    {
+      "id": "n_dining",
+      "room_id": "dining",
+      "center": [
+        11.8,
+        13.8
+      ],
+      "width": 2.4,
+      "axis": "x"
+    },
+    {
+      "id": "n_kitchen",
+      "room_id": "kitchen",
+      "center": [
+        18.8,
+        15.05
+      ],
+      "width": 2.4,
+      "axis": "y"
+    },
+    {
+      "id": "n_elder",
+      "room_id": "elder",
+      "center": [
+        11.0,
+        17.6
+      ],
+      "width": 2.4,
+      "axis": "y"
+    },
+    {
+      "id": "n_elder_bath",
+      "room_id": "elder-bath",
+      "center": [
+        4.95,
+        20.7
+      ],
+      "width": 0.8,
+      "axis": "x"
+    },
+    {
+      "id": "n_bedroom_2",
+      "room_id": "bedroom_2",
+      "center": [
+        3.1,
+        16.6
+      ],
+      "width": 2.4,
+      "axis": "y"
+    },
+    {
+      "id": "n_family_bath",
+      "room_id": "family-bath",
+      "center": [
+        10.3,
+        3.6
+      ],
+      "width": 0.8,
+      "axis": "x"
+    }
+  ],
+  "doors": [
+    {
+      "id": "d_0",
+      "center": [
+        14.4,
+        6.55
+      ],
+      "width": 0.9,
+      "axis": "y",
+      "connects": [
+        "main-foyer",
+        "men"
+      ],
+      "receiving_room": "men"
+    },
+    {
+      "id": "d_1",
+      "center": [
+        14.4,
+        4.45
+      ],
+      "width": 0.9,
+      "axis": "y",
+      "connects": [
+        "main-foyer",
+        "men-wc"
+      ],
+      "receiving_room": "men-wc"
+    },
+    {
+      "id": "d_2",
+      "center": [
+        7.8,
+        9.3
+      ],
+      "width": 0.9,
+      "axis": "x",
+      "connects": [
+        "family-foyer",
+        "living"
+      ],
+      "receiving_room": "living"
+    },
+    {
+      "id": "d_3",
+      "center": [
+        9.6,
+        11.55
+      ],
+      "width": 0.9,
+      "axis": "y",
+      "connects": [
+        "living",
+        "dining"
+      ],
+      "receiving_room": "dining"
+    },
+    {
+      "id": "d_4",
+      "center": [
+        5.5,
+        9.3
+      ],
+      "width": 0.9,
+      "axis": "x",
+      "connects": [
+        "living",
+        "stair"
+      ],
+      "receiving_room": "stair"
+    },
+    {
+      "id": "d_5",
+      "center": [
+        14.0,
+        12.95
+      ],
+      "width": 0.9,
+      "axis": "y",
+      "connects": [
+        "dining",
+        "kitchen"
+      ],
+      "receiving_room": "kitchen"
+    },
+    {
+      "id": "d_6",
+      "center": [
+        15.95,
+        18.0
+      ],
+      "width": 0.9,
+      "axis": "x",
+      "connects": [
+        "kitchen",
+        "store"
+      ],
+      "receiving_room": "store"
+    },
+    {
+      "id": "d_7",
+      "center": [
+        12.7,
+        7.3
+      ],
+      "width": 0.9,
+      "axis": "x",
+      "connects": [
+        "main-foyer",
+        "dining"
+      ],
+      "receiving_room": "dining"
+    },
+    {
+      "id": "d_8",
+      "center": [
+        8.2,
+        14.5
+      ],
+      "width": 0.9,
+      "axis": "x",
+      "connects": [
+        "living",
+        "elder"
+      ],
+      "receiving_room": "elder"
+    },
+    {
+      "id": "d_9",
+      "center": [
+        6.8,
+        19.7
+      ],
+      "width": 0.9,
+      "axis": "y",
+      "connects": [
+        "elder",
+        "elder-bath"
+      ],
+      "receiving_room": "elder-bath"
+    },
+    {
+      "id": "d_10",
+      "center": [
+        5.699999999999999,
+        14.5
+      ],
+      "width": 0.9,
+      "axis": "x",
+      "connects": [
+        "living",
+        "bedroom_2"
+      ],
+      "receiving_room": "bedroom_2"
+    },
+    {
+      "id": "d_11",
+      "center": [
+        9.2,
+        6.55
+      ],
+      "width": 0.9,
+      "axis": "y",
+      "connects": [
+        "family-foyer",
+        "family-bath"
+      ],
+      "receiving_room": "family-bath"
+    },
+    {
+      "id": "entry_main_foyer",
+      "center": [
+        12.9,
+        3.1
+      ],
+      "width": 2,
+      "axis": "x",
+      "connects": [
+        "OUTSIDE",
+        "main-foyer"
+      ],
+      "receiving_room": "main-foyer",
+      "double": true
+    },
+    {
+      "id": "entry_family_foyer",
+      "center": [
+        7.800000000000001,
+        5.8
+      ],
+      "width": 1,
+      "axis": "x",
+      "connects": [
+        "OUTSIDE",
+        "family-foyer"
+      ],
+      "receiving_room": "family-foyer",
+      "double": false
+    }
+  ],
+  "platforms": [
+    {
+      "entry": "entry_main_foyer",
+      "risers": 3,
+      "riser_height": 0.15,
+      "surfaces": [
+        [
+          [
+            14.1,
+            1.8
+          ],
+          [
+            14.1,
+            3.0
+          ],
+          [
+            11.700000000000001,
+            3.0
+          ],
+          [
+            11.700000000000001,
+            1.8
+          ]
+        ],
+        [
+          [
+            14.1,
+            1.5
+          ],
+          [
+            14.1,
+            1.8
+          ],
+          [
+            11.700000000000001,
+            1.8
+          ],
+          [
+            11.700000000000001,
+            1.5
+          ]
+        ],
+        [
+          [
+            14.1,
+            1.2000000000000002
+          ],
+          [
+            14.1,
+            1.5
+          ],
+          [
+            11.700000000000001,
+            1.5
+          ],
+          [
+            11.700000000000001,
+            1.2000000000000002
+          ]
+        ]
+      ]
+    },
+    {
+      "entry": "entry_family_foyer",
+      "risers": 3,
+      "riser_height": 0.15,
+      "surfaces": [
+        [
+          [
+            8.5,
+            4.5
+          ],
+          [
+            8.5,
+            5.7
+          ],
+          [
+            7.1000000000000005,
+            5.7
+          ],
+          [
+            7.1000000000000005,
+            4.5
+          ]
+        ],
+        [
+          [
+            8.5,
+            4.2
+          ],
+          [
+            8.5,
+            4.5
+          ],
+          [
+            7.1000000000000005,
+            4.5
+          ],
+          [
+            7.1000000000000005,
+            4.2
+          ]
+        ],
+        [
+          [
+            8.5,
+            3.9
+          ],
+          [
+            8.5,
+            4.2
+          ],
+          [
+            7.1000000000000005,
+            4.2
+          ],
+          [
+            7.1000000000000005,
+            3.9
+          ]
+        ]
+      ]
+    }
+  ],
+  "parking_reservations": [
+    {
+      "width_m": 2.6,
+      "length_m": 5.5,
+      "polygon": [
+        [
+          2.8,
+          0.3
+        ],
+        [
+          2.8,
+          5.8
+        ],
+        [
+          0.2,
+          5.8
+        ],
+        [
+          0.2,
+          0.3
+        ]
+      ],
+      "access_polygon": [
+        [
+          2.8,
+          0.0
+        ],
+        [
+          2.8,
+          5.8
+        ],
+        [
+          0.2,
+          5.8
+        ],
+        [
+          0.2,
+          0.0
+        ]
+      ],
+      "assumption": "Straight access from south street; maneuvering and regulations unverified"
+    }
+  ],
+  "unverified": [
+    "Sightline privacy",
+    "Local building codes",
+    "Stair treads and upper-storey connection",
+    "Furniture and fixture clearances",
+    "Structural and MEP coordination",
+    "Solar/daylight performance beyond exterior-window existence",
+    "Parking maneuvering and local requirements"
+  ]
+}

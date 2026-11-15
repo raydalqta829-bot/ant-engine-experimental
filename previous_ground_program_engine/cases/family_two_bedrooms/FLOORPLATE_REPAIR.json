@@ -1,0 +1,138 @@
+{
+  "applied": true,
+  "added_gross_area_m2": 2.519999999999999,
+  "polygon": [
+    [
+      13.1,
+      9.4
+    ],
+    [
+      13.1,
+      11.2
+    ],
+    [
+      11.7,
+      11.2
+    ],
+    [
+      11.7,
+      9.4
+    ]
+  ],
+  "near_room": "kitchen",
+  "assignment": "living",
+  "reason": "Close an unbuilt gap to provide a 1.8 m wide upper-floor circulation bridge, without removing requested rooms or changing their original clear cores",
+  "privacy": {
+    "before": {
+      "sampled_rays": 3330,
+      "visible_bedroom_rays": 0,
+      "visible_living_rays_from_public_entries": 5,
+      "exposures": [
+        {
+          "observer": "entry_main_foyer",
+          "target": "living",
+          "from": [
+            7.199999999999999,
+            2.3
+          ],
+          "to": [
+            16.75,
+            12.25
+          ]
+        },
+        {
+          "observer": "entry_main_foyer",
+          "target": "living",
+          "from": [
+            7.199999999999999,
+            1.5
+          ],
+          "to": [
+            16.75,
+            12.25
+          ]
+        },
+        {
+          "observer": "entry_main_foyer",
+          "target": "living",
+          "from": [
+            7.6499999999999995,
+            2.3
+          ],
+          "to": [
+            16.75,
+            12.25
+          ]
+        },
+        {
+          "observer": "entry_main_foyer",
+          "target": "living",
+          "from": [
+            7.6499999999999995,
+            1.5
+          ],
+          "to": [
+            14.299999999999999,
+            10.6
+          ]
+        },
+        {
+          "observer": "entry_main_foyer",
+          "target": "living",
+          "from": [
+            7.6499999999999995,
+            1.5
+          ],
+          "to": [
+            16.75,
+            13.9
+          ]
+        }
+      ],
+      "visibility_jamb_allowance_m": 0.05,
+      "assumptions": [
+        "Plan-level, eye height within open door/window height",
+        "All modelled door and window apertures treated as transparent",
+        "Openings enlarged 50 mm at each jamb for conservative sampling",
+        "Finite observer/target samples; not an exhaustive visibility proof",
+        "Bedroom targets are an interior zone, not a furnished bed",
+        "Curtains, glazing opacity, door leaves and upper-floor views unmodelled"
+      ]
+    },
+    "after": {
+      "sampled_rays": 3330,
+      "visible_bedroom_rays": 0,
+      "visible_living_rays_from_public_entries": 0,
+      "exposures": [],
+      "visibility_jamb_allowance_m": 0.05,
+      "assumptions": [
+        "Plan-level, eye height within open door/window height",
+        "All modelled door and window apertures treated as transparent",
+        "Openings enlarged 50 mm at each jamb for conservative sampling",
+        "Finite observer/target samples; not an exhaustive visibility proof",
+        "Bedroom targets are an interior zone, not a furnished bed",
+        "Curtains, glazing opacity, door leaves and upper-floor views unmodelled"
+      ]
+    },
+    "changes": [
+      {
+        "door": "d_7",
+        "from": [
+          10.1,
+          5.1
+        ],
+        "to": [
+          10.1,
+          5.75
+        ],
+        "fixed_shared_wall": true
+      }
+    ],
+    "changed_room_polygons": false,
+    "gate_pass": true,
+    "method": "CP-SAT joint door-position selection with sufficient ray-blocking constraints",
+    "solver_status": "OPTIMAL",
+    "candidate_sensitive_rays": 5,
+    "no_blocker_for_some_ray": false
+  }
+}

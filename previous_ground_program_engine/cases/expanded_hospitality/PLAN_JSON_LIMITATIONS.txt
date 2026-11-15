@@ -1,0 +1,7 @@
+note: Plan JSON carries no keeps; this export leaves out the plan's 3 keeps (the .arch source still holds them)
+note: Plan JSON carries no level numbers or names; this export leaves out `level 0 "Ground" height 3200 clear 3000`, `level 1 "First" height 3200 slab 200 clear 3000` (the .arch source still holds them)
+note: Plan JSON carries no room label positions; this export leaves out 2 `label … at` positions: r_14, stair (the .arch source still holds them)
+note: Plan JSON carries no stairs; this export leaves out 2 stairs: core (the .arch source still holds them)
+note: Plan JSON carries no voids; this export leaves out 5 voids: wet_master_bath, wet_family_bath, stair_void (the .arch source still holds them)
+note: Plan JSON carries no outdoor surfaces; this export leaves out 11 outdoor surfaces: platform_0_0, platform_0_1, platform_0_2, platform_1_0, platform_1_1 and 6 more (the .arch source still holds them)
+note: Plan JSON carries no hidden sheet marks; this export leaves out 2 `hidden` marks: scale, title (the .arch source still holds them)

@@ -1,0 +1,91 @@
+plan "FIRST - programme driven study" {
+units mm
+grid 1
+north up
+site { street south hemisphere north }
+scale 1:100 hidden
+title hidden
+height 3200
+room id=child_1 polygon (16700,25000) (16700,19300) (13500,19300) (13500,25000) label "Child 1" uses bedroom
+room id=child_2 polygon (8500,24400) (8500,21200) (4100,21200) (4100,24400) label "Child 2" uses bedroom
+room id=child_3 polygon (11500,17400) (11500,14200) (7200,14200) (7200,17400) label "Child 3" uses bedroom
+room id=family polygon (7200,21100) (7200,17900) (7200,17400) (9000,17400) (9000,17900) (10500,17900) (10500,17500) (12300,17500) (16200,17500) (16200,19300) (13500,19300) (13500,21200) (12600,21200) (11300,21200) (9300,21200) (7200,21200) label "Family Lounge" uses living
+room id=family_bath polygon (18100,17500) (18100,14000) (15000,14000) (15000,17500) label "Family Bath" uses bath
+room id=master polygon (7200,18700) (7200,14200) (3200,14200) (3200,18700) label "Master Bedroom" uses bedroom
+room id=master_bath polygon (11400,14200) (11400,12200) (6000,12200) (6000,14200) label "Master Bath" uses bath
+room id=stair polygon (13500,26900) (13500,21200) (10300,21200) (10300,26900) label "Stair" at (11900,21950) uses circulation
+wall id=uw_0 exterior thickness 200 { (16700,25000) (16700,19300) }
+wall id=uw_1 exterior thickness 200 { (16200,19300) (16700,19300) }
+wall id=uw_2 partition thickness 200 { (13500,19300) (16200,19300) }
+wall id=uw_3 partition thickness 200 { (13500,21200) (13500,19300) }
+wall id=uw_4 partition thickness 200 { (13500,25000) (13500,21200) }
+wall id=uw_5 exterior thickness 200 { (13500,25000) (16700,25000) }
+wall id=uw_6 exterior thickness 200 { (8500,24400) (8500,21200) }
+wall id=uw_7 partition thickness 200 { (7200,21200) (8500,21200) }
+wall id=uw_8 exterior thickness 200 { (4100,21200) (7200,21200) }
+wall id=uw_9 exterior thickness 200 { (4100,24400) (4100,21200) }
+wall id=uw_10 exterior thickness 200 { (4100,24400) (8500,24400) }
+wall id=uw_11 exterior thickness 200 { (11500,17400) (11500,14200) }
+wall id=uw_12 exterior thickness 200 { (11400,14200) (11500,14200) }
+wall id=uw_13 partition thickness 200 { (7200,14200) (11400,14200) }
+wall id=uw_14 partition thickness 200 { (7200,17400) (7200,14200) }
+wall id=uw_15 partition thickness 200 { (7200,17400) (9000,17400) }
+wall id=uw_16 exterior thickness 200 { (9000,17400) (11500,17400) }
+wall id=uw_17 exterior thickness 200 { (7200,21100) (7200,18700) }
+wall id=uw_18 exterior thickness 200 { (9000,17900) (9000,17400) }
+wall id=uw_19 exterior thickness 200 { (9000,17900) (10500,17900) }
+wall id=uw_20 exterior thickness 200 { (10500,17900) (10500,17500) }
+wall id=uw_21 partition thickness 200 { (15000,17500) (16200,17500) }
+wall id=uw_22 exterior thickness 200 { (16200,19300) (16200,17500) }
+wall id=uw_23 exterior thickness 200 { (7200,21200) (7200,21100) }
+wall id=uw_24 exterior thickness 200 { (18100,17500) (18100,14000) }
+wall id=uw_25 exterior thickness 200 { (15000,14000) (18100,14000) }
+wall id=uw_26 exterior thickness 200 { (15000,17500) (15000,14000) }
+wall id=uw_27 exterior thickness 200 { (16200,17500) (18100,17500) }
+wall id=uw_28 partition thickness 200 { (6000,14200) (7200,14200) }
+wall id=uw_29 exterior thickness 200 { (3200,14200) (6000,14200) }
+wall id=uw_30 exterior thickness 200 { (3200,18700) (3200,14200) }
+wall id=uw_31 exterior thickness 200 { (3200,18700) (4400,18700) }
+wall id=uw_32 exterior thickness 200 { (4400,18700) (7200,18700) }
+wall id=uw_33 exterior thickness 200 { (11400,14200) (11400,12200) }
+wall id=uw_34 exterior thickness 200 { (6000,12200) (11400,12200) }
+wall id=uw_35 exterior thickness 200 { (6000,14200) (6000,12200) }
+wall id=uw_36 exterior thickness 200 { (13500,26900) (13500,25000) }
+wall id=uw_37 exterior thickness 200 { (10300,26900) (10300,21200) }
+wall id=uw_38 exterior thickness 200 { (10300,26900) (13500,26900) }
+wall id=uw_39 exterior thickness 150 height 1100 { (4400,21100) (4400,18700) }
+wall id=uw_40 exterior thickness 150 height 1100 { (4400,21100) (7200,21100) }
+wall id=uw_41 partition thickness 200 { (7200,18700) (7200,17400) }
+wall id=uw_42 exterior thickness 200 { (10500,17500) (15000,17500) }
+wall id=uw_43 partition thickness 200 { (10300,21200) (13500,21200) }
+wall id=uw_44 exterior thickness 200 { (8500,21200) (10300,21200) }
+door id=u_0 hinged at (14850,19300) width 900 wall uw_2 swing into child_1
+door id=u_1 hinged at (7850,21200) width 900 wall uw_7 swing into child_2
+door id=u_2 hinged at (8100,17400) width 900 wall uw_15 swing into child_3
+door id=u_3 hinged at (15600,17500) width 800 wall uw_21 swing into family_bath
+door id=u_4 hinged at (7200,18050) width 900 wall uw_41 swing into master
+opening id=u_5 at (11900,21200) width 1200 wall uw_43
+door id=u_6 hinged at (6600,14200) width 800 wall uw_28 swing into master_bath
+door id=u_family_terrace glazed_sliding at (7200,19900) width 1600 wall uw_17 slide left
+door id=u_master_terrace hinged at (5800,18700) width 900 wall uw_32 swing into master
+window id=n_child_1 at (16700,22150) width 1400 wall uw_0
+window id=n_child_2 at (6300,24400) width 1400 wall uw_10
+window id=n_child_3 at (11500,15800) width 1400 wall uw_11
+window id=n_family at (13650,17500) width 1400 wall uw_42
+window id=n_family_bath at (18100,15750) width 700 wall uw_24
+window id=n_master at (3200,16450) width 1400 wall uw_30
+window id=n_master_bath at (8700,12200) width 700 wall uw_34
+outdoor id=terrace deck polygon (7200,21100) (7200,18700) (4400,18700) (4400,21100) label "Terrace"
+stair id=core dir down width 1300 { flight at (10500,22900) size 1300x2520 landing at (10500,25420) size 2800x1300 flight at (12000,22900) size 1300x2520 }
+void id=stair_void polygon (13300,22900) (13300,26720) (10500,26720) (10500,22900) (10500,22600) (12000,22600) (12000,22900) rail 0,1,2,3,4,5
+void id=wet_family_bath at (15150,14250) size 300x300 rail none
+void id=wet_master_bath at (6150,13550) size 300x300 rail none
+column id=C10 at (10100,26750) size 300x300
+column id=C13 at (10150,23900) size 300x300
+column id=C14 at (13350,23900) size 300x300
+column id=C15 at (8150,23100) size 300x300
+column id=C17 at (10150,21000) size 300x300
+column id=C22 at (3000,14750) size 300x300
+column id=C24 at (17950,14600) size 300x300
+column id=C26 at (6650,12100) size 300x300
+}

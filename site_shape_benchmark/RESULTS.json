@@ -1,0 +1,34 @@
+{
+  "narrow_deep": {
+    "accepted": false,
+    "reason": "Ground CP-SAT returned INFEASIBLE; no cached fallback drawing",
+    "impossibility_proven": false,
+    "no_fallback_drawing": true
+  },
+  "wide_shallow": {
+    "accepted": true,
+    "errors": [],
+    "codes": {},
+    "scope": "Architectural contract gate; not a structural or code approval",
+    "accepted_warning_codes": [
+      "W_ANNOTATION_OVERLAP",
+      "W_ROOM_NOT_EQUATOR_FACING",
+      "W_ROOM_NO_FIXTURE"
+    ],
+    "strict_without_exceptions": false,
+    "structural_design_approved": false
+  },
+  "near_square": {
+    "accepted": true,
+    "errors": [],
+    "codes": {},
+    "scope": "Architectural contract gate; not a structural or code approval",
+    "accepted_warning_codes": [
+      "W_ANNOTATION_OVERLAP",
+      "W_ROOM_NOT_EQUATOR_FACING",
+      "W_ROOM_NO_FIXTURE"
+    ],
+    "strict_without_exceptions": false,
+    "structural_design_approved": false
+  }
+}

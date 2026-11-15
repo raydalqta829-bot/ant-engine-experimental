@@ -1,0 +1,6 @@
+{
+  "accepted": false,
+  "reason": "Wall-enclosed unassigned area exceeds bounded repair policy",
+  "impossibility_proven": false,
+  "no_fallback_drawing": true
+}

@@ -1,0 +1,76 @@
+{
+  "level": 1,
+  "rooms": [
+    {
+      "id": "child_1",
+      "kind": "bedroom"
+    },
+    {
+      "id": "child_2",
+      "kind": "bedroom"
+    },
+    {
+      "id": "child_3",
+      "kind": "bedroom"
+    },
+    {
+      "id": "family",
+      "kind": "living"
+    },
+    {
+      "id": "family_bath",
+      "kind": "bath"
+    },
+    {
+      "id": "master",
+      "kind": "bedroom"
+    },
+    {
+      "id": "master_bath",
+      "kind": "bath"
+    },
+    {
+      "id": "stair",
+      "kind": "circulation"
+    }
+  ],
+  "terrace": true,
+  "required_edges": [
+    [
+      "family",
+      "child_1"
+    ],
+    [
+      "family",
+      "child_2"
+    ],
+    [
+      "family",
+      "child_3"
+    ],
+    [
+      "family",
+      "family_bath"
+    ],
+    [
+      "family",
+      "master"
+    ],
+    [
+      "family",
+      "stair"
+    ],
+    [
+      "master",
+      "master_bath"
+    ],
+    [
+      "family",
+      "OUTSIDE"
+    ],
+    [
+      "master",
+      "OUTSIDE"
+    ]
+  ]
+}

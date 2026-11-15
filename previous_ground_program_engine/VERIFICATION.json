@@ -1,0 +1,270 @@
+{
+  "cases": {
+    "compact_one_bedroom": {
+      "accepted_for_declared_gates": true,
+      "requested_ground_functions": 8,
+      "ground_spaces_including_circulation": 11,
+      "ground_bedrooms": 1,
+      "ground_entrances": 2,
+      "ground_gross_room_polygons_m2": 177.6,
+      "upper_gross_room_polygons_m2": 117.63000000000001,
+      "ground_column_reservations": 24,
+      "upper_column_reservations": 5,
+      "privacy_target_room_ids": [
+        "elder"
+      ],
+      "sampled_sightlines": 1710,
+      "family_approach_depth_m": 2.7,
+      "bbox_coverage": 0.9132044426162074,
+      "wall_pocket_repairs": [],
+      "floorplate_stitching": {
+        "applied": false
+      },
+      "max_upper_arms": 4,
+      "lint_counts": {
+        "W_ROOM_NO_FIXTURE": 5,
+        "W_ROOM_NOT_EQUATOR_FACING": 8,
+        "W_ANNOTATION_OVERLAP": 1
+      },
+      "structural_design_approved": false
+    },
+    "expanded_hospitality": {
+      "accepted_for_declared_gates": true,
+      "requested_ground_functions": 11,
+      "ground_spaces_including_circulation": 15,
+      "ground_bedrooms": 1,
+      "ground_entrances": 3,
+      "ground_gross_room_polygons_m2": 341.65,
+      "upper_gross_room_polygons_m2": 111.86000000000001,
+      "ground_column_reservations": 33,
+      "upper_column_reservations": 5,
+      "privacy_target_room_ids": [
+        "elder"
+      ],
+      "sampled_sightlines": 3960,
+      "family_approach_depth_m": 4.7,
+      "bbox_coverage": 0.9383153442640959,
+      "wall_pocket_repairs": [
+        {
+          "room": "women-wc",
+          "added_centreline_area_m2": 1.8399999999999972,
+          "sealed_clear_area_before_m2": 1.260000000000002,
+          "polygon": [
+            [
+              22.4,
+              6.5
+            ],
+            [
+              22.4,
+              5.7
+            ],
+            [
+              20.1,
+              5.7
+            ],
+            [
+              20.1,
+              5.8
+            ],
+            [
+              20.1,
+              6.5
+            ]
+          ],
+          "reason": "Wall thickness sealed a narrow exterior slot; assign the residual floor to an adjacent requested room, preserving its original core"
+        }
+      ],
+      "floorplate_stitching": {
+        "applied": false
+      },
+      "max_upper_arms": 2,
+      "lint_counts": {
+        "W_ROOM_NO_FIXTURE": 6,
+        "W_ROOM_NOT_EQUATOR_FACING": 10,
+        "W_ANNOTATION_OVERLAP": 2
+      },
+      "structural_design_approved": false
+    },
+    "family_two_bedrooms": {
+      "accepted_for_declared_gates": true,
+      "requested_ground_functions": 10,
+      "ground_spaces_including_circulation": 13,
+      "ground_bedrooms": 2,
+      "ground_entrances": 2,
+      "ground_gross_room_polygons_m2": 236.45999999999998,
+      "upper_gross_room_polygons_m2": 146.69,
+      "ground_column_reservations": 29,
+      "upper_column_reservations": 16,
+      "privacy_target_room_ids": [
+        "bedroom_2",
+        "elder"
+      ],
+      "sampled_sightlines": 3330,
+      "family_approach_depth_m": 2.1,
+      "bbox_coverage": 0.9122685185185183,
+      "wall_pocket_repairs": [],
+      "floorplate_stitching": {
+        "applied": true,
+        "added_gross_area_m2": 2.519999999999999,
+        "polygon": [
+          [
+            13.1,
+            9.4
+          ],
+          [
+            13.1,
+            11.2
+          ],
+          [
+            11.7,
+            11.2
+          ],
+          [
+            11.7,
+            9.4
+          ]
+        ],
+        "near_room": "kitchen",
+        "assignment": "living",
+        "reason": "Close an unbuilt gap to provide a 1.8 m wide upper-floor circulation bridge, without removing requested rooms or changing their original clear cores",
+        "privacy": {
+          "before": {
+            "sampled_rays": 3330,
+            "visible_bedroom_rays": 0,
+            "visible_living_rays_from_public_entries": 5,
+            "exposures": [
+              {
+                "observer": "entry_main_foyer",
+                "target": "living",
+                "from": [
+                  7.199999999999999,
+                  2.3
+                ],
+                "to": [
+                  16.75,
+                  12.25
+                ]
+              },
+              {
+                "observer": "entry_main_foyer",
+                "target": "living",
+                "from": [
+                  7.199999999999999,
+                  1.5
+                ],
+                "to": [
+                  16.75,
+                  12.25
+                ]
+              },
+              {
+                "observer": "entry_main_foyer",
+                "target": "living",
+                "from": [
+                  7.6499999999999995,
+                  2.3
+                ],
+                "to": [
+                  16.75,
+                  12.25
+                ]
+              },
+              {
+                "observer": "entry_main_foyer",
+                "target": "living",
+                "from": [
+                  7.6499999999999995,
+                  1.5
+                ],
+                "to": [
+                  14.299999999999999,
+                  10.6
+                ]
+              },
+              {
+                "observer": "entry_main_foyer",
+                "target": "living",
+                "from": [
+                  7.6499999999999995,
+                  1.5
+                ],
+                "to": [
+                  16.75,
+                  13.9
+                ]
+              }
+            ],
+            "visibility_jamb_allowance_m": 0.05,
+            "assumptions": [
+              "Plan-level, eye height within open door/window height",
+              "All modelled door and window apertures treated as transparent",
+              "Openings enlarged 50 mm at each jamb for conservative sampling",
+              "Finite observer/target samples; not an exhaustive visibility proof",
+              "Bedroom targets are an interior zone, not a furnished bed",
+              "Curtains, glazing opacity, door leaves and upper-floor views unmodelled"
+            ]
+          },
+          "after": {
+            "sampled_rays": 3330,
+            "visible_bedroom_rays": 0,
+            "visible_living_rays_from_public_entries": 0,
+            "exposures": [],
+            "visibility_jamb_allowance_m": 0.05,
+            "assumptions": [
+              "Plan-level, eye height within open door/window height",
+              "All modelled door and window apertures treated as transparent",
+              "Openings enlarged 50 mm at each jamb for conservative sampling",
+              "Finite observer/target samples; not an exhaustive visibility proof",
+              "Bedroom targets are an interior zone, not a furnished bed",
+              "Curtains, glazing opacity, door leaves and upper-floor views unmodelled"
+            ]
+          },
+          "changes": [
+            {
+              "door": "d_7",
+              "from": [
+                10.1,
+                5.1
+              ],
+              "to": [
+                10.1,
+                5.75
+              ],
+              "fixed_shared_wall": true
+            }
+          ],
+          "changed_room_polygons": false,
+          "gate_pass": true,
+          "method": "CP-SAT joint door-position selection with sufficient ray-blocking constraints",
+          "solver_status": "OPTIMAL",
+          "candidate_sensitive_rays": 5,
+          "no_blocker_for_some_ray": false
+        }
+      },
+      "max_upper_arms": 4,
+      "lint_counts": {
+        "W_ROOM_NO_FIXTURE": 6,
+        "W_ROOM_NOT_EQUATOR_FACING": 8,
+        "W_ANNOTATION_OVERLAP": 1
+      },
+      "structural_design_approved": false
+    }
+  },
+  "checks_passed": [
+    "compact_one_bedroom: exact brief, compiled polygons/edges/entries, two-floor access, columns, services and all bedroom privacy samples",
+    "expanded_hospitality: exact brief, compiled polygons/edges/entries, two-floor access, columns, services and all bedroom privacy samples",
+    "family_two_bedrooms: exact brief, compiled polygons/edges/entries, two-floor access, columns, services and all bedroom privacy samples",
+    "Missing second bedroom and a direct guest-to-bedroom connection are rejected",
+    "Unsupported orientation rejected without stale drawings",
+    "Production, A2 reference and paused branch untouched",
+    "Full generic two-bedroom ground pipeline, including upper generation and compiler gates, passes without rendering"
+  ],
+  "same_plot_m": [
+    30,
+    35
+  ],
+  "same_upper_programme": true,
+  "structural_approval": false,
+  "production_changed": false,
+  "scope": "Three measured ground programmes with explicit room graphs, rectangular south-street sites and north stair arrival; not all villa programmes or local codes"
+}

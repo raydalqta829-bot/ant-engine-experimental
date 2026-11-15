@@ -1,0 +1,318 @@
+{
+  "id": "B4",
+  "site": {
+    "width": 22,
+    "depth": 40,
+    "street": "south",
+    "setbacks": {
+      "north": 3,
+      "south": 3,
+      "east": 3,
+      "west": 3
+    }
+  },
+  "floors": [
+    {
+      "level": 0,
+      "rooms": [
+        {
+          "id": "men",
+          "kind": "majlis",
+          "min_area": 25,
+          "min_side": 4,
+          "name": "Men Majlis",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "men-wc",
+          "kind": "bathroom",
+          "min_area": 5,
+          "min_side": 1.8,
+          "name": "Guest WC",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "living",
+          "kind": "living",
+          "min_area": 24,
+          "min_side": 4.5,
+          "name": "Family Living",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "dining",
+          "kind": "dining",
+          "min_area": 16,
+          "min_side": 3.5,
+          "name": "Family Dining",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "min_area": 16,
+          "min_side": 3.5,
+          "name": "Kitchen",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "store",
+          "kind": "storage",
+          "min_area": 4,
+          "min_side": 1.5,
+          "name": "Store",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "elder",
+          "kind": "bedroom",
+          "min_area": 16,
+          "min_side": 3.5,
+          "name": "Ground Bedroom 1",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "elder-bath",
+          "kind": "bathroom",
+          "min_area": 5,
+          "min_side": 1.8,
+          "name": "Ensuite 1",
+          "count": 1,
+          "floor": 0,
+          "ensuite_of": "elder"
+        },
+        {
+          "id": "bedroom_2",
+          "kind": "bedroom",
+          "min_area": 14,
+          "min_side": 3.5,
+          "name": "Ground Bedroom 2",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "family-bath",
+          "kind": "bathroom",
+          "min_area": 5,
+          "min_side": 1.8,
+          "name": "Family Bath",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "main-foyer",
+          "kind": "hall",
+          "min_area": 7,
+          "min_side": 2.8,
+          "name": "Main Entry",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "family-foyer",
+          "kind": "hall",
+          "min_area": 6.5,
+          "min_side": 2.4,
+          "name": "Family Entry",
+          "count": 1,
+          "floor": 0
+        },
+        {
+          "id": "stair",
+          "kind": "stair",
+          "min_area": 0,
+          "min_side": 0,
+          "name": "Stair",
+          "count": 1,
+          "floor": 0
+        }
+      ],
+      "required_edges": [
+        [
+          "main-foyer",
+          "men"
+        ],
+        [
+          "main-foyer",
+          "men-wc"
+        ],
+        [
+          "family-foyer",
+          "living"
+        ],
+        [
+          "living",
+          "dining"
+        ],
+        [
+          "living",
+          "stair"
+        ],
+        [
+          "dining",
+          "kitchen"
+        ],
+        [
+          "kitchen",
+          "store"
+        ],
+        [
+          "main-foyer",
+          "dining"
+        ],
+        [
+          "living",
+          "elder"
+        ],
+        [
+          "elder",
+          "elder-bath"
+        ],
+        [
+          "living",
+          "bedroom_2"
+        ],
+        [
+          "family-foyer",
+          "family-bath"
+        ]
+      ]
+    },
+    {
+      "level": 1,
+      "rooms": [
+        {
+          "id": "child_1",
+          "kind": "bedroom"
+        },
+        {
+          "id": "child_2",
+          "kind": "bedroom"
+        },
+        {
+          "id": "child_3",
+          "kind": "bedroom"
+        },
+        {
+          "id": "family",
+          "kind": "living"
+        },
+        {
+          "id": "family_bath",
+          "kind": "bath"
+        },
+        {
+          "id": "master",
+          "kind": "bedroom"
+        },
+        {
+          "id": "master_bath",
+          "kind": "bath"
+        },
+        {
+          "id": "stair",
+          "kind": "circulation"
+        }
+      ],
+      "terrace": true,
+      "required_edges": [
+        [
+          "family",
+          "child_1"
+        ],
+        [
+          "family",
+          "child_2"
+        ],
+        [
+          "family",
+          "child_3"
+        ],
+        [
+          "family",
+          "family_bath"
+        ],
+        [
+          "family",
+          "master"
+        ],
+        [
+          "family",
+          "stair"
+        ],
+        [
+          "master",
+          "master_bath"
+        ],
+        [
+          "family",
+          "OUTSIDE"
+        ],
+        [
+          "master",
+          "OUTSIDE"
+        ]
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "room": "main-foyer",
+      "face": "south",
+      "width": 2
+    },
+    {
+      "room": "family-foyer",
+      "face": "south",
+      "width": 1
+    }
+  ],
+  "entry_rooms": {
+    "men": "main-foyer",
+    "family": "family-foyer"
+  },
+  "guest_groups": [
+    {
+      "id": "men",
+      "entry": "main-foyer",
+      "rooms": [
+        "main-foyer",
+        "men",
+        "men-wc"
+      ]
+    }
+  ],
+  "family_rooms": [
+    "living",
+    "dining",
+    "kitchen",
+    "store",
+    "elder",
+    "elder-bath",
+    "bedroom_2",
+    "family-bath",
+    "family-foyer",
+    "stair"
+  ],
+  "privacy_guest_room_ids": [
+    "men"
+  ],
+  "benchmark_note": "Same family programme; site shape experiment; provisional engineering coordination only",
+  "search_seed": 33,
+  "ground_seconds": 40,
+  "search_policy": {
+    "relax_bbox_exterior": true,
+    "local_exterior": true,
+    "relax_north_living": true,
+    "relax_men_position": true,
+    "topology_profile": "west_stair_east_service",
+    "max_wall_pocket_repair_m2": 6
+  }
+}

@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {compile,describe,lint,toDxf,renderPngFromSvg,toPdf} from '@chanmeng666/archlang';
+const sourcePath=process.argv[2],source=fs.readFileSync(sourcePath,'utf8'),stem=sourcePath.replace(/\.arch$/,'');
+const result=compile(source,{width:1500});
+if(result.errors.length)throw Error(JSON.stringify(result.errors));
+const svg=result.svg.replace(/<text\b[^>]*>[\s\S]*?<\/text>/g,text=>text.includes('m²')?'':text);
+const scene={...result.scene,nodes:result.scene.nodes.filter(n=>n.layer!=='dims'&&!(n.prim.t==='text'&&n.prim.value.includes('m²')))};
+const diagnostics=[];
+fs.writeFileSync(stem+'.svg',svg);fs.writeFileSync(stem+'.png',await renderPngFromSvg(svg,{onDiagnostic:d=>diagnostics.push(d)}));fs.writeFileSync(stem+'.pdf',await toPdf(scene,{onDiagnostic:d=>diagnostics.push(d)}));fs.writeFileSync(stem+'.dxf',toDxf(scene));
+const facts=describe(source),lintFindings=lint(source);fs.writeFileSync(stem+'_archlang.json',JSON.stringify({facts,lint:lintFindings,renderDiagnostics:diagnostics},null,2));
+if(diagnostics.some(d=>d.severity==='error'||d.code==='W_GLYPH_UNSUPPORTED'))throw Error('Unexpected font/export problem');
+console.log(path.basename(stem),'rendered',facts.rooms.length,'spaces;',lintFindings.length,'ArchLang warnings');

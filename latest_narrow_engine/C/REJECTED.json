@@ -1,0 +1,6 @@
+{
+  "accepted": false,
+  "reason": "An enclosed void has no safe room assignment",
+  "impossibility_proven": false,
+  "no_fallback_drawing": true
+}

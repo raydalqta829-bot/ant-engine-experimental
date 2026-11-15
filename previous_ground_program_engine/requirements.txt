@@ -1,0 +1,4 @@
+ortools==9.14.6206
+shapely==2.1.2
+matplotlib==3.10.7
+reportlab==4.4.9

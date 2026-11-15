@@ -1,0 +1,13 @@
+{
+  "accepted": true,
+  "errors": [],
+  "codes": {},
+  "scope": "Architectural contract gate; not a structural or code approval",
+  "accepted_warning_codes": [
+    "W_ANNOTATION_OVERLAP",
+    "W_ROOM_NOT_EQUATOR_FACING",
+    "W_ROOM_NO_FIXTURE"
+  ],
+  "strict_without_exceptions": false,
+  "structural_design_approved": false
+}

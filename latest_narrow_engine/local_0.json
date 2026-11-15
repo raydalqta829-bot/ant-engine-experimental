@@ -1,0 +1,30 @@
+{
+  "status": "UNKNOWN",
+  "family": "living_hub",
+  "seconds": 30.031820485,
+  "branches": 61546,
+  "conflicts": 7750,
+  "best_bound": 45269.0,
+  "solver_version": "9.14.6206",
+  "grid_m": 0.1,
+  "street": "south",
+  "requested_room_count": 10,
+  "variable_room_ids": [
+    "men",
+    "men-wc",
+    "living",
+    "dining",
+    "kitchen",
+    "store",
+    "elder",
+    "elder-bath",
+    "bedroom_2",
+    "family-bath",
+    "main-foyer",
+    "family-foyer",
+    "stair"
+  ],
+  "warm_start": false,
+  "larger_privacy_entries": false,
+  "model_scope": "Request-defined ground room graph; south street and north stair entry; limited architectural topology."
+}

@@ -1,0 +1,305 @@
+{
+  "summary": "15 warnings in 3 codes: W_ROOM_NOT_EQUATOR_FACING \u00d78, W_ROOM_NO_FIXTURE \u00d76, W_ANNOTATION_OVERLAP \u00d71",
+  "ok": false,
+  "strict": true,
+  "diagnostics": [
+    {
+      "code": "W_ROOM_NO_FIXTURE",
+      "severity": "warning",
+      "message": "Bathroom \"Guest WC\" has no fixtures (WC, basin, shower\u2026).",
+      "line": 10,
+      "col": 1,
+      "span": [
+        279,
+        377
+      ],
+      "fix": "Place a fixture inside the room; the categories are built in, so nothing needs importing. A bathroom or WC takes a `wc`, `basin`, `shower` or `bathtub` (e.g. `furniture wc in bath anchor top flush size 400x700`); a kitchen takes a `kitchen_sink`, `counter`, `stove` or `fridge` (e.g. `furniture kitchen_sink in kitchen anchor top flush size 800x600`). A bare `sink` counts for either. A `circle` or slanted `polygon` room cannot take `anchor`: place the piece `at (x,y)` with `in <roomId>` instead. The hint quotes the pieces that make the room what it is, checked together: a `bathtub` or `shower` for a bathroom, a `wc` for a WC, a sink and a hob for a kitchen, and the defining piece of any other use the room has. One fixture alone would leave a furnished room still missing its defining piece, which `W_ROOM_MISSING_DEFINING` reports.",
+      "hints": [
+        "Place the fixtures that make it a bathroom (nothing to import) \u2014 e.g. `furniture bathtub at (3200,30000) size 700x1700 rotate 270 in r_1`."
+      ],
+      "level": 0,
+      "stage": "fixtures"
+    },
+    {
+      "code": "W_ROOM_NO_FIXTURE",
+      "severity": "warning",
+      "message": "Kitchen \"Kitchen\" has no fixtures (sink, counter, stove\u2026).",
+      "line": 13,
+      "col": 1,
+      "span": [
+        640,
+        742
+      ],
+      "fix": "Place a fixture inside the room; the categories are built in, so nothing needs importing. A bathroom or WC takes a `wc`, `basin`, `shower` or `bathtub` (e.g. `furniture wc in bath anchor top flush size 400x700`); a kitchen takes a `kitchen_sink`, `counter`, `stove` or `fridge` (e.g. `furniture kitchen_sink in kitchen anchor top flush size 800x600`). A bare `sink` counts for either. A `circle` or slanted `polygon` room cannot take `anchor`: place the piece `at (x,y)` with `in <roomId>` instead. The hint quotes the pieces that make the room what it is, checked together: a `bathtub` or `shower` for a bathroom, a `wc` for a WC, a sink and a hob for a kitchen, and the defining piece of any other use the room has. One fixture alone would leave a furnished room still missing its defining piece, which `W_ROOM_MISSING_DEFINING` reports.",
+      "hints": [
+        "Place the fixtures that make it a kitchen (nothing to import) \u2014 e.g. `furniture kitchen_sink at (11000,22350) size 600x800 rotate 90 in r_4` and `furniture stove at (11000,23875) size 600x600 rotate 90 in r_4` and `furniture counter at (11000,21025) size 600x600 rotate 90 in r_4`."
+      ],
+      "level": 0,
+      "stage": "fixtures"
+    },
+    {
+      "code": "W_ROOM_NO_FIXTURE",
+      "severity": "warning",
+      "message": "Bathroom \"Ensuite 1\" has no fixtures (WC, basin, shower\u2026).",
+      "line": 16,
+      "col": 1,
+      "span": [
+        985,
+        1088
+      ],
+      "fix": "Place a fixture inside the room; the categories are built in, so nothing needs importing. A bathroom or WC takes a `wc`, `basin`, `shower` or `bathtub` (e.g. `furniture wc in bath anchor top flush size 400x700`); a kitchen takes a `kitchen_sink`, `counter`, `stove` or `fridge` (e.g. `furniture kitchen_sink in kitchen anchor top flush size 800x600`). A bare `sink` counts for either. A `circle` or slanted `polygon` room cannot take `anchor`: place the piece `at (x,y)` with `in <roomId>` instead. The hint quotes the pieces that make the room what it is, checked together: a `bathtub` or `shower` for a bathroom, a `wc` for a WC, a sink and a hob for a kitchen, and the defining piece of any other use the room has. One fixture alone would leave a furnished room still missing its defining piece, which `W_ROOM_MISSING_DEFINING` reports.",
+      "hints": [
+        "Place the fixtures that make it a bathroom (nothing to import), `bathtub` or `shower`: a `bathtub` (1700 along a wall, 700 deep) does not fit, because the placement found would raise another finding, so place it by hand."
+      ],
+      "level": 0,
+      "stage": "fixtures"
+    },
+    {
+      "code": "W_ROOM_NO_FIXTURE",
+      "severity": "warning",
+      "message": "Bathroom \"Family Bath\" has no fixtures (WC, basin, shower\u2026).",
+      "line": 18,
+      "col": 1,
+      "span": [
+        1203,
+        1308
+      ],
+      "fix": "Place a fixture inside the room; the categories are built in, so nothing needs importing. A bathroom or WC takes a `wc`, `basin`, `shower` or `bathtub` (e.g. `furniture wc in bath anchor top flush size 400x700`); a kitchen takes a `kitchen_sink`, `counter`, `stove` or `fridge` (e.g. `furniture kitchen_sink in kitchen anchor top flush size 800x600`). A bare `sink` counts for either. A `circle` or slanted `polygon` room cannot take `anchor`: place the piece `at (x,y)` with `in <roomId>` instead. The hint quotes the pieces that make the room what it is, checked together: a `bathtub` or `shower` for a bathroom, a `wc` for a WC, a sink and a hob for a kitchen, and the defining piece of any other use the room has. One fixture alone would leave a furnished room still missing its defining piece, which `W_ROOM_MISSING_DEFINING` reports.",
+      "hints": [
+        "Place the fixtures that make it a bathroom (nothing to import) \u2014 e.g. `furniture bathtub at (21800,29200) size 700x1700 rotate 90 in r_9`."
+      ],
+      "level": 0,
+      "stage": "fixtures"
+    },
+    {
+      "code": "W_ROOM_NOT_EQUATOR_FACING",
+      "severity": "warning",
+      "message": "Room \"Men Majlis\" has 1 window(s), none facing S (the equator side in the northern hemisphere) \u2014 they face W.",
+      "line": 9,
+      "col": 1,
+      "span": [
+        176,
+        278
+      ],
+      "fix": "Move a window onto the room's equator-facing facade, or accept the aspect \u2014 an urban plot often has no equator-facing wall to spare. There is deliberately NO machine fix: the remedy is a geometric decision (which facade, which wall, what else it displaces) and the compiler does not make those (ADR 0005).",
+      "hints": [
+        "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+      ],
+      "level": 0,
+      "stage": "openings"
+    },
+    {
+      "code": "W_ROOM_NOT_EQUATOR_FACING",
+      "severity": "warning",
+      "message": "Room \"Family Living\" has 1 window(s), none facing S (the equator side in the northern hemisphere) \u2014 they face N.",
+      "line": 11,
+      "col": 1,
+      "span": [
+        378,
+        529
+      ],
+      "fix": "Move a window onto the room's equator-facing facade, or accept the aspect \u2014 an urban plot often has no equator-facing wall to spare. There is deliberately NO machine fix: the remedy is a geometric decision (which facade, which wall, what else it displaces) and the compiler does not make those (ADR 0005).",
+      "hints": [
+        "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+      ],
+      "level": 0,
+      "stage": "openings"
+    },
+    {
+      "code": "W_ROOM_NOT_EQUATOR_FACING",
+      "severity": "warning",
+      "message": "Room \"Ground Bedroom 1\" has 1 window(s), none facing S (the equator side in the northern hemisphere) \u2014 they face E.",
+      "line": 15,
+      "col": 1,
+      "span": [
+        871,
+        984
+      ],
+      "fix": "Move a window onto the room's equator-facing facade, or accept the aspect \u2014 an urban plot often has no equator-facing wall to spare. There is deliberately NO machine fix: the remedy is a geometric decision (which facade, which wall, what else it displaces) and the compiler does not make those (ADR 0005).",
+      "hints": [
+        "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+      ],
+      "level": 0,
+      "stage": "openings"
+    },
+    {
+      "code": "W_ROOM_NOT_EQUATOR_FACING",
+      "severity": "warning",
+      "message": "Room \"Ground Bedroom 2\" has 1 window(s), none facing S (the equator side in the northern hemisphere) \u2014 they face N.",
+      "line": 17,
+      "col": 1,
+      "span": [
+        1089,
+        1202
+      ],
+      "fix": "Move a window onto the room's equator-facing facade, or accept the aspect \u2014 an urban plot often has no equator-facing wall to spare. There is deliberately NO machine fix: the remedy is a geometric decision (which facade, which wall, what else it displaces) and the compiler does not make those (ADR 0005).",
+      "hints": [
+        "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+      ],
+      "level": 0,
+      "stage": "openings"
+    },
+    {
+      "code": "W_ANNOTATION_OVERLAP",
+      "severity": "warning",
+      "message": "The area figure (18.2 m\u00b2) of \"Stair\" is printed over the stair, so the label and the symbol overprint each other on the drawing.",
+      "line": 21,
+      "col": 1,
+      "span": [
+        1521,
+        1645
+      ],
+      "fix": "For a room label: give it a clear point with `label \"\u2026\" at (x,y)`, move the pinned point if it already has one, or move the piece or the door; a name reported at the smallest height needs a shorter name or a wider room, since the drawing does not draw a leader to it. A pinned label keeps its size. For a `dims auto` number: move the piece or the pinned label clear of it; a wall-thickness figure is lettered on the longest straight wall of its thickness at a run no crossing wall, opening, piece of furniture or stair stands on, so moving the piece off that wall frees one, or use `dims auto rooms` and state the thickness with a hand `dim`. There is no machine-applicable fix: where the label or the piece should go is a drafting decision with no unique answer.",
+      "hints": [
+        "The label of room `r_12` is pinned by `label \"Stair\" at (x,y)`: move that point to a clear part of the floor, or move the stair."
+      ],
+      "level": 0,
+      "stage": "drafting"
+    },
+    {
+      "code": "W_ROOM_NO_FIXTURE",
+      "severity": "warning",
+      "message": "Bathroom \"Family Bath\" has no fixtures (WC, basin, shower\u2026).",
+      "line": 141,
+      "col": 1,
+      "span": [
+        9783,
+        9894
+      ],
+      "fix": "Place a fixture inside the room; the categories are built in, so nothing needs importing. A bathroom or WC takes a `wc`, `basin`, `shower` or `bathtub` (e.g. `furniture wc in bath anchor top flush size 400x700`); a kitchen takes a `kitchen_sink`, `counter`, `stove` or `fridge` (e.g. `furniture kitchen_sink in kitchen anchor top flush size 800x600`). A bare `sink` counts for either. A `circle` or slanted `polygon` room cannot take `anchor`: place the piece `at (x,y)` with `in <roomId>` instead. The hint quotes the pieces that make the room what it is, checked together: a `bathtub` or `shower` for a bathroom, a `wc` for a WC, a sink and a hob for a kitchen, and the defining piece of any other use the room has. One fixture alone would leave a furnished room still missing its defining piece, which `W_ROOM_MISSING_DEFINING` reports.",
+      "hints": [
+        "Place the fixtures that make it a bathroom (nothing to import) \u2014 e.g. `furniture bathtub at (9300,28400) size 700x1700 rotate 90 in family_bath`."
+      ],
+      "level": 1,
+      "stage": "fixtures"
+    },
+    {
+      "code": "W_ROOM_NO_FIXTURE",
+      "severity": "warning",
+      "message": "Bathroom \"Master Bath\" has no fixtures (WC, basin, shower\u2026).",
+      "line": 143,
+      "col": 1,
+      "span": [
+        10010,
+        10123
+      ],
+      "fix": "Place a fixture inside the room; the categories are built in, so nothing needs importing. A bathroom or WC takes a `wc`, `basin`, `shower` or `bathtub` (e.g. `furniture wc in bath anchor top flush size 400x700`); a kitchen takes a `kitchen_sink`, `counter`, `stove` or `fridge` (e.g. `furniture kitchen_sink in kitchen anchor top flush size 800x600`). A bare `sink` counts for either. A `circle` or slanted `polygon` room cannot take `anchor`: place the piece `at (x,y)` with `in <roomId>` instead. The hint quotes the pieces that make the room what it is, checked together: a `bathtub` or `shower` for a bathroom, a `wc` for a WC, a sink and a hob for a kitchen, and the defining piece of any other use the room has. One fixture alone would leave a furnished room still missing its defining piece, which `W_ROOM_MISSING_DEFINING` reports.",
+      "hints": [
+        "Place the fixtures that make it a bathroom (nothing to import) \u2014 e.g. `furniture bathtub at (23900,28800) size 700x1700 rotate 90 in master_bath`."
+      ],
+      "level": 1,
+      "stage": "fixtures"
+    },
+    {
+      "code": "W_ROOM_NOT_EQUATOR_FACING",
+      "severity": "warning",
+      "message": "Room \"Child 2\" has 1 window(s), none facing S (the equator side in the northern hemisphere) \u2014 they face N.",
+      "line": 138,
+      "col": 1,
+      "span": [
+        9240,
+        9344
+      ],
+      "fix": "Move a window onto the room's equator-facing facade, or accept the aspect \u2014 an urban plot often has no equator-facing wall to spare. There is deliberately NO machine fix: the remedy is a geometric decision (which facade, which wall, what else it displaces) and the compiler does not make those (ADR 0005).",
+      "hints": [
+        "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+      ],
+      "level": 1,
+      "stage": "openings"
+    },
+    {
+      "code": "W_ROOM_NOT_EQUATOR_FACING",
+      "severity": "warning",
+      "message": "Room \"Child 3\" has 2 window(s), none facing S (the equator side in the northern hemisphere) \u2014 they face N.",
+      "line": 139,
+      "col": 1,
+      "span": [
+        9345,
+        9453
+      ],
+      "fix": "Move a window onto the room's equator-facing facade, or accept the aspect \u2014 an urban plot often has no equator-facing wall to spare. There is deliberately NO machine fix: the remedy is a geometric decision (which facade, which wall, what else it displaces) and the compiler does not make those (ADR 0005).",
+      "hints": [
+        "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+      ],
+      "level": 1,
+      "stage": "openings"
+    },
+    {
+      "code": "W_ROOM_NOT_EQUATOR_FACING",
+      "severity": "warning",
+      "message": "Room \"Family Lounge\" has 1 window(s), none facing S (the equator side in the northern hemisphere) \u2014 they face N.",
+      "line": 140,
+      "col": 1,
+      "span": [
+        9454,
+        9782
+      ],
+      "fix": "Move a window onto the room's equator-facing facade, or accept the aspect \u2014 an urban plot often has no equator-facing wall to spare. There is deliberately NO machine fix: the remedy is a geometric decision (which facade, which wall, what else it displaces) and the compiler does not make those (ADR 0005).",
+      "hints": [
+        "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+      ],
+      "level": 1,
+      "stage": "openings"
+    },
+    {
+      "code": "W_ROOM_NOT_EQUATOR_FACING",
+      "severity": "warning",
+      "message": "Room \"Master Bedroom\" has 1 window(s), none facing S (the equator side in the northern hemisphere) \u2014 they face N.",
+      "line": 142,
+      "col": 1,
+      "span": [
+        9895,
+        10009
+      ],
+      "fix": "Move a window onto the room's equator-facing facade, or accept the aspect \u2014 an urban plot often has no equator-facing wall to spare. There is deliberately NO machine fix: the remedy is a geometric decision (which facade, which wall, what else it displaces) and the compiler does not make those (ADR 0005).",
+      "hints": [
+        "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+      ],
+      "level": 1,
+      "stage": "openings"
+    }
+  ],
+  "keeps": [
+    {
+      "keep": "stacked core on levels 0 1",
+      "grade": "hard",
+      "holds": true,
+      "residual_mm": 0,
+      "span": [
+        15544,
+        15575
+      ]
+    },
+    {
+      "keep": "stacked wet_master_bath on levels 0 1",
+      "grade": "hard",
+      "holds": true,
+      "residual_mm": 0,
+      "span": [
+        15576,
+        15618
+      ]
+    },
+    {
+      "keep": "stacked wet_family_bath on levels 0 1",
+      "grade": "hard",
+      "holds": true,
+      "residual_mm": 0,
+      "span": [
+        15619,
+        15661
+      ]
+    }
+  ],
+  "next": {
+    "tier": "validity",
+    "code": "W_ROOM_NO_FIXTURE",
+    "message": "Bathroom \"Guest WC\" has no fixtures (WC, basin, shower\u2026).",
+    "span": [
+      279,
+      377
+    ],
+    "level": 0,
+    "hint": "Place the fixtures that make it a bathroom (nothing to import) \u2014 e.g. `furniture bathtub at (3200,30000) size 700x1700 rotate 270 in r_1`."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "accepted": false,
+  "reason": "Privacy gate failed: [{'observer': 'entry_main_foyer', 'target': 'living', 'from': [9.35, 1.5], 'to': [11.100000000000001, 13.799999999999999]}, {'observer': 'entry_main_foyer', 'target': 'bedroom', 'target_room': 'elder', 'from': [9.8, 2.3], 'to': [11.02, 18.5]}, {'observer': 'entry_main_foyer', 'target': 'bedroom', 'target_room': 'elder', 'from': [9.8, 2.3], 'to': [11.02, 19.02]}]",
+  "impossibility_proven": false,
+  "no_fallback_drawing": true
+}

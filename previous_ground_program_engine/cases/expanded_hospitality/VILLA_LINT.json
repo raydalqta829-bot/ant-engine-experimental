@@ -1,0 +1,236 @@
+[
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NO_FIXTURE",
+    "span": {
+      "start": 713,
+      "end": 813
+    },
+    "message": "Kitchen \"Kitchen\" has no fixtures (sink, counter, stove…).",
+    "hints": [
+      "Place the fixtures that make it a kitchen (nothing to import) — e.g. `furniture kitchen_sink at (7700,16650) size 600x800 rotate 90 in r_5` and `furniture stove at (7700,18850) size 600x600 rotate 90 in r_5` and `furniture counter at (5450,16100) size 600x600 in r_5`."
+    ],
+    "level": 0
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NO_FIXTURE",
+    "span": {
+      "start": 939,
+      "end": 1035
+    },
+    "message": "Bathroom \"Men WC\" has no fixtures (WC, basin, shower…).",
+    "hints": [
+      "Place the fixtures that make it a bathroom (nothing to import) — e.g. `furniture bathtub at (3350,28000) size 1700x700 in r_7`."
+    ],
+    "level": 0
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NO_FIXTURE",
+    "span": {
+      "start": 1036,
+      "end": 1194
+    },
+    "message": "Bathroom \"Women WC\" has no fixtures (WC, basin, shower…).",
+    "hints": [
+      "Place the fixtures that make it a bathroom (nothing to import) — e.g. `furniture bathtub at (20400,28600) size 1700x700 in r_8`."
+    ],
+    "level": 0
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NO_FIXTURE",
+    "span": {
+      "start": 1309,
+      "end": 1413
+    },
+    "message": "Bathroom \"Ensuite 1\" has no fixtures (WC, basin, shower…).",
+    "hints": [
+      "Place the fixtures that make it a bathroom (nothing to import) — e.g. `furniture bathtub at (25200,17100) size 700x1700 rotate 90 in r_10`."
+    ],
+    "level": 0
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NOT_EQUATOR_FACING",
+    "span": {
+      "start": 281,
+      "end": 385
+    },
+    "message": "Room \"Guest Dining\" has 1 window(s), none facing S (the equator side in the northern hemisphere) — they face W.",
+    "hints": [
+      "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+    ],
+    "level": 0
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NOT_EQUATOR_FACING",
+    "span": {
+      "start": 386,
+      "end": 494
+    },
+    "message": "Room \"Women Majlis\" has 1 window(s), none facing S (the equator side in the northern hemisphere) — they face E.",
+    "hints": [
+      "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+    ],
+    "level": 0
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NOT_EQUATOR_FACING",
+    "span": {
+      "start": 495,
+      "end": 604
+    },
+    "message": "Room \"Family Living\" has 1 window(s), none facing S (the equator side in the northern hemisphere) — they face N.",
+    "hints": [
+      "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+    ],
+    "level": 0
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NOT_EQUATOR_FACING",
+    "span": {
+      "start": 605,
+      "end": 712
+    },
+    "message": "Room \"Family Dining\" has 1 window(s), none facing S (the equator side in the northern hemisphere) — they face N.",
+    "hints": [
+      "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+    ],
+    "level": 0
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NOT_EQUATOR_FACING",
+    "span": {
+      "start": 1195,
+      "end": 1308
+    },
+    "message": "Room \"Ground Bedroom 1\" has 1 window(s), none facing S (the equator side in the northern hemisphere) — they face N.",
+    "hints": [
+      "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+    ],
+    "level": 0
+  },
+  {
+    "severity": "warning",
+    "code": "W_ANNOTATION_OVERLAP",
+    "span": {
+      "start": 1731,
+      "end": 1855
+    },
+    "message": "The area figure (18.2 m²) of \"Stair\" is printed over the stair, so the label and the symbol overprint each other on the drawing.",
+    "hints": [
+      "The label of room `r_14` is pinned by `label \"Stair\" at (x,y)`: move that point to a clear part of the floor, or move the stair."
+    ],
+    "level": 0
+  },
+  {
+    "severity": "warning",
+    "code": "W_ANNOTATION_OVERLAP",
+    "span": {
+      "start": 1309,
+      "end": 1413
+    },
+    "message": "The name \"Ensuite 1\" is printed over the swing of the door between \"Ground Bedroom 1\" and \"Ensuite 1\", so the label and what is under it overprint each other on the drawing.",
+    "hints": [
+      "The label placer did not find a clear place for the label on the floor of room `r_10`, down to its smallest lettering. Give it a clear point with `label \"Ensuite 1\" at (x,y)`, or move the door (`d_13`)."
+    ],
+    "level": 0
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NO_FIXTURE",
+    "span": {
+      "start": 11188,
+      "end": 11301
+    },
+    "message": "Bathroom \"Family Bath\" has no fixtures (WC, basin, shower…).",
+    "hints": [
+      "Place the fixtures that make it a bathroom (nothing to import) — e.g. `furniture bathtub at (16100,24100) size 700x1700 rotate 90 in family_bath`."
+    ],
+    "level": 1
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NO_FIXTURE",
+    "span": {
+      "start": 11415,
+      "end": 11528
+    },
+    "message": "Bathroom \"Master Bath\" has no fixtures (WC, basin, shower…).",
+    "hints": [
+      "Place the fixtures that make it a bathroom (nothing to import) — e.g. `furniture bathtub at (14100,24900) size 700x1700 rotate 90 in master_bath`."
+    ],
+    "level": 1
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NOT_EQUATOR_FACING",
+    "span": {
+      "start": 10652,
+      "end": 10758
+    },
+    "message": "Room \"Child 1\" has 1 window(s), none facing S (the equator side in the northern hemisphere) — they face W.",
+    "hints": [
+      "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+    ],
+    "level": 1
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NOT_EQUATOR_FACING",
+    "span": {
+      "start": 10759,
+      "end": 10867
+    },
+    "message": "Room \"Child 2\" has 1 window(s), none facing S (the equator side in the northern hemisphere) — they face N.",
+    "hints": [
+      "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+    ],
+    "level": 1
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NOT_EQUATOR_FACING",
+    "span": {
+      "start": 10868,
+      "end": 10976
+    },
+    "message": "Room \"Child 3\" has 1 window(s), none facing S (the equator side in the northern hemisphere) — they face N.",
+    "hints": [
+      "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+    ],
+    "level": 1
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NOT_EQUATOR_FACING",
+    "span": {
+      "start": 10977,
+      "end": 11187
+    },
+    "message": "Room \"Family Lounge\" has 1 window(s), none facing S (the equator side in the northern hemisphere) — they face E.",
+    "hints": [
+      "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+    ],
+    "level": 1
+  },
+  {
+    "severity": "warning",
+    "code": "W_ROOM_NOT_EQUATOR_FACING",
+    "span": {
+      "start": 11302,
+      "end": 11414
+    },
+    "message": "Room \"Master Bedroom\" has 1 window(s), none facing S (the equator side in the northern hemisphere) — they face W.",
+    "hints": [
+      "A drafting heuristic, not a daylight measurement: it reports the aspect, not the light. Move a window onto the S facade, or accept it."
+    ],
+    "level": 1
+  }
+]

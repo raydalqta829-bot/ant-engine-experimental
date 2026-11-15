@@ -1,0 +1,23 @@
+{
+  "cases": {
+    "compact_one_bedroom": {
+      "requested_ground_functions": 8,
+      "ground_bedrooms": 1,
+      "ground_entrances": 2,
+      "ground_gross_room_polygons_m2": 177.6
+    },
+    "expanded_hospitality": {
+      "requested_ground_functions": 11,
+      "ground_bedrooms": 1,
+      "ground_entrances": 3,
+      "ground_gross_room_polygons_m2": 341.65
+    },
+    "family_two_bedrooms": {
+      "requested_ground_functions": 10,
+      "ground_bedrooms": 2,
+      "ground_entrances": 2,
+      "ground_gross_room_polygons_m2": 236.45999999999998
+    }
+  },
+  "checks": 7
+}
